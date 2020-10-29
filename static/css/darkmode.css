@@ -1,0 +1,21 @@
+.is-hidden{
+    display: none;
+}
+
+#theme:hover {
+    cursor: pointer;
+}
+
+body.darkmode {
+    background: rgb(57, 57, 57);
+    color: rgb(227, 227, 227);
+}
+
+body.darkmode a{
+    color: rgb(227, 227, 227);
+}
+
+
+label{
+	margin-bottom: -4px;
+}

@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<section id="content">
+    {{ $v1 := where .Site.Pages "Section" "blog" }}
+    {{ $v2 := where .Site.Pages ".Title" "!=" "Blogs" }}
+    {{ $filtered := $v1 | intersect $v2}}
+
+    {{ $paginator := .Paginate ($filtered) }}
+    {{ range $paginator.Pages }}
+        <article>
+            <h2 class="titles"><a href="{{.Permalink}}"> {{.Title}} </a></h2>
+            <p>{{.Content}} </p>
+        </article>
+        <span id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </span>
+        <hr>
+    {{ end }}
+    <br>
+    {{ if .Paginator.HasPrev }}
+        <a href="{{ .Paginator.Prev.URL }}"> < Sebelum  | </a>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}">  Lanjut (baca yang lain) > </a>
+    {{ end }}
+</section>
+<br>
+{{ partial "info.html" . }}
+
+{{ end }}

@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<h3>Blog Teknologi 💻 </h3>
+<ul>
+  {{ range (where .Site.RegularPages "Section" "tech") }}
+    <li>
+      <a href="{{.Permalink}}"> {{.Title}} </a>
+    </li>
+ {{ end }}
+</ul>
+
+{{ end }}

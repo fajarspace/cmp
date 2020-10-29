@@ -1,0 +1,23 @@
+baseURL : https://fajars.space/
+languageCode : id
+title : Fajar A Nugroho | @fajar.agngn
+
+params:
+    description: Menulis dengan ☕️
+
+staticDir: static
+
+disqusShortname: fajar-space.disqus.com
+
+permalinks:
+  blog : /:slug/
+  rekomendasi : /:slug/
+  tech : /:slug/
+
+tags: []
+
+taxonomies:
+  tag: tags
+
+outputs:
+    home : ["HTML", "RSS", "JSON"]

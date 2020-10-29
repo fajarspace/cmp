@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title> {{ .Title }} </title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" property="og:description">
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@fajar.agungn" />
+    <meta name="twitter:creator" content="@fajar.agungn" />
+
+    <meta name="twitter:title" content="Fajar A Nugroho | @fajar.agngn">
+    <meta name="twitter:url" content="https://fajars.space">
+    <meta name="twitter:description" content="Menulis dengan ☕️">
+    <meta name="twitter:image:src" content="{{if isset .Params "featured_image"}}{{.Params.featured_image }}{{else}}https://fajars.space/img/typewriter.png{{ end }}" />
+
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:title" content="{{ .Title }} " />
+    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+    <meta property="og:image" content="{{if isset .Params "featured_image"}}{{.Params.featured_image }}{{else}}https://fajars.space/img/typewriter.png{{ end }}" />
+
+    {{ partial "head-static.html" . }}
+</head>
+<body>
+    {{ partial "header-nav.html" .}}

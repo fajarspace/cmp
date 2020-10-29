@@ -1,0 +1,60 @@
+{{ partial "header.html" . }}
+
+    <main>
+      <div class="side-left" >
+        <h2> Membaca saja tidak cukup, Temukan <a href="/search">Tulisan</a> / kamu bisa mendengarkan <a href="">Podcast.</a>dan juga banyak hal menarik yang bisa kamu temukan!</h2>
+        <img class="avatar" src="/img/profile.jpg" alt="mrbaiz" >
+      </div>
+      <div>
+        <a href="https://twitter.com/fajar_agngn">Twitter</a>/&nbsp;
+        <a href="https://github.com/fajarbaiz">Github</a>/&nbsp;
+        <a href="mailto:fajar.agngn@gmail.com">Email</a>/&nbsp;
+        <a href="/index.xml">RSS</a>
+      </div>
+
+        <hr>
+        <div class="tengah">
+            <div>
+                <h3> Tulisan ✍🏼 </h3>
+                <ul>
+                    {{ range first 7 (where .Site.RegularPages "Section" "blog") }}
+                         <li>
+                           <a href="{{.Permalink}}"> {{.Title}} </a>
+                       </li>
+                   {{ end }}
+                   <a style="color:grey;" href="/search">baca tulisan lainnya..</a>
+                  </ul>
+
+                  <h3> Blog Tech 💻 </h3>
+                  <ul>
+                      {{ range first 5 (where .Site.RegularPages "Section" "tech") }}
+                        <li>
+                          <a href="{{.Permalink}}"> {{.Title}} </a>
+                        </li>
+                     {{ end }}
+                     <a style="color:grey;" href="/tech">baca lainnya..</a>
+                    </ul>
+
+              </div>
+              <div>
+
+                <section>
+                    <h3> Lainnya </h3>
+                      <a href="https://selembarkertas.club"> Podcast </a>/<br>
+                    {{ range where .Site.RegularPages  "Section" "rekomendasi" }}
+                      <a href="{{.Permalink}}"> {{.Title}} </a>/<br>
+                   {{ end }}
+                </section>
+
+              </div>
+            </div>
+    </main>
+
+    <a href="#">Kembali ke atas ☝️</a>
+    <hr>
+    <div class="footer-utama">
+              <small>dibuat dengan ❤️ | with <a href="https://gohugo.io">Hugo</a>
+          	  </small>
+          </div>
+</body>
+</html>
