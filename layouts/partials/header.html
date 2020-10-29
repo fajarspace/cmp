@@ -9,9 +9,9 @@
     <meta name="twitter:site" content="@fajar.agungn" />
     <meta name="twitter:creator" content="@fajar.agungn" />
 
-    <meta name="twitter:title" content="Fajar A Nugroho | @fajar.agngn">
-    <meta name="twitter:url" content="https://fajars.space">
-    <meta name="twitter:description" content="Menulis dengan ☕️">
+    <meta name="twitter:title" content="{{ .Title }} ">
+    <meta name="twitter:url" content="{{ .Permalink }}">
+    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
     <meta name="twitter:image:src" content="{{if isset .Params "featured_image"}}{{.Params.featured_image }}{{else}}https://fajars.space/img/typewriter.png{{ end }}" />
 
     <meta property="og:url" content="{{ .Permalink }}" />
