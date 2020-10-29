@@ -1,8 +1,8 @@
 ---
 title: "Ragu"
 date: 2020-08-20
-featured_image: "https://i.ibb.co/N7GRf40/ragu.png"
 Description: "Kalian pernah gak sih merasa bimbang?  apalagi kalo disuruh milih mau jadi apa di masa depan?"
+featured_image: "https://i.ibb.co/N7GRf40/ragu.png"
 tags:
 - sharing
 - motivational
