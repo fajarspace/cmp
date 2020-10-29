@@ -1,7 +1,6 @@
 +++
 title = "Rekomendasi Buku"
 description = "Rekomendasi buku berbahasa inggris tentang kehidupan, bisnis, marketing dan lainnya. selamat membaca!"
-descrption = "rekomendasi buku @fajar.agngn"
 featured_image = "https://i.ibb.co/Kzft8T4/buku.png"
 
 +++

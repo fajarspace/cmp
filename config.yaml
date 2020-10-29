@@ -7,16 +7,15 @@ params:
 
 staticDir: static
 
-disqusShortname: fajar-space.disqus.com
+disqusShortname: fajars-space
 
 permalinks:
   blog : /:slug/
   rekomendasi : /:slug/
   tech : /:slug/
 
-tags: []
-
 taxonomies:
+  category: categories
   tag: tags
 
 outputs:

@@ -9,8 +9,6 @@ tags:
 - self-reminder
 ---
 
-![ragu img](/post/img/ragu/ragu.png#post-img)
-
 Kalian pernah gak sih merasa bimbang?  apalagi kalo disuruh milih mau jadi apa di masa depan?, masuk kampus mana?, atau bahkan memutuskan perkara sepele sehari-hari. Untuk sekadar menetapkan pilihan dan menetapkan keputusan terkadang emang bisa bikin kepala pusing. Apalagi, keputusan dan pilihan kita itu bakalan berpengaruh untuk masa depan kita.
 
 Bohong jika tak ada manusia yang tak pernah merasa takut atau ragu-ragu. Rasa takut dan rasa ragu terhadap diri sendiri adalah bagian dari emosi dan perasaan setiap manusia. Setiap orang punya rasa takut, sesekali kita pun akan merasa ragu-ragu terhadap diri kita sendiri. Tapi kenapa ada orang yang sukses dan bahagia sementara yang lain malah terus gagal dan menderita?
