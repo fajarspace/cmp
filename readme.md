@@ -1,4 +1,6 @@
-## Howto
+## Website ini dibuat menggunakan hugo, render.com & forestry.io
+
+## How to
 
 create new page
 
@@ -21,17 +23,10 @@ git pull
 if (any changes on /root)
 
 ```
-git add . && git commit -m "update app" && git push
+git add . && git commit -m "update" && git push origin master
 ```
 
 Update all changes via forestry
-
----not using this
-    readd submodule:
-    
-```
-git submodule add -b master --force https://github.com/fajaragngn/fajaragngn.github.io.git public
-```
 
 ```
 ./deploy.sh
