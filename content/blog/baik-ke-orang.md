@@ -1,10 +1,11 @@
 ---
-title:  "Baik ke orang"
-date:   2020-05-16
-featured_image: "https://i.ibb.co/RNJb9KV/baik-ke-orang.png"
-Description: "Dimulai dari yg terkecil. Ketika ada permasalahan kecil, kita datang sebagai pemecah masalah."
+title: Baik ke orang
+date: 2020-05-16
+featured_image: https://i.ibb.co/RNJb9KV/baik-ke-orang.png
+Description: Dimulai dari yg terkecil. Ketika ada permasalahan kecil, kita datang
+  sebagai pemecah masalah.
 tags:
-- motivational
+- inspirasi
 - podcast
 
 ---
