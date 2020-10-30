@@ -19,5 +19,6 @@ fields:
 - type: list
   name: tags
   label: tags
+  Description: inspirasi, sharing, podcast
 pages:
 - content/blog/bisikan-tetangga.md
