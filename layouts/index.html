@@ -15,7 +15,7 @@
         <hr>
         <div class="tengah">
             <div>
-                <h3> Tulisan ✍🏼 </h3>
+                <h3> Tulisan ✍️ </h3>
                 <ul>
                     {{ range first 7 (where .Site.RegularPages "Section" "blog") }}
                          <li>
@@ -25,7 +25,7 @@
                    <a style="color:grey;" href="/search">baca tulisan lainnya..</a>
                   </ul>
 
-                  <h3> Blog Tech 💻 </h3>
+                  <h3> Tulisan Tech 💻 </h3>
                   <ul>
                       {{ range first 5 (where .Site.RegularPages "Section" "tech") }}
                         <li>
@@ -43,7 +43,7 @@
                       <a href="https://selembarkertas.club"> Podcast </a>/<br>
                     {{ range where .Site.RegularPages  "Section" "rekomendasi" }}
                       <a href="{{.Permalink}}"> {{.Title}} </a>/<br>
-                   {{ end }}
+                    {{ end }}
                 </section>
 
               </div>

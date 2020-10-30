@@ -14,9 +14,6 @@ Tempat saya menulis, saya menulis saaaangat banyaaaak, semua ide kasar ditampung
 Kertas dan Pulpen  
 yap, harus selalu, setiap punya ide sebelum menuangkan ke laptop, mau menggambar, menulis atau membuat aplikasi, saya akan menuangkan ke kertas.
 
-RSS Feed  
-Saya suka baca blog orang, tapi takut gangguan yang banyak di internet, karena itu saya mulai cari aplikasi RSS jadi bisa pilih blog mana yang mau kita subscribe tanpa perlu buka URL nya lagi. Sementara pake [Feedly](https://Feedly.com)
-
 [IDraw](https://www.indeeo.com/)  
 Menggambar / mengedit foto/ membuat logo/icon saya pake IDraw
 
