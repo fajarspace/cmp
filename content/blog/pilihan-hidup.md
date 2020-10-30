@@ -1,9 +1,9 @@
 ---
-title:  "Pilihan hidup"
-date:   2020-01-18
-featured_image: "https://i.ibb.co/3M4Jpr0/tentukan-pilihan.png"
+title: Tentukan pilihan
+date: 2020-01-18
+featured_image: https://i.ibb.co/3M4Jpr0/tentukan-pilihan.png
 tags:
-- motivational
+- inspirasi
 - podcast
 - self-reminder
 
