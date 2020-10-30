@@ -21,5 +21,6 @@ fields:
   label: tags
   Description: inspirasi, sharing, podcast
 pages:
+- content/blog/belajar-bilang-tidak.md
 - content/blog/bisikan-tetangga.md
 - content/blog/rasa-puas-dengan-hasil-instan.md
