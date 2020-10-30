@@ -1,10 +1,14 @@
 ---
 title: Berguna bagi orang lain
 date: 2020-01-14
-featured_image: "https://i.ibb.co/N7GRf40/ragu.png"
-description : 'Filsuf dan sofis dari Persia 1058-1111 Abu hamid Al Ghazali pernah berkata "Hiduplah kamu bersama manusia sebagaimana pohon yang berbuah, mereka melemparinya dengan batu, tetapi ia membalasnya dengan buah."'
+featured_image: https://i.ibb.co/N7GRf40/ragu.png
+description: Filsuf dan sofis dari Persia 1058-1111 Abu hamid Al Ghazali pernah berkata
+  "Hiduplah kamu bersama manusia sebagaimana pohon yang berbuah, mereka melemparinya
+  dengan batu, tetapi ia membalasnya dengan buah."
 tags:
-- motivational
+- inspirasi
+Description: 'Ketika ada permasalahan kecil, kita datang sebagai pemecah masalah.
+  Ketika ada orang yang sedang kesusahan, kita membantu. '
 
 ---
 Filsuf dan sofis dari Persia 1058-1111 Abu hamid Al Ghazali pernah berkata "Hiduplah kamu bersama manusia sebagaimana pohon yang berbuah, mereka melemparinya dengan batu, tetapi ia membalasnya dengan buah." Jangan menunggu orang lain berbuat baik kepadamu, Tapi buatlah dirimu berguna buat orang banyak. apalah arti hidup jika hanya mementingkan diri sendiri.
