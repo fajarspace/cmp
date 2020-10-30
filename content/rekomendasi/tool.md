@@ -1,5 +1,5 @@
 +++
-date = 2018-11-11T08:28:38Z
+date = 2020-10-29T17:00:00Z
 description = "rekomendasi tool untuk memudahkan hidup kamu"
 title = "Tools"
 
@@ -40,10 +40,7 @@ Mic
 Untuk microphone saya menggunakan [Taffware BM-800](https://tokopedia.com) ditambah dengan Stander untuk memudahkan mengatur posisinya
 
 Screen recorder  
-saya menggunakan [Capturer](https://itunes.apple.com/us/app/capturer/id652792633?mt=12) untuk merekam layar. Jangan tanyakan apa yang bagus untuk windows :D, saya tidak tahu. Update karena kebutuhan untuk mengedit, saya sekarang menggunakan [screenflow](https://www.telestream.net/screenflow/)
-
-FFMPEG  
-Hampir semua video tidak saya edit, kalau harus mengedit (cut, split, combite etc.), saya menggunakan tool command line [FFMPEG](https://www.ffmpeg.org/) . Bisa untuk audio atau video.
+saya menggunakan [Screenflow](https://www.telestream.net/screenflow/) untuk merekam layar.
 
 Text Editor  
 Normalnya [Sublime](https://www.sublimetext.com/3) , kadang [Atom](https://atom.io/), sangat jarang [Visual studio code](https://code.visualstudio.com)
@@ -66,7 +63,7 @@ Urusan database localhost ataupun live saya memakai SequelPro
 Untuk hosting proyek serius saya percaya dengan digitalocean, untuk yang cepat/prototype/testing saya memakai Zeit/Now . Untuk SSG saya pakai netlify
 
 [Anchor](https://anchor.fm) (Podcast)  
-Untuk podcast tehataukopi saya menggunakan ini. Sangat mudah untuk mengorganisir podcast, simple, mudah digunakan dan luar biasa
+Untuk podcast selembarkertas saya menggunakan ini. Sangat mudah untuk mengorganisir podcast, simple, mudah digunakan dan luar biasa
 
 [Bitbucket](https://bitbucket.org)  
 Untuk mengamankan kode, dan menyimpannya, saya pakai bitbucket. Github tentunya juga, tapi untuk private repo pakainya bitbucket.
