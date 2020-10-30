@@ -2,7 +2,7 @@
 Description = "Sebagian orang mungkin akan merasa kesal akibat bisikan tetangga yg menghantui"
 date = 2020-10-29T17:00:00Z
 featured_image = "https://i.ibb.co/7VxJLtv/bisikan-tetangga.png"
-tags = "motivational"
+tags = "motivational, gabut"
 title = "Bisikan tetangga"
 
 +++
