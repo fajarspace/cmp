@@ -11,7 +11,7 @@
     <p> 🏷 tag:
 
       {{range .}}
-        <a class="tags" href="/tags/{{ . | urlize }}">{{ . }}</a>/
+        <a class="tags" href="/tags/{{ . | urlize }}"><span>#{{ . }}/</span></a>
       {{end}}
     </p>
 
