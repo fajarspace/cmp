@@ -1,15 +1,15 @@
 ---
-title:  "Jadi sapi warna ungu"
-date:   2020-06-02
-Description: "pernah ga kamu jalan-jalan ke peternakan, disana kita bisa lihat sapi bewarna coklat, atau putih hitam, atau sejenisnya. Bayangkan jika kita menemukan sapi warna ungu, hmm ada ga ya?"
-featured_image: "https://i.ibb.co/bRKQkzk/sapi-ungu.png"
+title: Jadi sapi warna ungu
+date: 2020-06-02
+Description: pernah ga kamu jalan-jalan ke peternakan, disana kita bisa lihat sapi
+  bewarna coklat, atau putih hitam, atau sejenisnya. Bayangkan jika kita menemukan
+  sapi warna ungu, hmm ada ga ya?
+featured_image: https://i.ibb.co/bRKQkzk/sapi-ungu.png
 tags:
 - sharing
-- motivational
 - podcast
 
 ---
-
 pernah ga kamu jalan-jalan ke peternakan, disana kita bisa lihat sapi bewarna coklat, atau putih hitam, atau sejenisnya. Bayangkan jika kita menemukan sapi warna ungu, hmm ada ga ya? Rata-rata sapi warna nya kan hitam-putih, Kalau ada mungkin kita langsung kaget, foto foto selfie dan langsung cerita ke orang lain,
 
 sekarang coba bayangkan diri kamu menjadi seperti sapi ungu, kamu akan menjadi pusat perhatian, semua orang akan fokus melihat kamu, mengapa? karna sapi tsb memiliki warna yg tidak biasa dan berbeda dengan yg lainnya.
