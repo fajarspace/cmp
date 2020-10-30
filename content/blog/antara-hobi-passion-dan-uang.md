@@ -1,14 +1,17 @@
 ---
-title: "Hobi, Passion & Uang"
+title: Hobi, Passion & Uang
 date: 2020-02-28
-featured_image: "https://i.ibb.co/w4h7Xfh/hobi-passion-uang.jpg"
-Description: "Penelitian Cal Newport menunjukan bahwa ketimbang lu berusaha mencari passion lu, lebih baik yang pertama lu lakukan adalah menemukan modal karir lu, cobalah untuk menemukan apakah yang menjadi keunggulan lu, apa saja kehebatan yang lu miliki, dan mengembangkan modal karir tersebut, sehingga lu menjadi pribadi yang memiliki keunggulan dalam suatu hal."
+featured_image: https://i.ibb.co/w4h7Xfh/hobi-passion-uang.jpg
+Description: Penelitian Cal Newport menunjukan bahwa ketimbang lu berusaha mencari
+  passion lu, lebih baik yang pertama lu lakukan adalah menemukan modal karir lu, cobalah
+  untuk menemukan apakah yang menjadi keunggulan lu, apa saja kehebatan yang lu miliki, dan
+  mengembangkan modal karir tersebut, sehingga lu menjadi pribadi yang memiliki keunggulan
+  dalam suatu hal.
 tags:
+- inspirasi
 - sharing
-- motivational
 
 ---
-
 Sejak kecil gw sering bermain game offline, setiap hari gw duduk didepan komputer untuk bermain game tsb & gw selalu bersemangat. gw juga tak ragu untuk mengorbankan jam makan siang gw hanya untuk game tsb
 
 Sekarang muncul yang namanya game online versi mobile,berbeda dengan game yg gw mainin sejak kecil, game ini menggunakan akses internet untuk bisa dimainkan. Seperti halnya game offline, gw pun hobi bermain game online. Dari temen sekolah dulu, teman rumah, rekan kerja,  pernah menjadi partner bermain game gw. gw juga gak ragu buat membeli voucher game/topup. Rasanya puas dan menyenangkan jika bermain game online apalagi udah diisi voucher, dan kita bebas membeli fitur2 dalam game tsb
