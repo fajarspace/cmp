@@ -60,14 +60,11 @@ Untuk membuat tugas di website menjadi automatis (Service Cron gratis, bisa dona
 [Sequel Pro](https://www.sequelpro.com/)  
 Urusan database localhost ataupun live saya memakai SequelPro
 
-[DigitalOcean](https://m.do.co/c/add83b15b18d) /[ Zeit-Now](https://zeit.co/now) / Netlify  
-Untuk hosting proyek serius saya percaya dengan digitalocean, untuk yang cepat/prototype/testing saya memakai Zeit/Now . Untuk SSG saya pakai netlify
+[IDcloudhost](https://idcloudhost.com) /[Hostinger](https://hostinger.com) /[Render.com](https://render.com) 
+Untuk hosting saya menggunakan hostinger, kadang IDcloudhost. Untuk SSG saya pakai Render.com
 
 [Anchor](https://anchor.fm) (Podcast)  
 Untuk podcast selembarkertas saya menggunakan ini. Sangat mudah untuk mengorganisir podcast, simple, mudah digunakan dan luar biasa
-
-[Bitbucket](https://bitbucket.org)  
-Untuk mengamankan kode, dan menyimpannya, saya pakai bitbucket. Github tentunya juga, tapi untuk private repo pakainya bitbucket.
 
 [Trello](http://trello.com)  
 Untuk "tugas" yang harus saya kerjakan, saya organisir di trello. Terutama untuk hal-hal yang berhubungan dengan lebih dari satu orang (pekerjaan atau komunitas).
