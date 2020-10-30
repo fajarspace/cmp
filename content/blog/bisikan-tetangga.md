@@ -1,5 +1,5 @@
 +++
-Description = ""
+Description = "Sebagian orang mungkin akan merasa kesal akibat bisikan tetangga yg menghantui"
 date = 2020-10-29T17:00:00Z
 draft = true
 featured_image = "https://i.ibb.co/7VxJLtv/bisikan-tetangga.png"
