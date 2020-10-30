@@ -17,8 +17,8 @@ fields:
     required: false
   label: featured_image
 - type: text
-  name: tag
-  label: tag
-  description: manusia, inspirasi, bisnis
+  name: tags
+  label: tags
+  description: self-reminder, motivational, podcast, sharing, gabut
 pages:
 - content/blog/bisikan-tetangga.md
