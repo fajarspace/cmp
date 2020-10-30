@@ -30,7 +30,7 @@ Update all changes via forestry
     readd submodule:
     
 ```
-git submodule add -b master --force https://github.com/fajarbaiz/fajarbaiz.github.io.git public
+git submodule add -b master --force https://github.com/fajaragngn/fajaragngn.github.io.git public
 ```
 
 ```
