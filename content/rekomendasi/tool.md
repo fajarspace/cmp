@@ -1,7 +1,6 @@
 +++
 date = 2020-10-29T17:00:00Z
 description = "rekomendasi tool untuk memudahkan hidup kamu"
-draft = true
 title = "Tools"
 
 +++
