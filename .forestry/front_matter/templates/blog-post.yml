@@ -11,8 +11,10 @@ fields:
 - type: textarea
   name: Description
   label: Description
-- type: file
-  name: featured_image
+- name: featured_image
+  type: text
+  config:
+    required: false
   label: featured_image
 - type: list
   name: tags
