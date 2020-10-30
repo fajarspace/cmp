@@ -1,13 +1,11 @@
 ---
-title:  "Tidak akan datang"
-date:   2020-02-03
-featured_image: "https://i.ibb.co/CQbZPk5/tidak-akan-datang.png"
-Description: "Doni & teman2 akan bermain futsal esok hari dan akan menjadi hari yg menyenangkan khusus bagi doni, karena di pertandingan sebelum nya ia mencetak banyak sekali gol,"
-tags:
-- sharing
-- motivational
-- podcast
-- self-reminder
+title: Tidak akan datang
+date: 2020-02-03
+featured_image: https://i.ibb.co/CQbZPk5/tidak-akan-datang.png
+Description: Doni & teman2 akan bermain futsal esok hari dan akan menjadi hari yg
+  menyenangkan khusus bagi doni, karena di pertandingan sebelum nya ia mencetak banyak
+  sekali gol,
+tags: sharing,inspirasi
 
 ---
 Doni & teman2 akan bermain futsal esok hari dan akan menjadi hari yg menyenangkan khusus bagi doni, karena di pertandingan sebelum nya ia mencetak banyak sekali gol, lalu doni pun sedang melamun, ia sedang memikirkan dirinya menjadi superstar di lapangan futsal karena mencetak banyak gol, dan saking halu nya dia menggambarkan visual wanita sedang menyemangatinya, dan doni berharap hal yang ia pikirkan akan terjadi. esok hari pun telah tiba, doni lantas langsung bergegas menuju lapangan futsal, lalu apa yg terjadi? dari 10 teman doni hanya 5 orang yg hadir, doni pun merasa kecewa, akhirnya dia bermain dengan 5 orang saja, doni tidak pernah mengharapkan hal ini terjadi, bertolak belakang dengan apa yang dipikirkan kemarin, bahkan tidak ada wanita satupun di lapangan tersebut.
