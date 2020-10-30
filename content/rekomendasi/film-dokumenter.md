@@ -2,6 +2,7 @@
 date = 2020-10-28
 description = "rekomendasi film dekomenter"
 title = "Dokumenter"
+featured_image = "https://i.ibb.co/5v4K8TJ/dokumenter.jpg"
 
 +++
 Ini beberapa rekomendasi film dokumenter saya. Kalau kamu punya rekomendasi silahkan tulis di komentar
