@@ -1,6 +1,7 @@
 +++
 date = 2020-10-29T17:00:00Z
 description = "rekomendasi tool untuk memudahkan hidup kamu"
+draft = true
 title = "Tools"
 
 +++
@@ -47,8 +48,8 @@ Normalnya [Sublime](https://www.sublimetext.com/3) , kadang [Atom](https://atom.
 
 ### **Extra**
 
-[Firebase](https://firebase.google.com)  
-Kalau butuh website yang cepat developnya, bisa digunakan lengkap dengan database, saya akan menggunakan Firebase.
+[Cloudflare](https://firebase.google.com)  
+Kalau butuh untuk menghubungkan website dan pengunjung, Cloudflare solusi nya, saya menggunakan cloudflare untuk mengatur DNS website & fitur SSL
 
 [HootSuite](https://hootsuite.com/) / [DlvrIt](https://dlvrit.com/) / [FetchRss](http://fetchrss.com)  
 Untuk memposting ke social media secara automatis saya menggunakan hootsuite / buffer / dlvrit. Kalau butuh membuat rss saya menggunakan fetchrss.
