@@ -9,13 +9,14 @@ staticDir: static
 
 disqusShortname: fajars-space
 
+tags: []
+
 permalinks:
   blog : /:slug/
   rekomendasi : /:slug/
   tech : /:slug/
 
 taxonomies:
-  category: categories
   tag: tags
 
 outputs:
