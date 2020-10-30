@@ -1,10 +1,12 @@
 ---
-title:  "Menulis"
-date:   2019-03-17
-featured_image: "https://i.ibb.co/N7GRf40/ragu.png"
+title: Menulis
+date: 2019-03-17
+featured_image: ''
 tags:
 - sharing
+Description: tulis apa yang harus ditulis
 
 ---
 Menulis✏️
-> "Tulis apa yang bisa di tulis"
+
+hai, saya fajar, dan ini kali pertaman saya menulis di blog.
