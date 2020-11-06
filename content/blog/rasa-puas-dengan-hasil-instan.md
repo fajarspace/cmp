@@ -1,7 +1,6 @@
 +++
 Description = "terdengar puas ketika menyelesaikan pekerjaan dengan mudah, dan puas juga rasanya mengarapkan hasil tanpa usaha / hasil instan"
 date = 2020-11-05T17:00:00Z
-draft = true
 featured_image = "https://i.ibb.co/h8fN3dV/rasa-instan.png"
 tags = ["inspirasi"]
 title = "Rasa puas dengan hasil instan"
