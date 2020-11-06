@@ -1,7 +1,6 @@
 +++
 Description = "terdengar puas ketika menyelesaikan pekerjaan dengan mudah, dan puas juga rasanya mengarapkan hasil tanpa usaha / hasil instan"
-date = ""
-draft = true
+date = 2020-11-05T17:00:00Z
 featured_image = "https://i.ibb.co/h8fN3dV/rasa-instan.png"
 tags = ["inspirasi"]
 title = "Rasa puas dengan hasil instan"
@@ -15,4 +14,4 @@ terdengar puas ketika menyelesaikan pekerjaan dengan mudah, dan puas juga rasany
 
 kita hidup di zaman yang serba instan, apapun yang kita mau semua sudah tersedia, tak perlu repot mencari makanan, barang, atau memesan tiket. teknologi nyatanya bukan satu-satunya penyebab berkembangnya budaya instan. Kemajuan zaman dalam hal perbaikan ekonomi, politik dan sosial juga mendorong budaya instan berkembang pesat.
 
-budaya instan membuat banyak orang melupakan esensi dari proses. orang-orang dipaksa menerima kenyataan bahwa dunia ini baik-baik saja. segala kecepatan, kenyamanan, dan asyiknya hidup dalam kemudahan ini adalah hal yang baik, tanpa ada yang salah.
+budaya instan membuat banyak orang melupakan esensi dari proses. orang-orang dipaksa menerima kenyataan bahwa dunia ini baik-baik saja. segala kecepatan, kenyamanan, dan asyiknya hidup dalam kemudahan.
