@@ -1,9 +1,12 @@
 ---
-title:  "Mengenal Anxiety disorder"
-date:   2020-02-04
-Description: "jika kamu mengalami rasa gelisah yang cukup hebat sehingga membuat tubuh merasa cepat lelah atau keluar keringat secara berlebihan, itu tanda nya kamu mengalami Anxiety disorder,"
+title: Mengenal Anxiety disorder
+date: 2020-02-04
+Description: jika kamu mengalami rasa gelisah yang cukup hebat sehingga membuat tubuh
+  merasa cepat lelah atau keluar keringat secara berlebihan, itu tanda nya kamu mengalami
+  Anxiety disorder,
 tags:
 - sharing
+featured_image: https://i.ibb.co/8grzN5N/desperate-2293377-1920.jpg
 
 ---
 jika kamu mengalami rasa gelisah yang cukup hebat sehingga membuat tubuh merasa cepat lelah atau keluar keringat secara berlebihan, itu tanda nya kamu mengalami Anxiety disorder, yang menyebabkan penderitanya memiliki kecemasan berlebihan yang diikuti rasa takut dan khawatir yang akan berpengaruh dalam kehidupan sehari-hari.
