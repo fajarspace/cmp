@@ -1,7 +1,6 @@
 +++
 Description = "Solve masalah pyenv install 'ver-python' tidak bisa di install di OS Big sur"
 date = 2020-11-24T17:00:00Z
-draft = true
 featured_image = ""
 tags = ["developer"]
 title = "Fix BUILD FAILED (OS X 11.0.1 using python-build 20180424)"
