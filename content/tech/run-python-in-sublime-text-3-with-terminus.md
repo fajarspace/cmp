@@ -45,4 +45,6 @@ copy script dibawah ini:
 
 }
 
+save, lalu jalankan cmd+b, untuk menutup pane jalankan cmd+w
+
  
