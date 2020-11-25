@@ -1,12 +1,14 @@
 +++
-Description = ""
-date = ""
+Description = "menjalankan python di sublime text"
+date = 2020-11-24T17:00:00Z
 draft = true
 featured_image = ""
-tags = []
+tags = ["developer"]
 title = "Run python in sublime text 3 with terminus"
 
 +++
+sebelum itu install terlebih dahulu python/pyenv di mac
+
 Install terminus di package control
 
 klik tools -> build system -> new build systems lalu save
