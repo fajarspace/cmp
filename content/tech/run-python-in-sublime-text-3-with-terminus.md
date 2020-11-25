@@ -17,9 +17,9 @@ copy script dibawah ini:
 
 	"target": "terminus_exec",
 
-    "cancel": "terminus_cancel_build",
+        "cancel": "terminus_cancel_build",
 
-    "focus": true,
+        "focus": true,
 
 	"shell_cmd": "/usr/bin/env python3 ${file}",
 
