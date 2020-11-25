@@ -1,5 +1,3 @@
-## Website ini dibuat menggunakan hugo, render.com & forestry.io
-
 ## How to
 
 create new page
