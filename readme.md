@@ -24,7 +24,7 @@ if (any changes on /root)
 git add . && git commit -m "update" && git push origin master
 ```
 
-Update all changes via forestry
+Update all changes
 
 ```
 ./deploy.sh
