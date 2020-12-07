@@ -1,6 +1,6 @@
 ## How to
 
-create new page
+create new post
 
 ```
 hugo new posts/new-post.md
