@@ -13,9 +13,7 @@ tags: []
 
 permalinks:
   blog : /:slug/
-  rekomendasi : /:slug/
-  tech : /:slug/
-
+  
 taxonomies:
   tag: tags
 
