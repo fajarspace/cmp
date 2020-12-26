@@ -7,3 +7,4 @@ tags = ["inspirasi"]
 title = "Hal kecil setiap hari"
 
 +++
+Banyak yang bilang kalau sesuatu yang besar dimulai dari yang kecil dan kenyataan nya memang sudah seperti itu, sederhana nya 
