@@ -7,4 +7,4 @@ tags = ["inspirasi"]
 title = "Hal kecil setiap hari"
 
 +++
-Banyak yang bilang kalau sesuatu yang besar dimulai dari yang kecil dan kenyataan nya memang sudah seperti itu, sederhana nya orang dewasa tidak akan pernah menjadi dewasa tanpa melalui masa kecil, sama hal nya seperti sesuatu yang kita kerjakan terus menerus akan menjadi besar tiap hari nya.
+Banyak yang bilang kalau sesuatu yang besar dimulai dari yang kecil dan kenyataan nya memang sudah seperti itu, sederhana nya orang dewasa tidak akan pernah menjadi dewasa tanpa melalui masa kecil, sama hal nya seperti sesuatu yang kita kerjakan terus menerus (konsisten) akan menjadi besar tiap hari nya.
