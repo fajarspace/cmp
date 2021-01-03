@@ -11,6 +11,6 @@ Bukan hanya sekedar podcast, temukan hal menarik lainnya. Dengerin di @spotify /
 
 Mainkan sebuah nada indah menggunakan virtual piano yang berbasis web, dengan menggunakan keyboard sebagai keynote nya
 
-[Dotspace.net]()
+[dotSpacenet.id]()
 
 internet kecil kecilan di Puri Nirwana
