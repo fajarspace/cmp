@@ -5,13 +5,15 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/dev
-  label: dev
+  path: content/blog
+  label: Blog
   create: all
   match: "**/*"
+  templates:
+  - blog-post
 - type: directory
-  path: content/search
-  label: Search
+  path: content/dev
+  label: dev
   create: all
   match: "**/*"
 - type: directory
@@ -19,13 +21,6 @@ sections:
   label: Rekomendasi
   create: all
   match: "**/*"
-- type: directory
-  path: content/blog
-  label: Blog
-  create: all
-  match: "**/*"
-  templates:
-  - blog-post
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
