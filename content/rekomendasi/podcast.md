@@ -1,6 +1,7 @@
 +++
 description = "Dengarkan suara seputar self-help"
-title = "Podcast"
+title = "Podcast 🎙"
+date = 2021-06-19T17:00:00Z
 
 +++
 Waktu kamu gak akan cukup, kerjakan sekarang!

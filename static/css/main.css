@@ -1,12 +1,17 @@
 body{
     margin: 3% auto;
     width: 60%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.8rem;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'meslo', sans-serif;
     color: rgb(87, 87, 87);
     background: #faf9f5;
     max-width: 800px;
+}
+
+@font-face {
+  font-family: meslo;
+  src: url(../font/mesloregular.ttf);
 }
 
 body.darkmode {

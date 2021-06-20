@@ -3,7 +3,7 @@
 <main>
   <div class="side-left" >
     <img class="avatar" src="/img/profile.jpg" alt="mrbaiz" >&emsp;
-    <h2> Temukan <a href="/search">Tulisan</a> / baca blog <a href="/dev">dev</a> atau kamu bisa mendengarkan <a href="https://open.spotify.com/show/5BWnbxhBS2JqTRkphmSI0B?si=Ej7zggqYQM2B26CeWU617g&dl_branch=1">Podcast</a></h2>
+    <h2> Temukan <a href="/search">Tulisan</a> / baca blog <a href="/dev">dev</a>, kamu juga bisa mendengarkan <a href="/rekomendasi/podcast">Podcast</a></h2>
   </div>
   <div>
     <br>
@@ -42,7 +42,7 @@
             <section>
                 <h3> Lainnya </h3>
                 {{ range where .Site.RegularPages  "Section" "rekomendasi" }}
-                  <a href="{{.Permalink}}"> {{.Title}} </a>/<br>
+                  <a href="{{.Permalink}}">{{.Title}}</a>/<br>
                 {{ end }}
             </section>
 
