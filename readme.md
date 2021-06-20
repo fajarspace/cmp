@@ -38,5 +38,5 @@ git add . && git commit -m "update" && git push origin master
 Update all changes
 
 ```
-./deploy.sh
+sh ./deploy.sh
 ```
