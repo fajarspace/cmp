@@ -41,7 +41,6 @@
 
             <section>
                 <h3> Lainnya </h3>
-                  <a href="https://selembarkertas.club"> Podcast </a>/<br>
                 {{ range where .Site.RegularPages  "Section" "rekomendasi" }}
                   <a href="{{.Permalink}}"> {{.Title}} </a>/<br>
                 {{ end }}
