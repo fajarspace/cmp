@@ -3,7 +3,7 @@ Description = "Solve masalah pyenv install 'ver-python' tidak bisa di install di
 date = 2020-11-24T17:00:00Z
 featured_image = ""
 tags = ["developer"]
-title = "Fix BUILD FAILED (OS X 11.0.1 using python-build 20180424)"
+title = "Fix BUILD FAILED (OS X 11.0.1 bigsur using python-build 20180424)"
 
 +++
 ➜ brew install zlib openssl readline
