@@ -14,4 +14,5 @@ title = "Customize terminal menggunakan iTerm, ohmyzsh+powerline10k"
 5. Install theme [powerline10k](https://github.com/romkatv/powerlevel10k) (Lihat dokumentasi di github)
 6. Config ketik **nano \~/.zshrc** ubah **ZSH_THEME="apa ini saya lupa:V"** menjadi **ZSH_THEME="powerlevel10k/powerlevel10k"**
 7. Save, lalu restart iterm
-8. Ikuti configurasi yang di berikan dan selesai.
+8. Ikuti konfigurasi yang di berikan dan selesai.
+9. Untuk konfigurasi ulang ketik p10k configure
