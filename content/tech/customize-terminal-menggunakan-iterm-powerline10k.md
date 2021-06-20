@@ -16,3 +16,5 @@ title = "Customize terminal menggunakan iTerm, ohmyzsh+powerline10k"
 7. Save, lalu restart iterm
 8. Ikuti konfigurasi yang di berikan dan selesai.
 9. Untuk konfigurasi ulang ketik p10k configure
+
+   ![](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/configuration-wizard.gif)
