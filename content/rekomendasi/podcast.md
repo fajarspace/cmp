@@ -1,12 +1,12 @@
 +++
 description = "Dengarkan suara seputar self-help"
-title = "Podcast 🎙"
+title = "Podcast"
 date = 2021-06-19T17:00:00Z
 
 +++
+🎙
 Waktu kamu gak akan cukup, kerjakan sekarang!
-ikuti untuk mendapat podcast terbaru. Selamat menjadi pendengar.
-Instagram @selembarkertas_club
+ikuti untuk mendapat podcast terbaru, Selamat menjadi pendengar.
 
 Dengarkan podcast di 👇 :
 
