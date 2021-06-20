@@ -3,7 +3,7 @@ Description = "menjalankan python di sublime text"
 date = 2020-11-24T17:00:00Z
 featured_image = ""
 tags = ["developer"]
-title = "Run python in sublime text 3 with terminus"
+title = "Menjalankan python di sublime text 3 dengan terminus"
 
 +++
 sebelum itu install terlebih dahulu python di windows/pyenv di mac
