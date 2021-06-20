@@ -7,10 +7,11 @@ tags = []
 title = "Customize terminal menggunakan iTerm, ohmyzsh+powerline10k"
 
 +++
-1. Download [iterm2](https://iterm2.com/) 
+1. Download [iterm2](https://iterm2.com/)
 2. Install [ohmyzsh](https://ohmyz.sh/) menggunakan brew atau lainnya (lihat di dokumentasi ohmyzsh)
-3. Buka Go to Preferences - profile - color lalu import color preset [https://github.com/fajaragngn/zsh-itermcolors](https://github.com/fajaragngn/zsh-itermcolors "https://github.com/fajaragngn/zsh-itermcolors") 
-4. Install theme [powerline10k](https://github.com/romkatv/powerlevel10k) (Lihat dokumentasi di github) 
-5. Config ketik **nano \~/.zshrc** ubah **ZSH_THEME="apa ini saya lupa:V"** menjadi **ZSH_THEME="powerlevel10k/powerlevel10k"**
-6. Save, lalu restart iterm
-7. Ikuti configurasi yang di berikan dan selesai.
+3. Buka Go to Preferences - profile - color lalu import color preset [https://github.com/fajaragngn/zsh-itermcolors](https://github.com/fajaragngn/zsh-itermcolors "https://github.com/fajaragngn/zsh-itermcolors")
+4. Go to Preferences - profile - general klik icon menjadi built-in icon
+5. Install theme [powerline10k](https://github.com/romkatv/powerlevel10k) (Lihat dokumentasi di github)
+6. Config ketik **nano \~/.zshrc** ubah **ZSH_THEME="apa ini saya lupa:V"** menjadi **ZSH_THEME="powerlevel10k/powerlevel10k"**
+7. Save, lalu restart iterm
+8. Ikuti configurasi yang di berikan dan selesai.
