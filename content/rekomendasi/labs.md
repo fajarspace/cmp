@@ -1,6 +1,6 @@
 +++
 description = "hanya sebuah karya jelek"
-title = "Project"
+title = "labs"
 
 +++
 [selembarkertas podcast](https://selembarkertas.club)
