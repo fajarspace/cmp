@@ -1,11 +1,11 @@
----
-title:  "Belajar Git dasar"
-date:   2020-10-12
-description : "Git adalah salah satu sistem pengontrol versi(Version Control System) pada proyek perangkat lunak yang diciptakan Linus Torvalds."
-tags:
-  - dev
++++
+Description = "Git adalah salah satu sistem pengontrol versi(Version Control System) pada proyek perangkat lunak yang diciptakan Linus Torvalds"
+date = 2020-10-12
+featured_image = ""
+tags = ["dev"]
+title = "Belajar Git dasar"
 
----
++++
 ![git logo](https://miro.medium.com/max/1200/1*BCZkmZR1_YzDZy22Vn4uUw.png#git-img-main)
 
 # Apa itu Git ?

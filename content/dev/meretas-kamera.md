@@ -1,11 +1,11 @@
----
-title:  "Meretas kamera ponsel"
-date:   2020-04-20
-description : "Alat ini menghasilkan halaman HTTPS berbahaya menggunakan metode Serveo atau Ngrok Port Forwarding, dan kode javascript, untuk cam permintaan menggunakan MediaDevices.getUserMedia."
-tags:
-  - hack
++++
+Description = "Alat ini menghasilkan halaman HTTPS berbahaya menggunakan metode Serveo atau Ngrok Port Forwarding, dan kode javascript, untuk cam permintaan menggunakan MediaDevices.getUserMedia"
+date = 2020-04-20
+featured_image = ""
+tags = ["hack"]
+title = "Meretas kamera ponsel"
 
----
++++
 
 ![camera main img](https://static.wixstatic.com/media/149864_084ea01f60bc4dbcb785a02a14d70ff7~mv2.png/v1/fill/w_560,h_362,al_c,q_85,usm_0.66_1.00_0.01/camera-hack-final.webp)
 

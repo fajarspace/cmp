@@ -1,10 +1,11 @@
----
-title:  "Daftar akun github"
-date:   2020-10-13
-description : "cara daftar akun github"
-tags:
-  - dev
----
++++
+Description = "cara daftar akun github"
+date = 2020-10-13
+featured_image = ""
+tags = ["dev"]
+title = "Daftar akun di github"
+
++++
 
 ![github](https://pngimg.com/uploads/github/github_PNG15.png#post-img)
 
