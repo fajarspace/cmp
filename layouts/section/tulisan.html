@@ -1,0 +1,13 @@
+
+{{ define "main" }}
+
+<h3> Tulisan | <a href="/tags">tags</a> </h3>
+<ul>
+  {{ range (where .Site.RegularPages "Section" "blog") }}
+    <li>
+      <a href="{{.Permalink}}"> {{.Title}} </a>
+    </li>
+ {{ end }}
+</ul>
+
+{{ end }}
