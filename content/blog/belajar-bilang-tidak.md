@@ -2,7 +2,7 @@
 Description = "Belajar bilang tidak"
 date = 2021-06-20T17:00:00Z
 draft = true
-featured_image = ""
+featured_image = "https://i.ibb.co/r2q5W9x/noo-min.jpg"
 tags = ["inspirasi"]
 title = "Belajar bilang tidak"
 
