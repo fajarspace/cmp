@@ -22,7 +22,7 @@ setelah beberapa hari saya bertemu kembali dengan orang tersebut, menjelaskan me
 
 ![](https://i.ibb.co/4thjYnX/say-no-min.jpg)
 
-"Tidak" hanya kata yang kecil, tetapi memiliki dampak yang besar. Itulah mengapa, banyak orang tidak nyaman mengatakannya dan tidak mampu mengatakannya.
+"Tidak" hanya kata yang kecil, tetapi memiliki dampak yang besar. Itulah mengapa, banyak orang tidak nyaman dan tidak mampu mengatakannya.
 
 Di sisi lain, ada beberapa orang yang dapat dengan mudah mengatakan 'tidak' untuk hal-hal yang tidak ingin mereka lakukan. Mereka tidak ragu-ragu dan tidak merasa bersalah dalam melakukannya. yaa mungkin karena mereka memiliki sikap pemimpin yang bertolak belakang dengan saya 😥
 
