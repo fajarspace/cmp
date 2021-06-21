@@ -10,7 +10,7 @@ tags:
 - inspirasi
 - sharing
 - podcast
-- self-reminder
+- self-help
 
 ---
 kamu sedang belajar karna besok ada ujian, lalu kamu search materi2 yg tidak tertulis dibuku kamu menggunakan hp, tiba tiba perhatian mu teralih oleh yt karna tertarik dengan vidio terbaru/yg sedang viral, alhasil kamu tidak jadi searching dan yaa, kamu sedang distraksi....

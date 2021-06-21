@@ -5,7 +5,7 @@ featured_image: https://i.ibb.co/3M4Jpr0/tentukan-pilihan.png
 tags:
 - inspirasi
 - podcast
-- self-reminder
+- self-help
 
 ---
 disaat kamu mulai putus asa apa yg akan kamu lakukan? mungkin sebagian besar orang memilih untuk tidak menyerah dan mulai mencoba lagi, ada juga sebagian kecil orang yg berfikir untuk mengakhiri hidupnya dikarenakan atas penderitaan yg telah melanda hidupnya, disaat kamu ujian sekolah dan kamu tidak bisa mengerjakan soal karna tidak belajar, apa yg akan kamu lakukan? mungkin ada yg mengasal atau pilihan alternatif nya yaitu mencotek, itu semua adalah pilihan. <br>

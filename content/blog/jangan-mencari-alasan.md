@@ -7,7 +7,7 @@ description: mencari cari alasan itu sesuatu yg sering kita dengar dari orang la
   pasti selalu mencari cari alasan supaya terhindar dari hukuman/omelan.
 tags:
 - inspirasi
-- self-reminder
+- self-help
 
 ---
 “kok kamu telat mulu sih,?!” <br>

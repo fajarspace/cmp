@@ -2,7 +2,7 @@
 Description = ""
 date = 2021-06-19T17:00:00Z
 featured_image = "https://ohmyz.sh/img/OMZLogo_BnW.png"
-tags = []
+tags = ["dev"]
 title = "Customize terminal menggunakan iTerm, ohmyzsh+powerline10k"
 
 +++

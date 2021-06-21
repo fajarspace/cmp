@@ -3,7 +3,7 @@ title:  "Daftar akun github"
 date:   2020-10-13
 description : "cara daftar akun github"
 tags:
-  - tech
+  - dev
 ---
 
 ![github](https://pngimg.com/uploads/github/github_PNG15.png#post-img)

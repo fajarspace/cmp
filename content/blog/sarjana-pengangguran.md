@@ -6,7 +6,7 @@ Description: Dunia kerja membutuhkan skill kamu, gelar saja tidak cukup untuk me
 featured_image: https://i.ibb.co/ryW75qq/sarjana-pengangguran.png
 tags:
 - inspirasi
-- self-reminder
+- self-help
 
 ---
 Dunia kerja membutuhkan skill kamu, gelar saja tidak cukup untuk menggambarkan apa yg kamu punya.

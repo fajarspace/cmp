@@ -2,7 +2,7 @@
 Description = "menjalankan python di sublime text"
 date = 2020-11-24T17:00:00Z
 featured_image = ""
-tags = ["developer"]
+tags = ["dev"]
 title = "Menjalankan python di sublime text 3 dengan terminus"
 
 +++

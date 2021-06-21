@@ -3,7 +3,7 @@ title: Bagaimana website ini dibuat?
 date: 2019-05-09T19:00:33.000+08:00
 description: Bagaimana website ini dibuat?
 tags:
-- tech
+- dev
 
 ---
 ![hugo img](https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg)

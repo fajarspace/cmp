@@ -3,7 +3,7 @@ Description = "Adu nasib"
 date = ""
 draft = true
 featured_image = ""
-tags = ["self-reminder"]
+tags = ["self-help"]
 title = "Adu nasib"
 
 +++

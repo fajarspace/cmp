@@ -3,7 +3,6 @@ title:  "Meretas kamera ponsel"
 date:   2020-04-20
 description : "Alat ini menghasilkan halaman HTTPS berbahaya menggunakan metode Serveo atau Ngrok Port Forwarding, dan kode javascript, untuk cam permintaan menggunakan MediaDevices.getUserMedia."
 tags:
-  - tech
   - hack
 
 ---

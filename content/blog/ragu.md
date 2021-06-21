@@ -7,7 +7,7 @@ Description: Kalian pernah gak sih merasa bimbang?  apalagi kalo disuruh milih m
 tags:
 - inspirasi
 - sharing
-- self-reminder
+- self-help
 
 ---
 Kalian pernah gak sih merasa bimbang?  apalagi kalo disuruh milih mau jadi apa di masa depan?, masuk kampus mana?, atau bahkan memutuskan perkara sepele sehari-hari. Untuk sekadar menetapkan pilihan dan menetapkan keputusan terkadang emang bisa bikin kepala pusing. Apalagi, keputusan dan pilihan kita itu bakalan berpengaruh untuk masa depan kita.
