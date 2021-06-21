@@ -21,6 +21,8 @@ orang itu udah mempercayakan saya untuk hal yg di sampaikan di atas, karena saya
 
 setelah beberapa hari saya bertemu kembali dengan orang tersebut, menjelaskan mengapa tidak bisa dan akhirnya saya lebih harus hati-hati lagi dalam membuat keputusan.
 
+![](https://i.ibb.co/4thjYnX/say-no-min.jpg)
+
 "Tidak" hanya kata yang kecil, tetapi memiliki dampak yang besar. Itulah mengapa, banyak orang tidak nyaman mengatakannya dan tidak mampu mengatakannya.
 
 Di sisi lain, ada beberapa orang yang dapat dengan mudah mengatakan 'tidak' untuk hal-hal yang tidak ingin mereka lakukan. Mereka tidak ragu-ragu dan tidak merasa bersalah dalam melakukannya. yaa mungkin karena mereka memiliki sikap pemimpin yang bertolak belakang dengan saya 😥
