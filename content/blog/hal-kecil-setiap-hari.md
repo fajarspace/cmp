@@ -1,5 +1,5 @@
 +++
-Description = "hal kecil setiap hari"
+Description = "Banyak yang bilang kalau sesuatu yang besar dimulai dari yang kecil "
 date = 2021-06-20T17:00:00Z
 featured_image = "https://i.ibb.co/3pM71qT/hal-kecil.jpg"
 tags = ["inspirasi"]
