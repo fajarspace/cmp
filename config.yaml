@@ -15,7 +15,7 @@ permalinks:
   blog : /:slug/
   
 taxonomies:
-  tag: tags
+  tag: /tags
 
 outputs:
     home : ["HTML", "RSS", "JSON"]
