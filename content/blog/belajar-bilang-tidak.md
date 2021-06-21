@@ -1,6 +1,6 @@
 +++
 Description = "Belajar bilang tidak"
-date = ""
+date = 2021-06-20T17:00:00Z
 draft = true
 featured_image = ""
 tags = ["inspirasi"]
@@ -17,4 +17,4 @@ b: "oh iya bisa bisa"
 
 a: "oke siap"
 
-orang itu udah mempercayakan saya untuk hal yg di sampaikan di atas, 
+orang itu udah mempercayakan saya untuk hal yg di sampaikan di atas, karena saya merasa tidak enak untuk menolak maka saya terima. lalu gimana cara saya untuk menolaknya?
