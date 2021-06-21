@@ -7,4 +7,4 @@ tags = ["inspirasi"]
 title = "Belajar bilang tidak"
 
 +++
-Penyakit mental terbesar saya selalu merasa gak enakan sama orang, 
+Penyakit mental terbesar saya selalu merasa gak enakan sama orang, ternyata dampak nya cukup besar ketika saya meng'iya'kan sesuatu 
