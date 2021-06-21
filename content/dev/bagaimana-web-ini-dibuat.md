@@ -1,11 +1,11 @@
----
-title: Bagaimana website ini dibuat?
-date: 2019-05-09T19:00:33.000+08:00
-description: Bagaimana website ini dibuat?
-tags:
-- dev
++++
+Description = "Bagaimana website ini dibuat?"
+date = 2019-05-09T19:00:33.000+08:00
+featured_image = ""
+tags = ["dev"]
+title = "Bagaimana website ini dibuat?"
 
----
++++
 ![hugo img](https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg)
 
 ![github img](/img/git-render.png#git-img)
