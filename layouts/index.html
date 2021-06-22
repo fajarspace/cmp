@@ -26,16 +26,6 @@
                <a style="color:grey;" href="/tulisan">baca tulisan lainnya..</a>
               </ul>
 
-              <h3> Tulisan Dev 💻 </h3>
-              <ul>
-                  {{ range first 5 (where .Site.RegularPages "Section" "dev") }}
-                    <li>
-                      <a href="{{.Permalink}}"> {{.Title}} </a>
-                    </li>
-                 {{ end }}
-                 <a style="color:grey;" href="/dev">baca tulisan lainnya..</a>
-                </ul>
-
           </div>
           <div>
 
