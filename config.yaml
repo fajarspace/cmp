@@ -13,6 +13,7 @@ tags: []
 
 permalinks:
   blog : /:slug/
+  rekomendasi : /:slug/
   
 outputs:
     home : ["HTML", "RSS", "JSON"]
