@@ -3,8 +3,7 @@ languageCode : id
 title : Fajar A Nugroho
 
 params:
-    description: Menulis dengan ☕️
-
+    description: Temukan Tulisan / baca blog dev, kamu juga bisa mendengarkan Podcast
 staticDir: static
 
 disqusShortname: fajars-space
