@@ -1,7 +1,7 @@
 ---
 title: Distraksi saat belajar
 date: 2020-02-18
-featured_image: https://i.ibb.co/PznYzkp/distraksi.png
+featured_image: https://i.ibb.co/MBzkLbP/pray-862994-1280.jpg
 description: kamu sedang belajar karna besok ada ujian, lalu kamu search materi2 yg
   tidak tertulis dibuku kamu menggunakan hp, tiba tiba perhatian mu teralih oleh yt
   karna tertarik dengan vidio terbaru/yg sedang viral, alhasil kamu tidak jadi searching
