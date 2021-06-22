@@ -5,4 +5,4 @@ title = "BlogDev"
 +++
 Kumpulan tulisan berupa kode-kode aneh
 
-[BlogDev](https://spacedev.netlify.app)
+👉 [BlogDev](https://spacedev.netlify.app)
