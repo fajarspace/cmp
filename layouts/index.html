@@ -5,8 +5,7 @@
     <img class="avatar" src="/img/profile.jpg" alt="mrbaiz" >&emsp;
     <h2> Temukan <a href="/tulisan">Tulisan</a> / baca blog <a href="https://spacedev.netlify.app">dev</a>, kamu juga bisa mendengarkan <a href="/podcast">Podcast</a></h2>
   </div>
-  <div>
-    <br>
+  <div style="padding-top: 10px;" >
     <a href="https://twitter.com/fajaragngn">Twitter</a>/&nbsp;
     <a href="https://github.com/fajaragngn">Github</a>/&nbsp;
     <a href="mailto:fajar.agngn@gmail.com">Email</a>/&nbsp;
@@ -32,7 +31,7 @@
             <section>
                 <h3> Lainnya </h3>
                 {{ range where .Site.RegularPages  "Section" "rekomendasi" }}
-                  <a href="{{.Permalink}}">{{.Title}}</a>/<br>
+                  <a href="{{.Permalink}}">{{.Title}}</a><br>
                 {{ end }}
             </section>
 

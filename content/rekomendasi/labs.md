@@ -1,6 +1,6 @@
 +++
 description = "hanya sebuah karya jelek"
-title = "labs"
+title = "labs 🧪"
 date = 2021-06-19T17:00:00Z
 
 +++
