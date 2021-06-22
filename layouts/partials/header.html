@@ -11,11 +11,12 @@
 
     <meta name="twitter:url" content="{{ .Permalink }}">
     <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
-    <meta name="twitter:image:src" content="{{if isset .Params "featured_image"}}{{.Params.featured_image }}{{else}}https://i.ibb.co/CJbz7HS/typewriter.png{{ end }}" />
+    <meta name="twitter:image:src" content="{{if isset .Params "featured_image"}}{{.Params.featured_image }}{{else}}https://i.ibb.co/DCwqZCM/typewriter.jpg{{ end }}" />
 
     <meta property="og:url" content="{{ .Permalink }}" />
+    <!--meta property="og:title" content="{{ .Title }} | @fajaragngn " /-->
     <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
-    <meta property="og:image" content="{{if isset .Params "featured_image"}}{{.Params.featured_image }}{{else}}https://i.ibb.co/CJbz7HS/typewriter.png{{ end }}" />
+    <meta property="og:image" content="{{if isset .Params "featured_image"}}{{.Params.featured_image }}{{else}}https://i.ibb.co/DCwqZCM/typewriter.jpg{{ end }}" />
 
     {{ partial "head-static.html" . }}
 </head>
