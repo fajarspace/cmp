@@ -10,4 +10,4 @@ ikuti untuk mendapat podcast terbaru, Selamat menjadi pendengar.
 
 Dengarkan podcast di 👇 :
 
-[Website(maintenance)](https://selembarkertas.club) / [Anchor](https://anchor.fm/selembarkertas) / [Spotify](https://open.spotify.com/show/5BWnbxhBS2JqTRkphmSI0B?si=Ej7zggqYQM2B26CeWU617g&dl_branch=1) / [Apple Podcast](https://podcasts.apple.com/id/podcast/selembarkertas/id1467383206)
+[Website](https://selembarkertas.netlify.app/) / [Anchor](https://anchor.fm/selembarkertas) / [Spotify](https://open.spotify.com/show/5BWnbxhBS2JqTRkphmSI0B?si=Ej7zggqYQM2B26CeWU617g&dl_branch=1) / [Apple Podcast](https://podcasts.apple.com/id/podcast/selembarkertas/id1467383206)
