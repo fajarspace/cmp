@@ -1,7 +1,7 @@
 ---
 title: Hobi, Passion & Uang
 date: 2020-02-28
-featured_image: https://i.ibb.co/w4h7Xfh/hobi-passion-uang.jpg
+featured_image: https://i.ibb.co/vxPbJwj/laptop-2557571-1280.jpg
 Description: Penelitian Cal Newport menunjukan bahwa ketimbang lu berusaha mencari
   passion lu, lebih baik yang pertama lu lakukan adalah menemukan modal karir lu, cobalah
   untuk menemukan apakah yang menjadi keunggulan lu, apa saja kehebatan yang lu miliki, dan
