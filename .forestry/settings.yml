@@ -12,11 +12,6 @@ sections:
   templates:
   - blog-post
 - type: directory
-  path: content/dev
-  label: dev
-  create: all
-  match: "**/*"
-- type: directory
   path: content/rekomendasi
   label: Rekomendasi
   create: all
