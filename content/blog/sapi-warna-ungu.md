@@ -4,7 +4,7 @@ date: 2020-06-02
 Description: pernah ga kamu jalan-jalan ke peternakan, disana kita bisa lihat sapi
   bewarna coklat, atau putih hitam, atau sejenisnya. Bayangkan jika kita menemukan
   sapi warna ungu, hmm ada ga ya?
-featured_image: https://i.ibb.co/bRKQkzk/sapi-ungu.png
+featured_image: https://i.ibb.co/bXBmXrb/purple-3567972-640.jpg
 tags:
 - sharing
 - podcast
