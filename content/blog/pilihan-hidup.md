@@ -1,7 +1,7 @@
 ---
 title: Tentukan pilihan
 date: 2020-01-18
-featured_image: https://i.ibb.co/pKvsRQX/by-pexels.jpg
+featured_image: https://i.ibb.co/h2b1vjm/birds-984346-1920.jpg
 tags:
 - inspirasi
 - podcast
