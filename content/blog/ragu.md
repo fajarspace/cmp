@@ -1,7 +1,7 @@
 ---
 title: Ragu
 date: 2020-08-20
-featured_image: https://i.ibb.co/N7GRf40/ragu.png
+featured_image: https://i.ibb.co/grpPcPB/pedestrians-400811-640.jpg
 Description: Kalian pernah gak sih merasa bimbang?  apalagi kalo disuruh milih mau
   jadi apa di masa depan?
 tags:
