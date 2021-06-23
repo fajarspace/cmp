@@ -1,7 +1,7 @@
 ---
 title: Jangan suka mencari alasan
 date: 2020-05-12
-featured_image: https://i.ibb.co/ftY037t/jangan-suka-mencari-alasan.png
+featured_image: https://i.ibb.co/Wp6jDy6/boys-1149665-640.jpg
 description: mencari cari alasan itu sesuatu yg sering kita dengar dari orang lain,
   dari karyawan, murid, atau kita sebagai manusia, entah itu karena telat kerja/sekolah
   pasti selalu mencari cari alasan supaya terhindar dari hukuman/omelan.
