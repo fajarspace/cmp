@@ -1,6 +1,6 @@
 +++
 description = "Kumpulan tulisan berupa kode-kode aneh"
-title = "BlogDev"
+title = "spaceDev"
 date = 2021-06-21T17:00:00Z
 
 +++
