@@ -12,4 +12,4 @@ singkat cerita, saya melihat sebuah website [hilman ramadhan](https://hilman.spa
 
 ![](/uploads/screen-shot-2021-06-24-at-21-58-24.png)
 
-oh iya sebelum nya terimakasih mas hilman sudah mengizinkan memakai tempelate website nya 😁 entah kenapa mata saya merasa nyaman lihat desain yang simpel - simpel
+Oh iya sebelum nya terimakasih mas hilman sudah mengizinkan memakai tempelate website nya 😁 entah kenapa mata saya merasa nyaman lihat desain yang simpel - simpel
