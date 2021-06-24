@@ -1,7 +1,7 @@
 +++
 Description = "Kenapa saya menulis? kenapa saya membuat podcast?"
 date = 2021-06-23T17:00:00Z
-featured_image = "img/featured-img/mic.jpg"
+featured_image = "/img/featured-img/mic.jpg"
 tags = ["sharing"]
 title = "Tulisan dan podcast"
 
