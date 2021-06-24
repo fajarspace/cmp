@@ -6,7 +6,7 @@ tags = ["self-help"]
 title = "Belajar bilang tidak"
 
 +++
-Penyakit mental terbesar saya selalu merasa gak enakan sama orang, ternyata dampak nya cukup besar ketika saya meng'iya'kan sesuatu.
+[Penyakit mental](https://fajarr.space/mengenal-anxiety-disorder) terbesar saya selalu merasa gak enakan sama orang, ternyata dampak nya cukup besar ketika saya meng'iya'kan sesuatu.
 
 👨‍🔧 : "jar, kamu mau ngga narikin duit wifi tiap bulannya, lumayan uang jajan ada"
 
