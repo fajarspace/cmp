@@ -1,13 +1,24 @@
-
 {{ define "main" }}
 
 <h3> Tulisan | <a href="/tags">tags</a> </h3>
-<ul>
-  {{ range (where .Site.RegularPages "Section" "blog") }}
-    <li>
-      <a href="{{.Permalink}}"> {{.Title}} </a>
-    </li>
- {{ end }}
+
+<ul id="post">
+    {{ $v1 := where .Site.Pages "Section" "blog" }}
+    {{ $v2 := where .Site.Pages ".Title" "!=" "Blogs" }}
+    {{ $filtered := $v1 | intersect $v2}}
+    
+    {{ $paginator := .Paginate ($filtered) }}
+    {{ range $paginator.Pages }}
+        <li><a href="{{.Permalink}}"> {{.Title}}</a></li>
+    {{ end }}
+    <br>
+    {{ if .Paginator.HasPrev }}
+        <a href="{{ .Paginator.Prev.URL }}"> << </a>
+        {{ end }}
+        {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}"> >> </a>
+    {{ end }}
+        
 </ul>
 
 {{ end }}
