@@ -1,8 +1,9 @@
 ---
-
-title:  "Sarkasme & Satire"
-date:   2020-01-04 19:02:54 +0700
-Description: "Siapa sih disini yg suka nyindir-nyindir? Pasti banyak lah, Nah menyindir itu ada 2 macam type, yg pertama menyindir dengan cara blak blakan ngomong depan muka atau biasa disebut Sarkasme Serem amat ye"
+title: Sarkasme dan Satire
+date: 2020-01-04T19:02:54.000+07:00
+Description: Siapa sih disini yg suka nyindir-nyindir? Pasti banyak lah, Nah menyindir
+  itu ada 2 macam type, yg pertama menyindir dengan cara blak blakan ngomong depan
+  muka atau biasa disebut Sarkasme Serem amat ye
 tags:
 - sharing
 
