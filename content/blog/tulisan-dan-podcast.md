@@ -6,7 +6,7 @@ tags = ["sharing"]
 title = "Tulisan dan podcast"
 
 +++
-Kenapa saya menulis? kenapa saya membuat podcast? setelah lulus sekolah saya bingung ingin buat apa, mencoba mengisi kekosongan dengan belajar hal yang saya suka, lalu rasa jenuh datang menghantui
+Kenapa saya [menulis](https://fajarr.space/tulisan)? kenapa saya membuat [podcast](https://selembarkertas.netlify.app)? setelah lulus sekolah saya bingung ingin buat apa, mencoba mengisi kekosongan dengan belajar hal yang saya suka, lalu rasa jenuh datang menghantui
 
 singkat cerita, saya melihat sebuah website [hilman ramadhan](https://hilman.space), blog yang isinya penuh dengan tulisan dan podcast [tehataukopi](https://anchor.fm/tehataukopi), mulai dari situ saya tertarik ingin membuat website seperti mas hilman ini.
 
