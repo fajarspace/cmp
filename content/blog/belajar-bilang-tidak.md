@@ -18,7 +18,7 @@ title = "Belajar bilang tidak"
 
 orang itu udah mempercayakan saya untuk hal yg di sampaikan di atas, karena saya merasa tidak enak untuk menolak maka saya terima. lalu gimana cara saya untuk menolaknya?
 
-setelah beberapa hari saya bertemu kembali dengan orang tersebut, menjelaskan mengapa tidak bisa dan akhirnya saya lebih harus hati-hati lagi dalam membuat keputusan.
+setelah beberapa hari saya bertemu kembali dengan orang tersebut, menjelaskan mengapa tidak bisa dan akhirnya saya lebih harus hati-hati lagi dalam [membuat keputusan](https://fajarr.space/tentukan-pilihan).
 
 ![](https://i.ibb.co/4thjYnX/say-no-min.jpg)
 
