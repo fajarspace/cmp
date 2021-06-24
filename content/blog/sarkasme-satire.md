@@ -6,6 +6,7 @@ Description: Siapa sih disini yg suka nyindir-nyindir? Pasti banyak lah, Nah men
   muka atau biasa disebut Sarkasme Serem amat ye
 tags:
 - sharing
+featured_image: "/img/featured-img/boy.jpg"
 
 ---
 Siapa sih disini yg suka nyindir-nyindir? Pasti banyak lah, Nah menyindir itu ada 2 macam type, yg pertama menyindir dengan cara blak blakan ngomong depan muka atau biasa disebut Sarkasme Serem amat ye, terus yg kedua menyindir dengan cara Halus dan Penuh Kebijaksanaan atau disebut Satire.
