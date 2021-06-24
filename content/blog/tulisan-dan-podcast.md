@@ -1,5 +1,5 @@
 +++
-Description = "Kenapa saya menulis? kenapa saya membuat podcast?"
+Description = "Kenapa menulis? kenapa membuat podcast?"
 date = 2021-06-23T17:00:00Z
 featured_image = "/img/featured-img/mic.jpg"
 tags = ["sharing"]
