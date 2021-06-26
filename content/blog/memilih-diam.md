@@ -4,6 +4,6 @@ date = ""
 draft = true
 featured_image = ""
 tags = []
-title = "Memilih diam untuk sembunyi"
+title = "Memilih diam"
 
 +++
