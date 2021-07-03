@@ -6,4 +6,4 @@ title = "spaceDev"
 +++
 Kumpulan tulisan berupa kode-kode aneh
 
-👉 [spaceDev](spacedev.netlify.app)
+👉 [spaceDev](https://spacedev.netlify.app)
