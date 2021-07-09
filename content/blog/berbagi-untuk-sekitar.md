@@ -2,7 +2,7 @@
 Description = "Berbagi bahagia di Bulan Ramadhan 1442 H melalui program Mari Berbagi"
 date = 2021-07-08T17:00:00Z
 draft = true
-featured_image = ""
+featured_image = "https://i.ibb.co/BqZH8p2/272447.jpg"
 tags = ["sharing"]
 title = "Berbagi untuk sekitar"
 
