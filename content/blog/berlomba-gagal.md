@@ -1,9 +1,8 @@
 +++
-Description = ""
+Description = "Kalau kata seth godin “yang paling banyak gagal yang akan menang”. Jangan takut gagal atau ditolak, ini cerita biasa."
 date = 2021-07-18T17:00:00Z
-draft = true
-featured_image = ""
-tags = []
+featured_image = "https://i.ibb.co/BskqVSB/women-801940-640.jpg"
+tags = ["self-help"]
 title = "Berlomba gagal"
 
 +++
