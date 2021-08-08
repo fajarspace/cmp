@@ -1,7 +1,6 @@
 +++
 Description = "Kasihan sekali kamu, kasihan sekali karyamu, Kamu menyiksa diri. Jangan dipaksa , Izinkan kamu tumbuh bertahap"
 date = 2021-08-07T17:00:00Z
-draft = true
 featured_image = "https://i.ibb.co/R4LzjfR/cat-4189697-640.jpg"
 tags = ["self-help"]
 title = "Berkarya butuh istirahat"
