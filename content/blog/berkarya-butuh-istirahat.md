@@ -3,7 +3,7 @@ Description = "Kasihan sekali kamu, kasihan sekali karyamu, Kamu menyiksa diri. 
 date = 2021-08-07T17:00:00Z
 draft = true
 featured_image = ""
-tags = []
+tags = ["self-help"]
 title = "Berkarya butuh istirahat"
 
 +++
