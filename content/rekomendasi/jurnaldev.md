@@ -6,4 +6,4 @@ title = "jurnalDev"
 +++
 Kumpulan tulisan seputar koding
 
-👉 [spaceDev](https://jurnaldev.netlify.app)
+👉 [JurnalDev](https://jurnaldev.netlify.app)
