@@ -1,6 +1,6 @@
 +++
-Description = ""
-date = ""
+Description = "Merasa orang lain punya jalan instan, padahal sama susahnya"
+date = 2021-10-09T17:00:00Z
 draft = true
 featured_image = ""
 tags = []
