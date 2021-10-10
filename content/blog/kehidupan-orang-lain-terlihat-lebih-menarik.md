@@ -17,7 +17,8 @@ Merasa orang lain punya jalan instan, padahal sama susahnya
 Hanyut dalam perlobaan menjadi dia  
 Padahal ada tempat spesial untuk kita
 
-Setiap dari kita punya peran masing-masing                                 yang kita adalah pelaku terbaiknya
+Setiap dari kita punya peran masing-masing        
+yang kita adalah pelaku terbaiknya
 
 Semoga menjadi penyemangat  
 Untuk kamu yang hampir menyerah
