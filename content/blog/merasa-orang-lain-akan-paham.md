@@ -7,4 +7,4 @@ tags = []
 title = "Merasa orang lain akan paham"
 
 +++
-saat berbicara 
+Saat kita interaksi pasti terjadi komunikasi, bukan sekedar komunikasi, tapi komunikasi yang jelas
