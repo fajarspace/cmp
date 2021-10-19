@@ -7,3 +7,4 @@ tags = []
 title = "Merasa orang lain akan paham"
 
 +++
+saat berbicara 
