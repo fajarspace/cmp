@@ -27,7 +27,7 @@ title = "Hidup dengan \"Think to be Thing\""
 
 Jangan sekedar hanya 
 
-Jangan hanya belajar, pengalaman.
+Jangan hanya belajar, ekspresikan.
 
 Jangan hanya membaca, menyerap.
 
