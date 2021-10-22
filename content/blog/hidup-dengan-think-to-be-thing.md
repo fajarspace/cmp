@@ -43,14 +43,14 @@ Jangan hanya berpikir, renungkan.
 
 Jangan hanya mengambil, memberi.
 
-Jangan hanya melihat, merasakan.
+Jangan hanya melihat, rasakan.
 
 Jangan hanya bermimpi, lakukan.
 
-Jangan hanya mendengar, mendengarkan.
+Jangan hanya mendengar, dengarkan.
 
 Jangan hanya bicara, bertindak.
 
 Jangan hanya memberi tahu, tunjukkan.
 
-Jangan hanya ada, hiduplah.
+Jangan hanya hidup, hiduplah.
