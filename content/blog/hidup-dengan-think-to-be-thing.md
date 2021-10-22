@@ -25,3 +25,5 @@ title = "Hidup dengan \"Think to be Thing\""
 > Don't just exist, live.
 >
 > ― **Roy T. Bennett,** [**The Light in the Heart**](https://www.goodreads.com/work/quotes/49604402)
+
+asdasf
