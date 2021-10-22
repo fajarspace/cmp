@@ -31,9 +31,9 @@ Jangan hanya belajar, pengalaman.
 
 Jangan hanya membaca, menyerap.
 
-Jangan hanya berubah, berubah.
+Jangan hanya berubah, ubahlah.
 
-Jangan hanya berhubungan, advokat.
+Jangan hanya berhubungan, anjurkan
 
 Jangan hanya berjanji, buktikan.
 
