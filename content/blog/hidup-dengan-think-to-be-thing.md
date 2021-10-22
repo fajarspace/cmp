@@ -1,7 +1,6 @@
 +++
 Description = ""
 date = 2021-10-21T17:00:00Z
-draft = true
 featured_image = ""
 tags = []
 title = "Hidup dengan \"Think to be Thing\""
@@ -26,4 +25,4 @@ title = "Hidup dengan \"Think to be Thing\""
 >
 > ― **Roy T. Bennett,** [**The Light in the Heart**](https://www.goodreads.com/work/quotes/49604402)
 
-asdasf
+Jangan sekedar hanya
