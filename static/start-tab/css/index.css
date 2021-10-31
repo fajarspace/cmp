@@ -54,7 +54,7 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url("../asset/overlay-vignette.png");
+    background-color: rgba(0,0,0,.35);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
