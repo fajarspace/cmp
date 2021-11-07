@@ -2,8 +2,8 @@
 
 <main>
   <div class="side-left" >
-    <img class="avatar" src="/img/pic.jpg" alt="mrbaiz" >&emsp;
-    <h2> Temukan <a href="/tulisan">Tulisan</a> / baca <a href="https://jurnaldev.netlify.app">jurnalDev</a>, Dengarkan <a href="/podcast">Podcast</a></h2>
+    <img class="avatar" src="/img/profile.jpg" alt="mrbaiz" >&emsp;
+    <h2> Temukan <a href="/tulisan">Tulisan</a>, baca <a href="https://jurnaldev.netlify.app">jurnalDev</a>/ Dengarkan <a href="/podcast">Podcast</a></h2>
   </div>
   <div style="padding-top: 10px;" >
     <a href="https://twitter.com/fajaragngn">Twitter</a>/&nbsp;
@@ -17,24 +17,23 @@
             <h3> Tulisan ✍️ (dari yang terbaru)</h3>
             <ul>
                 {{ range first 7 (where .Site.RegularPages "Section" "blog") }}
-                     <li>
+                    <li>
                        <a href="{{.Permalink}}"> {{.Title}} </a>
-                   </li>
+                    </li>
                {{ end }}
                <a style="color:grey;" href="/tulisan">baca tulisan lainnya..</a>
               </ul>
 
           </div>
-          <div>
 
-            <section>
-                <h3> Lainnya </h3>
-                {{ range where .Site.RegularPages  "Section" "rekomendasi" }}
-                  <a href="{{.Permalink}}">{{.Title}}</a><br>
-                {{ end }}
-            </section>
-
-          </div>
+        </div>
+        <div>
+          <h3> Lainnya </h3>
+          <ul>
+          {{ range where .Site.RegularPages  "Section" "rekomendasi" }}
+            <a href="{{.Permalink}}">{{.Title}}</a><br>
+          {{ end }}
+          </ul>
         </div>
 </main>
 

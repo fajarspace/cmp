@@ -1,12 +1,19 @@
 body {
   margin: 3% auto;
   width: 60%;
-  font-size: 1.4rem;
-  line-height: 2rem;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: .0625em;
+  line-height: 1.6em;
   font-family: 'Fira Mono', monospace;
   color: #575757;
-  background: #faf9f5;
-  max-width: 800px;
+  background: #FEFEFE;
+  max-width: 1000px;
+
+}
+.single{
+  margin: 3% auto;
+  width: 75%;
 }
 body.darkmode {
   background: #393939;
@@ -37,7 +44,8 @@ h2 {
 }
 
 a {
-  color: #575757;
+  color: #000000;
+  font-weight: bold;
 }
 
 header {
@@ -53,6 +61,29 @@ header {
 #theme:hover {
   cursor: pointer;
 }
+
+a {
+  font-weight: 700;
+  color: #000;
+  text-decoration: none
+}
+
+a:focus,
+a:hover {
+  text-decoration: underline
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  letter-spacing: .0625em;
+  margin: 2.2rem 0 1.6rem
+}
+
 
 .landing {
   display: flex;
@@ -177,7 +208,9 @@ span {
   body {
     width: 90%;
   }
-
+  .single{
+    width: 100%;
+  }
   .tengah {
     display: block;
   }
