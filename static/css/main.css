@@ -3,7 +3,7 @@ body {
   width: 60%;
   font-size: 1.4rem;
   line-height: 2rem;
-  font-family: "Balsamiq Sans", cursive;
+  font-family: 'Fira Mono', monospace;
   color: #575757;
   background: #faf9f5;
   max-width: 800px;
