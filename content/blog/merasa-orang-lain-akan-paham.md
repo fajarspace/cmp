@@ -1,7 +1,6 @@
 +++
 Description = "Saat kita interaksi pasti terjadi komunikasi, bukan sekedar komunikasi, tapi komunikasi dengan jelas"
-date = 2021-10-18T17:00:00Z
-draft = true
+date = 2021-11-20T17:00:00Z
 featured_image = "https://i.ibb.co/JRsfTzC/telephone-3594206-640.jpg"
 tags = ["sharing"]
 title = "Komunikasi dengan jelas"
