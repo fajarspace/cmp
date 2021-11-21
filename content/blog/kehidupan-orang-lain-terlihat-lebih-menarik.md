@@ -3,7 +3,7 @@ Description = "Merasa orang lain punya jalan instan, padahal sama susahnya"
 date = 2021-10-09T17:00:00Z
 featured_image = "https://i.ibb.co/d0yBqBM/old-woman-731423-640.jpg"
 tags = ["self-help"]
-title = "Kehidupan orang lain terlihat lebih menarik"
+title = "Pengen jadi orang lain"
 
 +++
 Mau menjadi “dia”, Berusaha seperti dia, Padahal Tuhan sengaja Menciptakan kita berbeda
