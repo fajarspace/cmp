@@ -18,7 +18,6 @@
             <ul>
                 {{ range first 7 (where .Site.RegularPages "Section" "blog") }}
                     <li>
-                      <small> {{ .Date.Format "January 2, 2006" }} </small>
                        <a href="{{.Permalink}}"> {{.Title}} </a>
                     </li>
                {{ end }}
