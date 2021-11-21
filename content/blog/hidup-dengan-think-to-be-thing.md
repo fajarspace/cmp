@@ -26,9 +26,7 @@ title = "Hidup dengan \"Think to be Thing\""
 >
 > ― **Roy T. Bennett,** [**The Light in the Heart**](https://www.goodreads.com/work/quotes/49604402)
 
-asd
-
-Jangan sekedar hanya 
+Jangan sekedar hanya
 
 Jangan hanya belajar, ekspresikan.
 
@@ -40,7 +38,7 @@ Jangan hanya berhubungan, anjurkan
 
 Jangan hanya berjanji, buktikan.
 
-Jangan hanya mengkritik, mendorong.
+Jangan hanya mengkritik, doronglah.
 
 Jangan hanya berpikir, renungkan.
 
