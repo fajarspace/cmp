@@ -11,8 +11,12 @@ Saat kita interaksi pasti terjadi komunikasi, bukan sekedar komunikasi, tapi kom
 
 Ketika pemerintah mengeluarkan aturan PPKM misalnya, tidak adanya edukasi untuk menjelaskan kenapa sebuah aturan PPKM diberlakukan, dan hasilnya kejadian dilapangan tidak sesuai, masyarakat tidak paham akibat tidak adanya edukasi yang jelas
 
-Ketika orang berkomunikasi via digital. Baik itu sms/whatsapp. Di mana tidak ada intonasi ketika sedang mengetik. Tidak jelas, apakah orang lain dalam keadaan marah atau berbicara biasa. Akhirnya pihak lain akan mengasumsikan kalau lawan komunikasi nya sedang marah dan membalasnya dengan nada emosi. 
+Ketika orang berkomunikasi via digital. Baik itu sms/whatsapp. Di mana tidak ada intonasi ketika sedang mengetik. Tidak jelas, apakah orang lain dalam keadaan marah atau berbicara biasa. Akhirnya pihak lain akan mengasumsikan kalau lawan komunikasi nya sedang marah dan membalasnya dengan nada emosi
 
-Saat kamu berbicara, sampaikan dengan jelas dan tenang, berikan konteks. Hindari asumsi.
+> Clear is kind  
+> Unclear is unkind  
+> \-Brene Brown
 
-Kalau ada persoalan yang penting, usahakan bertemu langsung, atau paling tidak lewat call, suara atau video. Agar dua pihak sadar, kalau yang ditemani berbicara adalah manusia, bukan mesin yang kita bisa seenaknya menuduh tidak jelas.
+“Jelas itu baik, tidak jelas itu tidak baik”.
+
+Saat kamu berbicara, sampaikan dengan jelas dan tenang, berikan konteks. Hindari asumsi
