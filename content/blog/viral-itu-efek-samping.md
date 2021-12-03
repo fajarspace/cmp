@@ -7,4 +7,4 @@ tags = []
 title = "Viral itu efek samping"
 
 +++
-lorem ipsum
+Akhir akhir ini saya kaget melihat pemuda yg nekat membuat konten berbahaya, dimana aksinya memberhentikan truk yang sedang melintas di tengah jalan raya, seketika pemuda tersebut tertabrak
