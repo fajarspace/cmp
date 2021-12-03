@@ -1,8 +1,7 @@
 +++
 Description = "Ketika menjadi viral di indonesia itu sangat mudah, kebanyakan yang jadi viral itu sesuatu yang tidak bermanfaat, tidak etis, atau banyak merugikan"
 date = 2021-12-01T17:00:00Z
-draft = true
-featured_image = ""
+featured_image = "https://i.ibb.co/ZKdRpr2/social-media-763731-640.jpg"
 tags = ["self-help"]
 title = "Viral itu efek samping"
 
