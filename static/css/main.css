@@ -1,12 +1,12 @@
 body {
   margin: 3% auto;
   width: 60%;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 400;
-  letter-spacing: .0625em;
+  letter-spacing: .0225em;
   line-height: 1.6em;
-  font-family: 'Fira Mono', monospace;
-  color: #575757;
+  font-family: 'Nunito', sans-serif;
+  color: #000;
   background: #FEFEFE;
   max-width: 1000px;
 
