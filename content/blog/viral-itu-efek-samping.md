@@ -9,7 +9,7 @@ title = "Viral itu efek samping"
 +++
 Akhir akhir ini saya kaget melihat pemuda yg nekat membuat konten berbahaya, dimana aksinya memberhentikan truk yang sedang melintas di tengah jalan raya hanya demi VIRAL, bisa terbayang bagaimana nasib supir truk nya
 
-Beberapa waktu lalu, salah satu postingan di twitter, yang mengaitkan pegiat sosial media, ia me retweet komentar orang yang mengatakan "diem2 ternyata gay", akhirnya tweet tersebut menjadi viral
+Beberapa waktu lalu, salah satu postingan di twitter, yang mengaitkan pegiat sosial media, ia me retweet komentar orang yang mengatakan "diem2 ternyata gay", akhirnya tweet tersebut menjadi ramai
 
 Ketika menjadi viral di indonesia itu sangat mudah, kebanyakan yang jadi viral itu sesuatu yang tidak bermanfaat, tidak etis, atau banyak merugikan penonton untuk usia 5 -12 tahun yang terkena dampak nya
 
