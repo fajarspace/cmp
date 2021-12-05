@@ -16,7 +16,7 @@
         <div>
             <h3> Tulisan ✍️ (dari yang terbaru)</h3>
             <ul>
-                {{ range first 7 (where .Site.RegularPages "Section" "blog") }}
+                {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
                     <li>
                        <a href="{{.Permalink}}"> {{.Title}} </a>
                     </li>
