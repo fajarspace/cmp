@@ -6,7 +6,7 @@ tags = ["sharing"]
 title = "Dilema freelancer"
 
 +++
-Berpartisipasi di pasar membutuhkan keterampilan bagi mereka yang memiliki pilihan, memutuskan apa yang akan ditawarkan kepada pelanggan adalah pilihan kamu
+Berpartisipasi di pasar membutuhkan keterampilan bagi mereka yang memiliki [pilihan](https://fajarr.space/tentukan-pilihan "pilihan"), memutuskan apa yang akan ditawarkan kepada pelanggan adalah pilihan kamu
 
 Jika kamu memiliki relasi, kamu dapat menciptakan nilai lebih dari setiap kali memulai pekerjaan baru
 
