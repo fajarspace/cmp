@@ -4,7 +4,7 @@ date = ""
 draft = true
 featured_image = ""
 tags = []
-title = "Dilema freelancer"
+title = "Dilema freelance"
 
 +++
 Berpartisipasi di pasar membutuhkan keterampilan bagi mereka yang memiliki pilihan, memutuskan apa yang akan ditawarkan kepada pelanggan adalah pilihan kamu
