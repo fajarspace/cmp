@@ -15,11 +15,8 @@ Jika kamu benar-benar ahli dalam sesuatu dan memiliki keterampilan, kemungkinan 
 
 Jika kamu fokus pada pekerjaan yang benar-benar di sukai, hidup kamu akan lebih baik dan akan lebih mudah untuk menyelesaikan pekerjaan
 
-Dilema para freelancer itu mencari tahu apa yang harus dikatakan, bukan "Anda dapat memilih apapun, saya bisa semua"
-
 Freelance itu bukan sekadar mencari info lowongan kerja, lalu menawarkan jasa, dikerjakan sesuai pesanan, kemudian mendapat bayaran, tapi bagaimana kita membentuk karakter yang profesional yang mampu menyelesaikan tanggung jawab secara mandiri
 
-  
 Apa yang kamu miliki?
 
 Apa yang benar-benar kamu kuasai?
