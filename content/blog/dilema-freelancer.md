@@ -1,7 +1,6 @@
 +++
 Description = "Apa yang kamu miliki? Apa yang benar-benar kamu kuasai? Apa yang kamu nikmati?"
 date = 2021-12-04T17:00:00Z
-draft = true
 featured_image = "https://i.ibb.co/xX3gBws/pexels-mikael-blomkvist-6476595-1.jpg"
 tags = ["sharing"]
 title = "Dilema freelancer"
