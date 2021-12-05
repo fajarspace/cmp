@@ -3,7 +3,7 @@ Description = "Apa yang kamu miliki? Apa yang benar-benar kamu kuasai? Apa yang 
 date = 2021-12-04T17:00:00Z
 draft = true
 featured_image = ""
-tags = []
+tags = ["sharing"]
 title = "Dilema freelancer"
 
 +++
