@@ -1,7 +1,6 @@
 +++
 Description = "Alih-alih 'ini' atau 'itu', jawabannya mungkin 'keduanya'"
 date = 2021-12-31T17:00:00Z
-draft = true
 featured_image = "https://i.ibb.co/sHg9XBZ/pexels-andres-ayrton-6551415.jpg"
 tags = ["self-help"]
 title = "Asumsikan keduanya benar"
