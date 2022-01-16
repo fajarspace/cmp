@@ -1,7 +1,6 @@
 +++
 Description = "Jangan Hanya . . ."
 date = 2022-01-15T17:00:00Z
-draft = true
 featured_image = "https://i.ibb.co/yPKVT7q/pexels-kat-smith-551576-1.jpg"
 tags = ["sharing"]
 title = "Hidup dengan \"Think to be Thing\""
