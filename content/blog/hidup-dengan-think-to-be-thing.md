@@ -1,5 +1,5 @@
 +++
-Description = ""
+Description = "Jangan Hanya . . ."
 date = 2021-10-21T17:00:00Z
 draft = true
 featured_image = "https://i.ibb.co/yPKVT7q/pexels-kat-smith-551576-1.jpg"
