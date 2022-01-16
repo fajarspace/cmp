@@ -2,7 +2,7 @@
 Description = ""
 date = 2021-10-21T17:00:00Z
 draft = true
-featured_image = ""
+featured_image = "https://i.ibb.co/yPKVT7q/pexels-kat-smith-551576-1.jpg"
 tags = []
 title = "Hidup dengan \"Think to be Thing\""
 
