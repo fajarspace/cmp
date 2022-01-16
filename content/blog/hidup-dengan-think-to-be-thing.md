@@ -23,4 +23,6 @@ Don't just talk, act
 Don't just tell, show  
 Don't just exist, live
 
-![](/uploads/pexels-kat-smith-551576-1.jpg)Photo by [**Kat Smith**](https://www.pexels.com/@katlovessteve?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [**Pexels**](https://www.pexels.com/photo/boy-standing-near-fence-pointing-on-the-sky-551576/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+![](/uploads/pexels-kat-smith-551576-1.jpg)
+
+Photo by [**Kat Smith**](https://www.pexels.com/@katlovessteve?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [**Pexels**](https://www.pexels.com/photo/boy-standing-near-fence-pointing-on-the-sky-551576/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
