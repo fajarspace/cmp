@@ -25,33 +25,3 @@ title = "Hidup dengan \"Think to be Thing\""
 > Don't just exist, live.
 >
 > ― **Roy T. Bennett,** [**The Light in the Heart**](https://www.goodreads.com/work/quotes/49604402)
-
-Jangan sekedar hanya
-
-Jangan hanya belajar, ekspresikan.
-
-Jangan hanya membaca, menyerap.
-
-Jangan hanya berubah, ubahlah.
-
-Jangan hanya berhubungan, anjurkan
-
-Jangan hanya berjanji, buktikan.
-
-Jangan hanya mengkritik, doronglah.
-
-Jangan hanya berpikir, renungkan.
-
-Jangan hanya mengambil, memberi.
-
-Jangan hanya melihat, rasakan.
-
-Jangan hanya bermimpi, lakukan.
-
-Jangan hanya mendengar, dengarkan.
-
-Jangan hanya bicara, bertindak.
-
-Jangan hanya memberi tahu, tunjukkan.
-
-Jangan hanya hidup, hiduplah.
