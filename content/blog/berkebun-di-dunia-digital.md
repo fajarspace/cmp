@@ -1,7 +1,6 @@
 +++
 Description = "Saat di dunia nyata kita mulai menanam tanaman, buah-buahan atau sayuran. Berbeda dengan taman digital"
 date = 2022-01-18T17:00:00Z
-draft = true
 featured_image = "https://i.ibb.co/fXNSJVk/berkebun.png"
 tags = ["sharing"]
 title = "Berkebun di dunia digital"
