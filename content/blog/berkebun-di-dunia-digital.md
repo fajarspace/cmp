@@ -13,4 +13,14 @@ Kita bisa mengunggah di platform sosial media seperti youtube, instagram, twitte
 
 ### Kenapa harus website sendiri?
 
-Berbeda platform/kebun orang lain. Kamu yang mengatur apapun yang kamu butuhkan dan ingin tampilkan di sini. Tidak ada aturan dan perlu izin dari siapapun.
+Berbeda platform/kebun orang lain. Kamu yang mengatur apapun yang kamu butuhkan dan ingin tampilkan di sini. Tidak ada aturan dan perlu izin dari siapapun
+
+Ini adalah kebun milik kamu. Bisa berisi tulisan tentang aktivitas kamu sekarang, ide luar biasa atau ilmu yang ingin dibagikan
+
+##### Ruang berekspresi
+
+Setiap dari kita ingin menuangkan ide dan pikiran, Tidak harus tulisan, kamu bisa mengunggah foto , video atau suara lalu menyertakannya di websitemu
+
+### Cari platform yang bisa bertahan lama
+
+Terlepas dari website, ada banyak
