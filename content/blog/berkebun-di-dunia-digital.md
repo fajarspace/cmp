@@ -28,4 +28,4 @@ Setiap dari kita ingin menuangkan ide dan pikiran, Tidak harus tulisan, kamu bis
 
 ### Cari platform yang bisa bertahan lama
 
-Terlepas dari website, ada banyak
+Kalau mau cari yang bertahan lama (selain website), cari yang berbayar. 
