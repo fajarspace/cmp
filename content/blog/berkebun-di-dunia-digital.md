@@ -23,10 +23,10 @@ kita punya website sendiri. Punya nama domain sendiri. (contoh: fajarr.space ada
 
 Ini adalah kebun milik kamu. Bisa berisi tulisan tentang aktivitas kamu sekarang, ide luar biasa atau ilmu yang ingin dibagikan
 
-##### Ruang berekspresi
+### Ruang berekspresi
 
 Setiap dari kita ingin menuangkan ide dan pikiran, Tidak harus tulisan, kamu bisa mengunggah foto , video atau suara lalu menyertakannya di websitemu.
 
-##### Mendapat pekerjaan
+### Mendapat pekerjaan
 
 Kamu freelancer? atau memiliki sebuah karya, kamu bisa menjadikan media ini sebagai alat promosimu. Orang-orang mencari sesuatu di internet lewat Google. Saat konten kamu relevan dengan yang dicari, google akan menyertakan halaman websitemu. Tidak sedikit orang yang ditemukan oleh klien atau perusahaan berikutnya lewat karya yang ia bagikan di internet
