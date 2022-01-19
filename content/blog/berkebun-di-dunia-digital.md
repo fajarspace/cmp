@@ -11,6 +11,8 @@ Saat di dunia nyata kita mulai menanam tanaman, buah-buahan atau sayuran. Berbed
 
 Kita bisa mengunggah di platform sosial media seperti youtube, instagram, twitter dan lainnya. atau kita bisa menggunakan platform bikinan sendiri seperti Website
 
+kita punya website sendiri. Punya nama domain sendiri. (contoh: fajarr.space adalah nama domain).
+
 ### Kenapa harus website sendiri?
 
 Alasannya karena platform itu milik orang lain.
@@ -24,8 +26,8 @@ Ini adalah kebun milik kamu. Bisa berisi tulisan tentang aktivitas kamu sekarang
 
 ##### Ruang berekspresi
 
-Setiap dari kita ingin menuangkan ide dan pikiran, Tidak harus tulisan, kamu bisa mengunggah foto , video atau suara lalu menyertakannya di websitemu
+Setiap dari kita ingin menuangkan ide dan pikiran, Tidak harus tulisan, kamu bisa mengunggah foto , video atau suara lalu menyertakannya di websitemu.
 
-### Cari platform yang bisa bertahan lama
+##### Mendapat pekerjaan
 
-Kalau mau cari yang bertahan lama (selain website), cari yang berbayar. 
+Kamu freelancer? atau memiliki sebuah karya, kamu bisa menjadikan media ini sebagai alat promosimu. Orang-orang mencari sesuatu di internet lewat Google. Saat konten kamu relevan dengan yang dicari, google akan menyertakan halaman websitemu. Tidak sedikit orang yang ditemukan oleh klien atau perusahaan berikutnya lewat karya yang ia bagikan di internet
