@@ -1,17 +1,15 @@
 +++
-Description = ""
+Description = "Saat di dunia nyata kita mulai menanam tanaman, buah-buahan atau sayuran. Berbeda dengan taman digital"
 date = 2022-01-18T17:00:00Z
 draft = true
-featured_image = ""
-tags = []
+featured_image = "https://i.ibb.co/fXNSJVk/berkebun.png"
+tags = ["sharing"]
 title = "Berkebun di dunia digital"
 
 +++
 Saat di dunia nyata kita mulai menanam tanaman, buah-buahan atau sayuran. Berbeda dengan taman digital, di sini kita bisa menumbuhkan pengetahuan, karya atau ide dalam berbagai bentuk (teks, audio, video, dll) untuk dinikmati orang lain.
 
 Kita bisa mengunggah di platform sosial media seperti youtube, instagram, twitter dan lainnya. atau kita bisa menggunakan platform bikinan sendiri seperti Website
-
-kita punya website sendiri. Punya nama domain sendiri. (contoh: fajarr.space adalah nama domain).
 
 ### Kenapa harus website sendiri?
 
@@ -21,6 +19,8 @@ Alasannya karena platform itu milik orang lain.
 * Konten kamu bercampur dengan semua hal. Kamu tidak sendiri di sana, kamu akan bersaing dengan banyak konten lainnya
 
 Berbeda dengan website. Kamu yang mengatur apapun yang kamu butuhkan dan ingin tampilkan di sini. Tidak ada aturan dan perlu izin dari siapapun
+
+kita punya website sendiri. Punya nama domain sendiri. (contoh: fajarr.space adalah nama domain).
 
 Ini adalah kebun milik kamu. Bisa berisi tulisan tentang aktivitas kamu sekarang, ide luar biasa atau ilmu yang ingin dibagikan
 
