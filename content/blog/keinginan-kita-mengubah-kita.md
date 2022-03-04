@@ -1,7 +1,6 @@
 +++
 Description = "Kamu mungkin tidak mendapatkannya, Tapi.."
 date = 2022-03-03T17:00:00Z
-draft = true
 featured_image = "https://i.ibb.co/7CL4Xbr/pexels-andrea-piacquadio-3756042.jpg"
 tags = ["self-help"]
 title = "Keinginan kita mengubah kita"
