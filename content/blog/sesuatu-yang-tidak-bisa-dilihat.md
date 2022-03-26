@@ -2,7 +2,7 @@
 Description = "Seringkali, begitu kita belajar melihat, kita berasumsi bahwa kita selalu tahu"
 date = 2022-03-26T17:00:00Z
 draft = true
-featured_image = ""
+featured_image = "https://i.ibb.co/mFxdSYG/pexels-karolina-grabowska-4468154.jpg"
 tags = ["sharing"]
 title = "Sesuatu yang tidak bisa dilihat"
 
