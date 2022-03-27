@@ -9,7 +9,7 @@ body {
   color: #000;
   background: #FEFEFE;
   max-width: 1000px;
-
+  text-transform: uppercase;
 }
 .single{
   margin: 3% auto;
@@ -44,7 +44,7 @@ h2 {
 }
 
 
-a {
+.line a {
   color: #000000;
   font-weight: bold;
   background: linear-gradient(
