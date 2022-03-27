@@ -56,17 +56,6 @@ a {
   );
 }
 
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
-}
 
 header {
   display: flex;
