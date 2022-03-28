@@ -1,5 +1,5 @@
 +++
-Description = ""
+Description = "Telepon atau bertemu langsung. Tidak ada waktu untuk berpikir dengan matang"
 date = 2022-03-27T17:00:00Z
 draft = true
 featured_image = ""
@@ -7,7 +7,7 @@ tags = []
 title = "Saya tidak suka telepon"
 
 +++
-Tidak ada waktu untuk berpikir dengan matang
+Tidak ada waktu untuk berpikir dengan matang,
 
 Saat orang ingin meminta tolong, kita jadi sering tidak enak untuk menolak, akhirnya di"IYA"kan,
 
