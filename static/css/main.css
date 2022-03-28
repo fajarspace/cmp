@@ -1,6 +1,6 @@
 body {
   margin: 3% auto;
-  width: 60%;
+  width: 55%;
   font-size: 1.3rem;
   font-weight: 400;
   letter-spacing: .0225em;
@@ -12,7 +12,7 @@ body {
 }
 .single{
   margin: 3% auto;
-  width: 75%;
+  width: 85%;
 }
 body.darkmode {
   background: #393939;
