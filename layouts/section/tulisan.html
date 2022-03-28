@@ -10,7 +10,7 @@
     {{ $paginator := .Paginate ($filtered) }}
     {{ range $paginator.Pages }}
         <li>
-            <a href="{{.Permalink}}"> {{.Title}}</a>
+            <a class="line" href="{{.Permalink}}"> {{.Title}}</a>
         </li>
     {{ end }}
     <br>

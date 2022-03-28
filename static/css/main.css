@@ -11,7 +11,7 @@ body {
   max-width: 1000px;
 }
 .single{
-  margin: 3% auto;
+  margin: 5% auto;
   width: 85%;
 }
 body.darkmode {
@@ -20,9 +20,25 @@ body.darkmode {
 }
 body.darkmode a {
   color: #ffffff;
+  text-decoration: none;
+  background: linear-gradient(
+    180deg,
+    transparent 0,
+    transparent 80%,
+    #4D77FF 0,
+    #56BBF1
+  );
 }
-body.darkmode .box {
-  background: #4d4d4d;
+a {
+  text-decoration: none;
+  color: #000000;
+  background: linear-gradient(
+    180deg,
+    transparent 0,
+    transparent 80%,
+    #97DBAE 0,
+    #C3E5AE
+  );
 }
 
 @font-face {
@@ -42,29 +58,24 @@ h2 {
   font-size: 1.5rem;
 }
 
-
-a {
-  text-decoration: none;
-  color: #000000;
+.line {
   background: linear-gradient(
     180deg,
     transparent 0,
     transparent 80%,
-    #97DBAE 0,
-    #C3E5AE
+    #fbf36d 0,
+    #fbf36d
   );
 }
-
-a .line {
+.darkmode .line{
   background: linear-gradient(
     180deg,
     transparent 0,
-    transparent 70%,
-    #97DBAE 0,
-    #000
+    transparent 80%,
+    #fbf36d 0,
+    #fbf36d
   );
 }
-
 
 header {
   display: flex;
@@ -159,7 +170,7 @@ footer p {
 
 .side-left {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -212,7 +223,7 @@ span {
 
   .side-left {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
   }
 
