@@ -7,7 +7,9 @@ tags = []
 title = "Saya tidak suka telepon"
 
 +++
-Saat orang ingin meminta tolong, kita jadi sering tidak enak untuk menolak, akhirnya di"IYA"kan, 
+Tidak ada waktu untuk berpikir dengan matang
+
+Saat orang ingin meminta tolong, kita jadi sering tidak enak untuk menolak, akhirnya di"IYA"kan,
 
 Atau saat ingin bertanya, kita jadi asal jawab, yang belum tentu tepat dengan kondisinya,
 
