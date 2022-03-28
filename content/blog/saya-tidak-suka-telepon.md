@@ -2,8 +2,8 @@
 Description = "Telepon atau bertemu langsung. Tidak ada waktu untuk berpikir dengan matang"
 date = 2022-03-27T17:00:00Z
 draft = true
-featured_image = ""
-tags = []
+featured_image = "https://i.ibb.co/x2KxgPw/pexels-min-an-1006122.jpg"
+tags = ["sharing"]
 title = "Saya tidak suka telepon"
 
 +++
