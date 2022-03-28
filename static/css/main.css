@@ -49,18 +49,19 @@ a {
   background: linear-gradient(
     180deg,
     transparent 0,
-    transparent 70%,
+    transparent 80%,
     #97DBAE 0,
     #C3E5AE
   );
 }
-.line a {
+
+a .line {
   background: linear-gradient(
     180deg,
     transparent 0,
     transparent 70%,
     #97DBAE 0,
-    #C3E5AE
+    #000
   );
 }
 
