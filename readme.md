@@ -9,7 +9,7 @@ A Fast and Flexible Static Site Generator built with love by [bep](https://githu
 [Contribution Guide](CONTRIBUTING.md) |
 [Twitter](https://twitter.com/gohugoio)
 
-## How tosd
+## How to
 
 create new post
 
