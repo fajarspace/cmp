@@ -12,7 +12,7 @@ Mau menjadi “dia”, Berusaha seperti dia, Padahal Tuhan sengaja Menciptakan k
 
 Mau lari dari proses yang sudah lama diperjuangkan, Merasa orang lain punya jalan instan, padahal sama susahnya
 
-Hanyut dalam perlobaan menjadi dia, Padahal ada tempat spesial untuk kita
+Hanyut dalam perlombaan menjadi dia, Padahal ada tempat spesial untuk kita
 
 Setiap dari kita punya peran masing-masing, yang kita adalah pelaku terbaiknya
 
