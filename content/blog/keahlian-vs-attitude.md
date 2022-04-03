@@ -1,6 +1,6 @@
 +++
-Description = ""
-date = ""
+Description = "Kita lihat di internet banyak lowongan pekerjaan, dari judul hingga persyaratan, perusahaan merekrut yang punya keahlian."
+date = 2022-04-02T17:00:00Z
 draft = true
 featured_image = ""
 tags = []
