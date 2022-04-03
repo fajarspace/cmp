@@ -7,7 +7,7 @@ tags = ["sharing"]
 title = "Keahlian vs Attitude"
 
 +++
-Kita lihat di internet banyak lowongan pekerjaan, dari judul hingga persyaratan, perusahaan merekrut yang punya keahlian.
+Kita lihat di internet banyak sekali lowongan pekerjaan, dari judul hingga persyaratan, perusahaan merekrut yang punya keahlian.
 
 Logika nya bisa dipahami bahwa hanya satu dari sepuluh orang yang termasuk dalam 10% teratas dalam hal keahlian. Jika perusahaan membutuhkan orang-orang dengan keahlian, mereka harus membayar jauh lebih banyak dan bekerja jauh lebih keras untuk menemukan dan mempertahankan keahlian semacam itu.
 
