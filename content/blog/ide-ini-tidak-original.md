@@ -2,7 +2,7 @@
 Description = ""
 date = ""
 draft = true
-featured_image = ""
+featured_image = "https://i.ibb.co/ggdkCzJ/pexels-olya-kobruseva-5428826.jpg"
 tags = []
 title = "Ide ini tidak original"
 
