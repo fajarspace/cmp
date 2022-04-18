@@ -1,9 +1,9 @@
 +++
-Description = ""
-date = ""
+Description = "Apakah kreatif itu berarti kita harus mulai semuanya dari nol?"
+date = 2022-04-17T17:00:00Z
 draft = true
 featured_image = "https://i.ibb.co/ggdkCzJ/pexels-olya-kobruseva-5428826.jpg"
-tags = []
+tags = ["sharing"]
 title = "Ide ini tidak original"
 
 +++
