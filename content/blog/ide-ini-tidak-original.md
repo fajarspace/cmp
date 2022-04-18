@@ -7,7 +7,7 @@ tags = []
 title = "Ide ini tidak original"
 
 +++
-Kalimat ini sering muncul dalam hati kita setelah berkarya. Merasa karya tidak asli dan sudah ada sebelumnya. Apakah kreatif itu berarti kita harus mulai semuanya dari nol?
+Kalimat ini sering muncul dalam hati setelah berkarya. Merasa karya tidak asli dan sudah ada sebelumnya. Apakah kreatif itu berarti kita harus mulai semuanya dari nol?
 
 Bagaimana mungkin setelah kehidupan berjalan entah berapa puluh ribu atau jutaan tahun silam, akan ada sesuatu yang “asli”. Setiap materi sudah diciptakan, manusia mungkin baru menemukannya, oleh karena itu disebut ‘penemu’ bukan ‘pencipta’.
 
