@@ -13,4 +13,4 @@ Satu produk yang bertujuan sama, bisa jadi dikerjakan oleh puluhan startup lainn
 
 Kalau kamu sedang terjebak di permainan ini, Tidak ada cara lain selain, “menjadi lebih baik” dari kompetitor/pesaing kamu. Bukan lebih murah. Bermain lebih murah tidak akan ada habisnya
 
-Jadi lebih baik setiap hari, bukan lebih besar dibanding pesaing Bekerja lebih cerdas, bukan lebih keras
+Bekerja lebih cerdas, bukan lebih keras
