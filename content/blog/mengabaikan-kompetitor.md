@@ -1,9 +1,9 @@
 +++
-Description = ""
+Description = "Terobsesi kepada kompetitor bukanlah mindset yang baik,"
 date = 2022-05-06T17:00:00Z
 draft = true
-featured_image = ""
-tags = []
+featured_image = "https://i.ibb.co/7J5vj1R/pexels-george-becker-131616.jpg"
+tags = ["sharing"]
 title = "Mengabaikan kompetitor"
 
 +++
