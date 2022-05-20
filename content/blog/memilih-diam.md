@@ -1,9 +1,8 @@
 +++
-Description = ""
+Description = "Kita lebih khawatir naik pesawat, padahal jumlah kecelakaan di darat jauh lebih banyak. Harusnya kita lebih berhati-hati saat berkendara sehari-hari, dibanding saat naik pesawat"
 date = 2022-05-19T17:00:00Z
-draft = true
-featured_image = ""
-tags = []
+featured_image = "https://i.ibb.co/FmSqDHd/pexels-shvets-production-720372f4.jpg"
+tags = ["self-help", "sharing"]
 title = "Bias dalam berpikir"
 
 +++
