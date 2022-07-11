@@ -1,9 +1,9 @@
-baseURL : https://fajarr.space/
-languageCode : id
-title : Fajar A Nugroho
+baseURL: https://fajarspace.netlify.app/
+languageCode: id
+title: Fajar A Nugroho
 
 params:
-    description: Temukan Tulisan / baca blog dev, kamu juga bisa mendengarkan Podcast
+  description: Temukan Tulisan / baca blog dev, kamu juga bisa mendengarkan Podcast
 staticDir: static
 
 disqusShortname: fajars-space
@@ -11,8 +11,8 @@ disqusShortname: fajars-space
 tags: []
 
 permalinks:
-  blog : /:slug/
-  rekomendasi : /:slug/
-  
+  blog: /:slug/
+  rekomendasi: /:slug/
+
 outputs:
-    home : ["HTML", "RSS", "JSON"]
+  home: ["HTML", "RSS", "JSON"]
