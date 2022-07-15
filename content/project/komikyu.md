@@ -5,3 +5,6 @@ draft = true
 title = "Komikyu"
 
 +++
+Baca komik tanpa iklan
+
+👉 [komikyu](https://komikyu.netlify.app)
