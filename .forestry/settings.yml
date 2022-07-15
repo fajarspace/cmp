@@ -9,6 +9,8 @@ sections:
   label: Project
   create: all
   match: "**/*"
+  templates:
+  - project
 - type: directory
   path: content/blog
   label: Blog
