@@ -12,4 +12,5 @@ fields:
   name: title
   label: title
 pages:
+- content/project/komikyu.md
 - content/project/selembarkertas-podcast.md
