@@ -16,7 +16,7 @@
         <div>
             <h3> Tulisan ✍️ (dari yang terbaru)</h3>
             <ul>
-                {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
+                {{ range first 9 (where .Site.RegularPages "Section" "blog") }}
                     <li>
                        <a class="line" href="{{.Permalink}}"> {{.Title}} </a>
                     </li>
@@ -30,8 +30,8 @@
         <div>
           <h3> Lainnya </h3>
           <ul>
-          <a href="#">🧪 Eksperimen</a><br>
-          <a href="https://jurnaldev.netlify.com">💻 Catatan developer</a><br>
+          <a href="#">🧪 Project</a><br>
+          <a href="https://jurnaldev.netlify.com">💻 Jurnal developer</a><br>
           <a href="/podcast">🎙 Podcast</a>
           </ul>
         </div>
