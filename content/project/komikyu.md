@@ -4,6 +4,6 @@ description = "Baca komik tanpa iklan"
 title = "Komikyu"
 
 +++
-Baca komik tanpa iklan
+Baca komik tanpa iklan (SUSPENDED)
 
 👉 [komikyu](https://santoryu.netlify.app)
