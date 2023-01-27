@@ -35,3 +35,5 @@ Ada 3 cara menjalankan Stuff CSS
         <script src="https://unpkg.com/stuffcss@latest/dist/js/stuff.min.js"></script>
       </body>
     </html>
+
+berikut merupakan HTML standard yang sudah include dengan CDN
