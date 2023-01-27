@@ -12,7 +12,7 @@ Stuff CSS adalah framework front-end yang memudahkan dalam pembuatan halaman web
 
 Stuff CSS bisa menjadi pilihan alternatif bagi para developer jika ingin mendesain webnya dengan hal yang berbeda, karena kebanyakan framework lain di desain untuk membuat web tetap dinamis dan banyak memakai class dalam element HTML, karena itu Stuff CSS memiliki fitur-fitur yang berbeda dari framework lain. Website Stuff CSS dapat diakses di alamat [stuffcss.netlify.app](https://stuffcss.netlify.app)
 
-## Memulai
+# Memulai
 
 Ada 3 cara menjalankan Stuff CSS
 
@@ -22,7 +22,7 @@ Ada 3 cara menjalankan Stuff CSS
 
    _*versi pada react.js sedang dalam pengembangan, mungkin pengguna akan menemukan banyak sekali bug_
 
-## Berinteraksi dengan Tema
+# Berinteraksi dengan Tema
 
 Stuff sudah dilengkapi dengan 2 tema yang konsisten: Light, Dark, dan juga Auto
 
@@ -40,7 +40,7 @@ Tema Light digunakan secara default. Tema Dark diaktifkan secara otomatis jika p
 ```
 ![](/tech/themes.gif)
 
-## Grid
+# Grid
 
 Stuff berfokus pada elemen HTML native, oleh karena itu layout Grid dibuat sangat minimalis dengan auto layout kolom
 
@@ -55,7 +55,7 @@ Stuff berfokus pada elemen HTML native, oleh karena itu layout Grid dibuat sanga
 ```
 ![](/tech/grid.gif)
 
-## Typography
+# Typography
 ![](/tech/typo.png)
 
 Semua element typography sudah responsive di seluruh device dan viewport
