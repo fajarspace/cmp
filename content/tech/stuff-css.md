@@ -21,28 +21,23 @@ Ada 3 cara menjalankan Stuff CSS
 
    _*versi pada react.js sedang dalam pengembangan, mungkin pengguna akan menemukan banyak sekali bug_
 
-### Quick start
-```
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://unpkg.com/stuffcss@latest/dist/css/stuff.min.css">
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://unpkg.com/stuffcss@latest/dist/js/stuff.min.js"></script>
-  </body>
-</html>
-```
-berikut merupakan HTML standard yang sudah include dengan CDN
-
-### Berinteraksi dengan Tema
+## Berinteraksi dengan Tema
 
 Stuff sudah dilengkapi dengan 2 tema yang konsisten: Light, Dark, dan juga Auto
 
-Tema Light digunakan secara default. Tema Dark diaktifkan secara otomatis jika pengguna mengaktifkan mode gelap, atau pengguna bisa juga menggunakan tema default Dark tanpa harus menggunakan Auto, yaitu dengan forced document pada html ``<html data-theme="dark">`` atau pada element html lainnya ``<main data-theme="dark">``
+Tema Light digunakan secara default. Tema Dark diaktifkan secara otomatis jika pengguna mengaktifkan mode Dark, atau pengguna bisa juga menggunakan tema default Dark tanpa harus menggunakan Auto, yaitu dengan forced document pada html ``<html data-theme="dark">`` atau pada element html lainnya ``<main data-theme="dark">``
 
-<iframe src="https://stuffcss.netlify.app/docs/examples/themes.html" ></iframe>
+```
+<body>
+  <main data-theme="light" class="container">
+    <h1 class="center">Hello, world!</h1>
+  </main>
+  <h2 class="center">Hello, world!</h2>
+  <button class="darkmode"></button>
+</body>
+
+```
+![](/tech/themes.gif)
+
+## Grid
+
