@@ -14,19 +14,24 @@ Stuff CSS bisa menjadi pilihan alternatif bagi para developer jika ingin mendesa
 
 ## Memulai
 
+Ada 3 cara menjalankan Stuff CSS
+
+1. Menggunakan CDN (Content delivery network)
+2. Mengunduh Stuff CSS, pada cara ini pengguna dapat custom style secara bebas
+3. Menginstal lewat NPM _*versi ini sedang dalam pengembangan, mungkin pengguna akan menemukan banyak bug_
+
 ### Quick start
-```
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://unpkg.com/stuffcss@latest/dist/css/stuff.min.css">
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://unpkg.com/stuffcss@latest/dist/js/stuff.min.js"></script>
-  </body>
-</html>
-```
+
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/stuffcss@latest/dist/css/stuff.min.css">
+        <title>Hello, world!</title>
+      </head>
+      <body>
+        <h1>Hello, world!</h1>
+        <script src="https://unpkg.com/stuffcss@latest/dist/js/stuff.min.js"></script>
+      </body>
+    </html>
