@@ -42,4 +42,4 @@ berikut merupakan HTML standard yang sudah include dengan CDN
 
 Stuff sudah dilengkapi dengan 2 tema yang konsisten: Light, Dark, dan juga Auto
 
-Tema Light digunakan secara default. Tema Dark diaktifkan secara otomatis jika pengguna mengaktifkan mode gelap, atau pengguna bisa juga menggunakan tema default Dark tanpa harus menggunakan Auto, yaitu dengan forced 
+Tema Light digunakan secara default. Tema Dark diaktifkan secara otomatis jika pengguna mengaktifkan mode gelap, atau pengguna bisa juga menggunakan tema default Dark tanpa harus menggunakan Auto, yaitu dengan forced document <html> atau pada element html lainnya
