@@ -40,3 +40,7 @@ Ada 3 cara menjalankan Stuff CSS
 berikut merupakan HTML standard yang sudah include dengan CDN
 
 ### Berinteraksi dengan Tema
+
+Stuff sudah dilengkapi dengan 2 tema yang konsisten: Light, Dark, dan juga Auto
+
+Tema Light digunakan secara default. Tema Dark diaktifkan secara otomatis jika pengguna mengaktifkan mode gelap, atau pengguna bisa juga menggunakan tema default Dark tanpa harus menggunakan Auto, yaitu dengan forced 
