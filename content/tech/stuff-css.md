@@ -1,7 +1,8 @@
 +++
-Description = "'"
+Description = "Stuff CSS adalah framework front-end yang memudahkan dalam pembuatan halaman web yang responsif tetapi minimalis"
 date = 2023-01-25T17:00:00Z
-featured_image = ""
+draft = false
+featured_image = "https://github.com/fajarspace/Stuff-CSS/blob/master/static/img/meta-img.jpg?raw=true"
 tags = ["framework", "css", "html", "sass", "javascript"]
 title = "Mengenal framework Stuff CSS"
 
@@ -9,7 +10,7 @@ title = "Mengenal framework Stuff CSS"
 
 Stuff CSS adalah framework front-end yang memudahkan dalam pembuatan halaman web yang responsif tetapi minimalis (dapat ditampilkan dengan baik pada berbagai ukuran layar) dan mobile-friendly. Framework ini menyediakan komponen-komponen seperti button, navigasi, breadcrumb, dll yang telah diformat dan siap digunakan. Stuff CSS juga menyediakan grid system yang memungkinkan pengguna dengan mudah mengatur posisi elemen pada halaman web. Framework ini dibuat menggunakan Node js, SASS, dan JavaScript, dan dapat digunakan dengan berbagai bahasa pemrograman web
 
-Stuff CSS bisa menjadi pilihan alternatif bagi para developer jika ingin mendesain webnya dengan hal yang berbeda, karena kebanyakan framework lain di desain untuk membuat web tetap dinamis dan banyak memakai class dalam tag HTML, karena itu Stuff CSS memiliki fitur-fitur yang berbeda dari framework lain. Website Stuff CSS dapat diakses di alamat [stuffcss.netlify.app](stuffcss.netlify.app)
+Stuff CSS bisa menjadi pilihan alternatif bagi para developer jika ingin mendesain webnya dengan hal yang berbeda, karena kebanyakan framework lain di desain untuk membuat web tetap dinamis dan banyak memakai class dalam element HTML, karena itu Stuff CSS memiliki fitur-fitur yang berbeda dari framework lain. Website Stuff CSS dapat diakses di alamat [stuffcss.netlify.app](https://stuffcss.netlify.app)
 
 ## Memulai
 
@@ -41,3 +42,25 @@ Tema Light digunakan secara default. Tema Dark diaktifkan secara otomatis jika p
 
 ## Grid
 
+Stuff berfokus pada elemen HTML native, oleh karena itu layout Grid dibuat sangat minimalis dengan auto layout kolom
+
+```
+<main>
+  <div class="grid">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</main>
+```
+![](/tech/grid.gif)
+
+## Typography
+![](/tech/typo.png)
+
+Semua element typography sudah responsive di seluruh device dan viewport
+
+
+Masih banyak lagi component atau layout yang tersedia, dan juga Stuff css masih dalam pengembangan, masih banyak yang harus di improve. Jika teman2 memiliki issue, request atau ide bisa repo ke github yang tercantum 😉
+
+repo : [github.com/fajarspace/stuff-css](https://github.com/fajarspace/stuff-css)
