@@ -16,9 +16,11 @@ Stuff CSS bisa menjadi pilihan alternatif bagi para developer jika ingin mendesa
 
 Ada 3 cara menjalankan Stuff CSS
 
-1. Menggunakan CDN (Content delivery network)
+1. Menggunakan CDN (Content Delivery Network)
 2. Mengunduh Stuff CSS, pada cara ini pengguna dapat custom style secara bebas
-3. Menginstal lewat NPM _*versi ini sedang dalam pengembangan, mungkin pengguna akan menemukan banyak bug_
+3. Menginstal lewat NPM (Node Package Manager)
+
+   _*versi pada react.js sedang dalam pengembangan, mungkin pengguna akan menemukan banyak sekali bug_
 
 ### Quick start
 
