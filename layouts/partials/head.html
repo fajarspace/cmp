@@ -5,13 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="icon" href="{{ if (isset .Site.Params "favicon") }}{{ .Site.Params.favicon }}{{ else }}/favicon.ico{{ end }}">
-
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@fajaragngn" />
+  <meta name="twitter:creator" content="@fajaragngn" />
   <title>
     {{ block "title" . }} {{- .Title }} - {{ .Site.Title -}} {{ end }}
   </title>
 
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}" />
   
+  <meta property="og:image" content="https://i.ibb.co/DCwqZCM/typewriter.jpg" />
+
   {{- if .Keywords }}
   <meta name="keywords" content="{{ delimit .Keywords "," }}" />
   {{ end -}}
