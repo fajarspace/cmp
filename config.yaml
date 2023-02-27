@@ -3,7 +3,7 @@ languageCode: en-us
 title: fajarspace
 googleAnalytics: UA-PROPERTY_ID
 Params:
-  description: My Digital Garden on the Internet
+  description: Temukan Tulisan / baca blog Tech
   images:
     - /digital-garden-logo.png
   enableSearch: true
