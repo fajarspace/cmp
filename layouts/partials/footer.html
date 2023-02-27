@@ -1,5 +1,4 @@
-    <hr><br>
-    <a href="/"><< Kembali ke Halaman Awal</a>
+{{ $built := resources.Get "js/main.js" | js.Build "main.js" }}
+<script type="text/javascript" src="{{ $built.RelPermalink }}" defer></script>
 
-</body>
-</html>
+{{ template "_internal/google_analytics.html" . }}

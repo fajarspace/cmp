@@ -1,58 +1,9 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
-<main>
-  <div class="side-left">
-    <h2>Halo! semoga betah ya </h2>&emsp;
-    <img class="avatar" src="/img/profile.jpg" alt="mrbaiz">
-  </div>
-  <div style="padding-top: 10px;">
-    <a href="https://twitter.com/fajaragngn">Twitter</a>/&nbsp;
-    <a href="https://github.com/fajarspace">Github</a>/&nbsp;
-    <a href="mailto:fajar.agngn@gmail.com">Email</a>/&nbsp;
-    <a href="/index.xml">RSS</a>
-  </div>
-
-  <div class="tengah">
-    <div>
-      <h3> Tulisan ✍️ (dari yang terbaru)</h3>
-      <ul>
-        {{ range first 9 (where .Site.RegularPages "Section" "blog") }}
-        <li>
-          <a class="line" href="{{.Permalink}}"> {{.Title}} </a>
-        </li>
-        {{ end }}
-        <a style="color:grey;" href="/tulisan">baca tulisan lainnya..</a>
-      </ul>
-      <h3> Tulisan tech ✍️ (dari yang terbaru)</h3>
-      <ul>
-        {{ range first 9 (where .Site.RegularPages "Section" "tech") }}
-        <li>
-          <a class="line" href="{{.Permalink}}"> {{.Title}} </a>
-        </li>
-        {{ end }}
-        <a style="color:grey;" href="/tech">baca tech lainnya..</a>
-      </ul>
-    </div>
-
-  </div>
-  <div>
-    <h3> Lainnya </h3>
-    <ul>
-      <a href="/project">🧪 Project</a><br>
-      <a href="https://jurnaldev.netlify.com">💻 Jurnal developer</a><br>
-      <a href="/podcast">🎙 Podcast</a>
-    </ul>
+<main class="h-screen overflow-y-auto w-full">
+  <div class="px-6 py-20 w-full lg:w-[580px] mx-auto prose dark:prose-invert h-fit prose-img:mx-auto">
+    {{ .Content }}
   </div>
 </main>
 
-<a href="#">Kembali ke atas ☝️</a>
-<hr>
-<div class="footer-utama">
-  <small></> dengan ❤️ | with <a href="https://gohugo.io">Hugo</a>
-  </small>
-</div>
-<center><small><a href="https://saweria.co/fajarspace">Traktir saya kopi ☕️</a></small></center>
-
-</body>
-
-</html>
+{{ end }}
