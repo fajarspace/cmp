@@ -8,6 +8,6 @@ Saya  **Fajar Agung**
 
 Saya suka ngoding yang gak jelas, silahkan baca tulisan kalau kamu suka.
 
-<hr />
+→ [Tulisan](/tulisan)
 
-→ [Go to Tulisan](/tulisan)
+→ [Blog Tech](/tech)
