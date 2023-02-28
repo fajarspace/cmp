@@ -2,6 +2,11 @@ baseURL: 'https://fajarr.space/'
 languageCode: en-us
 title: fajarspace
 googleAnalytics: UA-PROPERTY_ID
+permalinks:
+  tulisan: /:slug/
+  rekomendasi: /:slug/
+disqusShortname: fajars-space
+tags: []
 Params:
   description: Temukan Tulisan / baca blog Tech
   images:
