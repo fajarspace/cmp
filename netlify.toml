@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"  # Ganti dengan perintah build yang sesuai
+  publish = "dist"           # Ganti dengan direktori output dari build Anda
+
+[build.environment]
+  NODE_VERSION = "16"  # Ganti dengan versi Node.js yang sesuai dengan persyaratan ESLint
