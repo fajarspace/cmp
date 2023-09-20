@@ -2,4 +2,4 @@
   command = "npm run build"  # Ganti dengan perintah build yang sesuai
 
 [build.environment]
-  NODE_VERSION = "12"  # Ganti dengan versi Node.js yang sesuai dengan persyaratan ESLint
+  NODE_VERSION = "16"  # Ganti dengan versi Node.js yang sesuai dengan persyaratan ESLint
