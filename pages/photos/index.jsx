@@ -4,6 +4,9 @@ import Head from "next/head";
 import matter from "gray-matter";
 import RootLayout from "../layout";
 import Link from "next/link";
+import { metadata } from "@/theme.config";
+import styles from "./page.module.css";
+import { useRouter } from "next/router";
 
 export const getStaticProps = async () => {
   const files = fs.readdirSync(path.join("content/photos"));
@@ -31,37 +34,55 @@ export const getStaticProps = async () => {
 };
 
 const Photos = ({ photos }) => {
+  const pageTitle = `${metadata.title} - Photos`;
+  const router = useRouter();
+  const { page } = router.query;
+
+  const itemsPerPage = 3; // Ubah sesuai dengan jumlah foto per halaman yang Anda inginkan
+  const startIndex = page ? (parseInt(page) - 1) * itemsPerPage : 0;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedPhotos = photos.slice(startIndex, endIndex);
+
+  const totalPages = Math.ceil(photos.length / itemsPerPage);
+
   return (
     <>
       <RootLayout>
+        <Head>
+          <title>{pageTitle}</title>
+        </Head>
         <h1>Photos</h1>
-        {photos.map((photo, index) => (
+        {paginatedPhotos.map((photo, index) => (
           <div key={index}>
-            <p>{photo.frontmatter.description}</p>
             <img
-              style={{
-                maxWidth: "100%",
-                display: "block",
-                margin: 0,
-                border: "none",
-                padding: 0,
-              }}
-              alt=""
+              className={styles.photo}
+              alt={photo.title}
               aria-hidden="true"
               src={photo.frontmatter.photo}
             />
-
+            <p>{photo.frontmatter.description}</p>
             <p>
-              <a
-                target="_blank"
-                rel="noopener"
-                href="https://unsplash.com/photos/WeYamle9fDM"
-              >
-                Unsplash &#8599;
+              <a target="_blank" rel="noopener" href={photo.frontmatter.photo}>
+                Full screen &#8599;
               </a>
             </p>
           </div>
         ))}
+
+        <div className={styles.pagination}>
+          {Array.from({ length: totalPages }, (_, i) => (
+            <Link
+              className={`${styles.span} active`}
+              key={i}
+              href={`/photos?page=${i + 1}`}
+            >
+              <span className={parseInt(page) === i + 1 ? "active" : ""}>
+                {i + 1}
+              </span>
+            </Link>
+          ))}
+        </div>
+        <hr />
       </RootLayout>
     </>
   );

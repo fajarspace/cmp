@@ -20,8 +20,8 @@ const PostPage = ({ frontMatter: { title, date, tag, author }, mdxSource }) => {
             Back
           </Link>
         </div>
-
         <MDXRemote {...mdxSource} />
+        <hr />
       </RootLayout>
     </>
   );
