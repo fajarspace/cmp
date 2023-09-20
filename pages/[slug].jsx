@@ -32,7 +32,7 @@ const PostPage = ({
         <div className="meta-line">
           <div className="meta">
             {author}, <time>{date}</time> &bull;
-            <span className="tag">{tags.join(", ")}</span>
+            <span className="tag">{tags}</span>
           </div>
           <Link className="meta-back" href="/">
             Back
