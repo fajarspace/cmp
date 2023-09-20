@@ -14,7 +14,7 @@ const PostPage = ({ frontMatter: { title, date, tag, author }, mdxSource }) => {
         <div className="meta-line">
           <div className="meta">
             {author}, <time>{date}</time> &bull;
-            <span className="tag">{tag.join(", ")}</span>
+            <span className="tag">{tag}</span>
           </div>
           <Link className="meta-back" href="/">
             Back
