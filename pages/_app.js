@@ -11,8 +11,7 @@ export default function App({ Component, pageProps }) {
         <meta property="og:site_name" content={metadata.url} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:title" content={metadata.title} />
-        <meta property="og:image" content={metadata.image} />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content={metadata.image} />
         <meta name="twitter:site" content={metadata.twitter_site} />
         <meta name="twitter:title" content={metadata.title} />
         <meta name="twitter:description" content={metadata.description} />
