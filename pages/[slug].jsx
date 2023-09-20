@@ -5,11 +5,17 @@ import fs from "fs";
 import path from "path";
 import RootLayout from "./layout";
 import Link from "next/link";
+import Head from "next/head";
+import { metadata } from "@/theme.config";
 
 const PostPage = ({ frontMatter: { title, date, tag, author }, mdxSource }) => {
+  const pageTitle = `${metadata.title} - ${title}`;
   return (
     <>
       <RootLayout>
+        <Head>
+          <title>{pageTitle}</title>
+        </Head>
         <h1>{title}</h1>
         <div className="meta-line">
           <div className="meta">

@@ -4,8 +4,14 @@ export const metadata = {
   favicon: "./static/images/favicon.ico",
   description:
     "Temukan Tulisan / baca blog dev, kamu juga bisa mendengarkan Podcast",
-  image: "./static/images/typewriter.png", // URL gambar untuk digunakan ketika dibagikan di media sosial
-  url: "https://fajarr.space", // URL halaman web Anda
+  image: "https://i.ibb.co/DCwqZCM/typewriter.jpg", // URL gambar untuk digunakan ketika dibagikan di media sosial
+  url: "https://fajarr.space",
+};
+
+export const content = {
+  title: "halo 👋",
+  intro: `Saya Fajar Agung. Suka ngoding yang gak jelas, Sedikit bicara banyak
+    mikir (bukan aksi).`,
 };
 
 export const config = [

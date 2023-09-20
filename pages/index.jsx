@@ -1,6 +1,6 @@
 import React from "react";
 import RootLayout from "./layout";
-import { metadata } from "@/theme.config";
+import { content, metadata } from "@/theme.config";
 import Head from "next/head";
 
 const index = () => {
@@ -9,11 +9,8 @@ const index = () => {
       <Head>
         <title>{metadata.title}</title>
       </Head>
-      <h1>About👋</h1>
-      <p>
-        Saya Fajar Agung. Suka ngoding yang gak jelas, Sedikit bicara banyak
-        mikir (bukan aksi).
-      </p>
+      <h1>{content.title}</h1>
+      <p>{content.intro}</p>
       <p>
         <a
           target="_blank"
