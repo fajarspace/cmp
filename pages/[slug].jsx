@@ -8,19 +8,31 @@ import Link from "next/link";
 import Head from "next/head";
 import { metadata } from "@/theme.config";
 
-const PostPage = ({ frontMatter: { title, date, tag, author }, mdxSource }) => {
+const PostPage = ({
+  frontMatter: { title, date, description, featured_image, tags, author },
+  mdxSource,
+}) => {
   const pageTitle = `${metadata.title} - ${title}`;
   return (
     <>
       <RootLayout>
         <Head>
+          <meta name="robots" content="follow, index" />
+          <meta name="description" content={description} />
+          <meta property="og:description" content={description} />
+          <meta property="og:title" content={title} />
+          <meta property="og:image" content={featured_image} />
+          <meta name="twitter:card" content={featured_image} />
+          <meta name="twitter:title" content={title} />
+          <meta name="twitter:description" content={description} />
+          <meta name="twitter:image" content={featured_image} />
           <title>{pageTitle}</title>
         </Head>
         <h1>{title}</h1>
         <div className="meta-line">
           <div className="meta">
             {author}, <time>{date}</time> &bull;
-            <span className="tag">{tag}</span>
+            <span className="tag">{tags.join(", ")}</span>
           </div>
           <Link className="meta-back" href="/">
             Back

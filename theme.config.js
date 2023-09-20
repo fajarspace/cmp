@@ -6,6 +6,7 @@ export const metadata = {
     "Temukan Tulisan / baca blog dev, kamu juga bisa mendengarkan Podcast",
   image: "https://i.ibb.co/DCwqZCM/typewriter.jpg", // URL gambar untuk digunakan ketika dibagikan di media sosial
   url: "https://fajarr.space",
+  twitter_site: "@fajaragngn",
 };
 
 export const content = {

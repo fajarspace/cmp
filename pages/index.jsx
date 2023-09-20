@@ -1,14 +1,10 @@
 import React from "react";
 import RootLayout from "./layout";
-import { content, metadata } from "@/theme.config";
-import Head from "next/head";
+import { content } from "@/theme.config";
 
 const index = () => {
   return (
     <RootLayout>
-      <Head>
-        <title>{metadata.title}</title>
-      </Head>
       <h1>{content.title}</h1>
       <p>{content.intro}</p>
       <p>
