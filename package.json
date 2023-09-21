@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "tinacms dev -c \"next dev\"",
+    "build": "tinacms build && next build",
+    "start": "tinacms build && next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@tinacms/cli": "^1.5.29",
     "eslint": "^8.49.0",
     "eslint-config-next": "^13.5.1",
     "fs": "^0.0.1-security",
@@ -20,6 +21,7 @@
     "react-dom": "18.2.0",
     "remark": "^15.0.1",
     "remark-html": "^15.0.2",
-    "styled-components": "^6.0.8"
+    "styled-components": "^6.0.8",
+    "tinacms": "^1.5.20"
   }
 }
