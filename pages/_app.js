@@ -17,6 +17,7 @@ export default function App({ Component, pageProps }) {
         <meta name="twitter:description" content={metadata.description} />
         <meta name="twitter:image" content={metadata.image} />
         <link rel="shortcut icon" href={metadata.favicon} type="image/x-icon" />
+        <link rel="manifest" href="/manifest.json" />
         <title>{metadata.title}</title>
       </Head>
       <Component {...pageProps} />

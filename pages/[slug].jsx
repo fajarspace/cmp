@@ -7,11 +7,18 @@ import RootLayout from "./layout";
 import Link from "next/link";
 import Head from "next/head";
 import { metadata } from "@/theme.config";
+import { useRouter } from "next/router";
 
 const PostPage = ({
   frontMatter: { title, date, description, featured_image, tags, author },
   mdxSource,
 }) => {
+  const router = useRouter();
+
+  // Function to handle the "Back" link click
+  const handleBackClick = () => {
+    router.back(); // Navigate to the previous page
+  };
   const pageTitle = `${metadata.title} - ${title}`;
   return (
     <>
@@ -34,7 +41,7 @@ const PostPage = ({
             {author}, <time>{date}</time> &bull;
             <span className="tag">{tags}</span>
           </div>
-          <Link className="meta-back" href="/">
+          <Link href={"#"} className="meta-back" onClick={handleBackClick}>
             Back
           </Link>
         </div>
@@ -50,7 +57,7 @@ const getStaticPaths = async () => {
 
   const paths = files.map((filename) => ({
     params: {
-      slug: filename.replace(".mdx", ""),
+      slug: filename.replace(".md", ""),
     },
   }));
 
@@ -61,12 +68,31 @@ const getStaticPaths = async () => {
 };
 
 const getStaticProps = async ({ params: { slug } }) => {
-  const markdownWithMeta = fs.readFileSync(
-    path.join("content/posts", slug + ".mdx"),
-    "utf-8"
-  );
+  const supportedExtensions = [".md", ".mdx"];
+  let markdownWithMeta = null;
+
+  for (const extension of supportedExtensions) {
+    try {
+      markdownWithMeta = fs.readFileSync(
+        path.join("content/posts", slug + extension),
+        "utf-8"
+      );
+      break; // If we successfully read a file, exit the loop
+    } catch (err) {
+      // File not found, try the next extension
+    }
+  }
+
+  if (!markdownWithMeta) {
+    // Handle the case when neither .md nor .mdx files are found
+    return {
+      notFound: true,
+    };
+  }
 
   const { data: frontMatter, content } = matter(markdownWithMeta);
+
+  // Use next-mdx-remote/serialize to convert Markdown/MDX content to mdxSource
   const mdxSource = await serialize(content);
 
   return {

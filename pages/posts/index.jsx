@@ -7,6 +7,8 @@ import Link from "next/link";
 import { metadata } from "@/theme.config";
 import { useRouter } from "next/router";
 import styles from "./page.module.css";
+import remark from "remark";
+import html from "remark-html";
 
 export const getStaticProps = async () => {
   const files = fs.readdirSync(path.join("content/posts"));
