@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Theme from "./Theme";
-import { config } from "@/theme.config";
+import { components } from "@/theme.config";
 
 const Navbar = () => {
-  const navItems = config.filter((item) => item.type === "navbar");
+  const navItems = components.filter((item) => item.type === "navbar");
   return (
     <>
       {/* <h1>Your Name</h1> */}

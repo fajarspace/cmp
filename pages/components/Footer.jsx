@@ -1,9 +1,9 @@
-import { config } from "@/theme.config";
+import { components } from "@/theme.config";
 import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
-  const footerItems = config.filter((item) => item.type === "footer");
+  const footerItems = components.filter((item) => item.type === "footer");
 
   return (
     <>

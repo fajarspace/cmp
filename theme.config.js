@@ -15,7 +15,7 @@ export const content = {
     mikir (bukan aksi).`,
 };
 
-export const config = [
+export const components = [
   {
     type: "navbar",
     title: "About",
@@ -46,5 +46,5 @@ export const config = [
     social: "Instagram",
     url: "https://instagram.com/fajar.agngn",
   },
-  // anda dapat menambah media social lainnya
+  // anda dapat menambah media sosial lainnya
 ];
