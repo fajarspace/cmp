@@ -6,27 +6,30 @@
   padding: 0;
 }
 
+/* page.module.css */
+
 .pagination {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-.span {
-  margin: 0 5px;
+.pageButton {
   padding: 5px 10px;
-  text-decoration: none;
+  margin: 0 5px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  background-color: #fff;
   color: #333;
-  transition: background-color 0.3s;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.pagination a {
-  text-decoration: none;
-  color: #718096;
+.pageButton:hover {
+  background-color: #333;
+  color: #fff;
 }
 
-.pagination a:hover {
-  background-color: #f0f0f0;
+.activePage {
+  background-color: #333;
+  color: #fff;
 }

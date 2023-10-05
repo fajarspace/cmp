@@ -1,9 +1,8 @@
 ---
 description: "Kenapa menulis? kenapa membuat podcast?"
-date: "2021-06-23"
+date: "2021-06-23T00:00:00.000Z"
 draft: true
 featured_image: "/img/featured-img/mic.jpg"
-tags: ["sharing"]
 title: "Tulisan dan podcast"
 author: "Saya"
 ---

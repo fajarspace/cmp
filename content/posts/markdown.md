@@ -1,8 +1,7 @@
 ---
 title: Markdown Examples
-date: "2018-02-19"
+date: "2018-02-19T00:00:00.000Z"
 description: View examples of all possible Markdown options.
-tag: ["web development"]
 author: You
 ---
 

@@ -1,8 +1,7 @@
 ---
 description: "Saat kita interaksi pasti terjadi komunikasi, bukan sekedar komunikasi, tapi komunikasi dengan jelas"
-date: "2021-11-20"
+date: "2021-11-20T00:00:00.000Z"
 featured_image: "https://i.ibb.co/JRsfTzC/telephone-3594206-640.jpg"
-tags: ["sharing"]
 title: "Komunikasi dengan jelas"
 author: "Saya"
 ---

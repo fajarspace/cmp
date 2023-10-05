@@ -1,10 +1,11 @@
 ---
-description: "Penyakit mental terbesar saya selalu merasa gak enakan sama orang, ternyata dampak nya cukup besar ketika saya meng'iya'kan sesuatu."
-date: "2021-06-20"
+description: >-
+  Penyakit mental terbesar saya selalu merasa gak enakan sama orang, ternyata
+  dampak nya cukup besar ketika saya meng'iya'kan sesuatu.
+date: "2021-06-20T00:00:00.000Z"
 featured_image: "https://i.ibb.co/r2q5W9x/noo-min.jpg"
-tags: ["self-help"]
-title: "Berani bilang tidak"
-author: "Saya"
+title: Berani bilang tidak
+author: Saya
 ---
 
 Penyakit mental terbesar saya selalu merasa gak enakan sama orang, ternyata dampak nya cukup besar ketika saya meng'iya'kan sesuatu.

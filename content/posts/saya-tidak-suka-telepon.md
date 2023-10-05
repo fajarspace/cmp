@@ -1,8 +1,7 @@
 ---
 description: "Telepon atau bertemu langsung. Tidak ada waktu untuk berpikir dengan matang"
-date: "2022-03-27"
+date: "2022-03-27T00:00:00.000Z"
 featured_image: "https://i.ibb.co/x2KxgPw/pexels-min-an-1006122.jpg"
-tags: ["sharing"]
 title: "Saya tidak suka telepon"
 author: "Saya"
 ---

@@ -1,12 +1,11 @@
 ---
 title: Tidak akan datang
-date: "2020-02-03"
+date: "2020-02-03T00:00:00.000Z"
 featured_image: https://i.ibb.co/jgHNxQM/businessman-336621-640.jpg
 description:
   Doni & teman2 akan bermain futsal esok hari dan akan menjadi hari yg
   menyenangkan khusus bagi doni, karena di pertandingan sebelum nya ia mencetak banyak
   sekali gol,
-tags: ["inspirasi"]
 author: "Saya"
 ---
 

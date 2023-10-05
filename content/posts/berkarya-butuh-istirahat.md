@@ -1,8 +1,7 @@
 ---
 description: "Kasihan sekali kamu, kasihan sekali karyamu, Kamu menyiksa diri. Jangan dipaksa , Izinkan kamu tumbuh bertahap"
-date: "2021-08-07"
+date: "2021-08-07T00:00:00.000Z"
 featured_image: "https://i.ibb.co/R4LzjfR/cat-4189697-640.jpg"
-tags: ["self-help"]
 title: "Berkarya butuh istirahat"
 author: "Saya"
 ---

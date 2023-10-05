@@ -3,10 +3,13 @@ import path from "path";
 import Head from "next/head";
 import matter from "gray-matter";
 import RootLayout from "../layout";
-import Link from "next/link";
 import { metadata } from "@/theme.config";
 import styles from "./page.module.css";
 import { useRouter } from "next/router";
+import { useState } from "react";
+
+// Number of photos to display per page
+const photosPerPage = 5;
 
 export const getStaticProps = async () => {
   const files = fs.readdirSync(path.join("content/photos"));
@@ -35,15 +38,17 @@ export const getStaticProps = async () => {
 
 const Photos = ({ photos }) => {
   const pageTitle = `${metadata.title} - Photos`;
-  const router = useRouter();
-  const { page } = router.query;
+  const [currentPage, setCurrentPage] = useState(1);
 
-  const itemsPerPage = 3; // Ubah sesuai dengan jumlah foto per halaman yang Anda inginkan
-  const startIndex = page ? (parseInt(page) - 1) * itemsPerPage : 0;
-  const endIndex = startIndex + itemsPerPage;
-  const paginatedPhotos = photos.slice(startIndex, endIndex);
+  // Calculate the total number of pages
+  const totalPages = Math.ceil(photos.length / photosPerPage);
 
-  const totalPages = Math.ceil(photos.length / itemsPerPage);
+  // Function to get a slice of the photos for the current page
+  const getCurrentPagePhotos = () => {
+    const startIndex = (currentPage - 1) * photosPerPage;
+    const endIndex = startIndex + photosPerPage;
+    return photos.slice(startIndex, endIndex);
+  };
 
   return (
     <>
@@ -52,11 +57,11 @@ const Photos = ({ photos }) => {
           <title>{pageTitle}</title>
         </Head>
         <h1>Photos</h1>
-        {paginatedPhotos.map((photo, index) => (
+        {getCurrentPagePhotos().map((photo, index) => (
           <div key={index}>
             <img
               className={styles.photo}
-              alt={photo.title}
+              alt={photo.frontmatter.title}
               aria-hidden="true"
               src={photo.frontmatter.photo}
             />
@@ -69,19 +74,21 @@ const Photos = ({ photos }) => {
           </div>
         ))}
 
+        {/* Pagination buttons */}
         <div className={styles.pagination}>
           {Array.from({ length: totalPages }, (_, i) => (
-            <Link
-              className={`${styles.span} active`}
+            <button
               key={i}
-              href={`/photos?page=${i + 1}`}
+              className={`${styles.pageButton} ${
+                i + 1 === currentPage ? styles.activePage : ""
+              }`}
+              onClick={() => setCurrentPage(i + 1)}
             >
-              <span className={parseInt(page) === i + 1 ? "active" : ""}>
-                {i + 1}
-              </span>
-            </Link>
+              {i + 1}
+            </button>
           ))}
         </div>
+
         <hr />
       </RootLayout>
     </>

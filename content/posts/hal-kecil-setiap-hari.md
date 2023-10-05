@@ -1,8 +1,7 @@
 ---
 description: "Banyak yang bilang kalau sesuatu yang besar dimulai dari yang kecil "
-date: "2021-06-20"
+date: "2021-06-20T00:00:00.000Z"
 featured_image: "https://i.ibb.co/3pM71qT/hal-kecil.jpg"
-tags: ["inspirasi"]
 title: "Hal kecil setiap hari"
 author: "Saya"
 ---

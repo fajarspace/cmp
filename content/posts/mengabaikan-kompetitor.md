@@ -1,8 +1,7 @@
 ---
 description: "Terobsesi kepada kompetitor bukanlah mindset yang baik,"
-date: "2022-05-06"
+date: "2022-05-06T00:00:00.000Z"
 featured_image: "https://i.ibb.co/7J5vj1R/pexels-george-becker-131616.jpg"
-tags: ["sharing"]
 title: "Mengabaikan kompetitor"
 author: "Saya"
 ---

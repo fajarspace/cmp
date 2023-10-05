@@ -1,8 +1,7 @@
 ---
 description: "Kamu mungkin tidak mendapatkannya, Tapi.."
-date: "2022-03-03"
+date: "2022-03-03T00:00:00.000Z"
 featured_image: "https://i.ibb.co/7CL4Xbr/pexels-andrea-piacquadio-3756042.jpg"
-tags: ["self-help"]
 title: "Keinginan kita mengubah kita"
 author: "Saya"
 ---

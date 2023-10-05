@@ -1,8 +1,7 @@
 ---
 description: "Jangan Hanya . . ."
-date: "2022-01-15"
+date: "2022-01-15T00:00:00.000Z"
 featured_image: "https://i.ibb.co/yPKVT7q/pexels-kat-smith-551576-1.jpg"
-tags: ["sharing"]
 title: "Hidup dengan Think to be Thing"
 author: "Saya"
 ---

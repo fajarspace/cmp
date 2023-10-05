@@ -1,8 +1,7 @@
 ---
 description: "Seringkali, begitu kita belajar melihat, kita berasumsi bahwa kita selalu tahu"
-date: "2022-03-26"
+date: "2022-03-26T00:00:00.000Z"
 featured_image: "https://i.ibb.co/mFxdSYG/pexels-karolina-grabowska-4468154.jpg"
-tags: ["sharing"]
 title: "Sesuatu yang tidak bisa dilihat"
 author: "Saya"
 ---

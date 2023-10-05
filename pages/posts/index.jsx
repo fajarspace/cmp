@@ -5,28 +5,41 @@ import matter from "gray-matter";
 import RootLayout from "../layout";
 import Link from "next/link";
 import { metadata } from "@/theme.config";
-import { useRouter } from "next/router";
 import styles from "./page.module.css";
-import remark from "remark";
-import html from "remark-html";
+import { format, formatISO, parseISO } from "date-fns";
+import { useState } from "react";
+
+// Number of posts to display per page
+const postsPerPage = 7;
 
 export const getStaticProps = async () => {
   const files = fs.readdirSync(path.join("content/posts"));
 
-  const posts = files.map((filename) => {
-    const markdownWithMeta = fs.readFileSync(
-      path.join("content/posts", filename),
-      "utf-8"
-    );
-    const { data: frontmatter } = matter(markdownWithMeta);
+  const posts = files
+    .map((filename) => {
+      const markdownWithMeta = fs.readFileSync(
+        path.join("content/posts", filename),
+        "utf-8"
+      );
+      const { data: frontmatter } = matter(markdownWithMeta);
 
-    const slug = filename.split(".")[0];
-    return {
-      frontmatter,
-      slug,
-      href: `/${slug}`,
-    };
-  });
+      if (frontmatter.draft === true) {
+        return null;
+      }
+
+      const slug = filename.split(".")[0];
+      const dateISO = formatISO(parseISO(frontmatter.date));
+
+      return {
+        frontmatter: {
+          ...frontmatter,
+          date: dateISO,
+        },
+        slug,
+        href: `/${slug}`,
+      };
+    })
+    .filter((post) => post !== null);
 
   return {
     props: {
@@ -37,15 +50,24 @@ export const getStaticProps = async () => {
 
 export default function Posts({ posts }) {
   const pageTitle = `${metadata.title} - Posts`;
-  const router = useRouter();
-  const { page } = router.query;
-  const itemsPerPage = 7; // Ubah sesuai dengan jumlah posting per halaman yang Anda inginkan
+  const [searchQuery, setSearchQuery] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
 
-  const startIndex = page ? (parseInt(page) - 1) * itemsPerPage : 0;
-  const endIndex = startIndex + itemsPerPage;
-  const paginatedPosts = posts.slice(startIndex, endIndex);
+  const filteredPosts = posts
+    .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+    .filter((post) =>
+      post.frontmatter.title.toLowerCase().includes(searchQuery.toLowerCase())
+    );
 
-  const totalPages = Math.ceil(posts.length / itemsPerPage);
+  // Calculate the total number of pages
+  const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
+
+  // Function to get a slice of the posts for the current page
+  const getCurrentPagePosts = () => {
+    const startIndex = (currentPage - 1) * postsPerPage;
+    const endIndex = startIndex + postsPerPage;
+    return filteredPosts.slice(startIndex, endIndex);
+  };
 
   return (
     <>
@@ -57,42 +79,49 @@ export default function Posts({ posts }) {
       </Head>
       <RootLayout>
         <h1>Posts</h1>
+        <div className={styles.searchbar}>
+          <input
+            className={styles.searchinput}
+            type="text"
+            placeholder="Cari tulisan..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+        </div>
         <ul>
-          {paginatedPosts
-            .sort(
-              (a, b) =>
-                new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
-            )
-            .map((post, index) => (
-              <div key={index} className="post-item">
-                <h3>
-                  <Link className="post-item-title" href={post.href}>
-                    {post.frontmatter.title}
-                  </Link>
-                </h3>
-                <p className="post-item-desc">
-                  {post.frontmatter.description && (
-                    <>{post.frontmatter.description.slice(0, 100)}...</>
-                  )}
-                  <Link className="post-item-more" href={post.href}>
-                    Baca &rarr;
-                  </Link>
-                </p>
-                <time className="post-item-date">{post.frontmatter.date}</time>
-              </div>
-            ))}
+          {getCurrentPagePosts().map((post, index) => (
+            <div key={index} className="post-item">
+              <h3>
+                <Link className="post-item-title" href={post.href}>
+                  {post.frontmatter.title}
+                </Link>
+              </h3>
+              <p className="post-item-desc">
+                {post.frontmatter.description &&
+                  `${post.frontmatter.description.slice(0, 100)}...`}
+                <Link className="post-item-more" href={post.href}>
+                  Baca &rarr;
+                </Link>
+              </p>
+              <time className="post-item-date">
+                {format(parseISO(post.frontmatter.date), "dd MMM yyyy")}
+              </time>
+            </div>
+          ))}
         </ul>
+
+        {/* Pagination buttons */}
         <div className={styles.pagination}>
           {Array.from({ length: totalPages }, (_, i) => (
-            <Link
-              className={`${styles.span} active`}
+            <button
               key={i}
-              href={`/posts?page=${i + 1}`}
+              className={`${styles.pageButton} ${
+                i + 1 === currentPage ? styles.activePage : ""
+              }`}
+              onClick={() => setCurrentPage(i + 1)}
             >
-              <span className={parseInt(page) === i + 1 ? "active" : ""}>
-                {i + 1}
-              </span>
-            </Link>
+              {i + 1}
+            </button>
           ))}
         </div>
       </RootLayout>

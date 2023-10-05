@@ -1,10 +1,11 @@
 ---
-description: "Kalau kata seth godin “yang paling banyak gagal yang akan menang”. Jangan takut gagal atau ditolak, ini cerita biasa."
-date: "2021-07-18"
+description: >-
+  Kalau kata seth godin “yang paling banyak gagal yang akan menang”. Jangan
+  takut gagal atau ditolak, ini cerita biasa.
+date: "2021-07-17T17:00:00.000Z"
 featured_image: "https://i.ibb.co/BskqVSB/women-801940-640.jpg"
-tags: ["self-help"]
-title: "Berlomba gagal"
-author: "Saya"
+title: Berlomba gagal
+author: Saya
 ---
 
 Novel pertama yang ditulis Stephen King, “Carrie” ditolak puluhan kali sebelum berhasil diterbitkan, Bahkan King pernah merasa sangat jenuh dan membuang draft karyanya ke tempat sampah

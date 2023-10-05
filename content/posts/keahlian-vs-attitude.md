@@ -1,8 +1,7 @@
 ---
 description: "Kita lihat di internet banyak sekali lowongan pekerjaan, dari judul hingga persyaratan, perusahaan merekrut yang punya keahlian."
-date: "2022-04-02"
+date: "2022-04-02T00:00:00.000Z"
 featured_image: "https://i.ibb.co/yQMmmMf/pexels-cottonbro-3778179.jpg"
-tags: ["sharing"]
 title: "Keahlian vs Attitude"
 author: "Saya"
 ---

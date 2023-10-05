@@ -1,8 +1,7 @@
 ---
 description: "Sebagian orang mungkin akan merasa kesal akibat bisikan tetangga yg menghantui"
-date: "2020-10-29"
+date: "2020-10-29T00:00:00.000Z"
 featured_image: "https://i.ibb.co/mz6Sj7k/lady-3974502-640.jpg"
-tags: ["inspirasi"]
 title: "Bisikan tetangga"
 author: "Saya"
 ---

@@ -8,6 +8,7 @@ import Link from "next/link";
 import Head from "next/head";
 import { metadata } from "@/theme.config";
 import { useRouter } from "next/router";
+import { format, parseISO } from "date-fns";
 
 const PostPage = ({
   frontMatter: { title, date, description, featured_image, tags, author },
@@ -19,6 +20,7 @@ const PostPage = ({
   const handleBackClick = () => {
     router.back(); // Navigate to the previous page
   };
+
   const pageTitle = `${metadata.title} - ${title}`;
   return (
     <>
@@ -92,12 +94,18 @@ const getStaticProps = async ({ params: { slug } }) => {
 
   const { data: frontMatter, content } = matter(markdownWithMeta);
 
+  // Menggunakan date-fns untuk memformat tanggal menjadi string dalam format tertentu
+  const formattedDate = format(new Date(frontMatter.date), "dd MMM yyyy");
+
   // Use next-mdx-remote/serialize to convert Markdown/MDX content to mdxSource
   const mdxSource = await serialize(content);
 
   return {
     props: {
-      frontMatter,
+      frontMatter: {
+        ...frontMatter,
+        date: formattedDate, // Mengirimkan tanggal sebagai string yang sudah diformat
+      },
       slug,
       mdxSource,
     },

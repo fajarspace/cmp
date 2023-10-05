@@ -1,10 +1,9 @@
 ---
 title: Puas dengan hasil instan
-date: "2020-11-05"
+date: "2020-11-05T00:00:00.000Z"
 description: terdengar puas ketika menyelesaikan pekerjaan dengan mudah, dan puas juga rasanya mengarapkan hasil tanpa usaha / hasil instan
 featured_image: https://i.ibb.co/h8fN3dV/rasa-instan.png
 author: Saya
-tags: ["sharing"]
 ---
 
 Cinta dengan pekerjaanmu? atau tidak? hmm ini bukan soal suka atau tidak suka ya, melainkan dengan cara apa kita bisa menyelesaikan sesuatu yang kita kerjakan.

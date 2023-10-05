@@ -1,8 +1,7 @@
 ---
 description: "Merasa orang lain punya jalan instan, padahal sama susahnya"
-date: "2021-10-09"
+date: "2021-10-09T00:00:00.000Z"
 featured_image: "https://i.ibb.co/d0yBqBM/old-woman-731423-640.jpg"
-tags: ["self-help"]
 title: "Pengen jadi orang lain"
 author: "Saya"
 ---
