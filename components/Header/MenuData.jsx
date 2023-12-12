@@ -1,4 +1,4 @@
-const menuData = [
+const MenuData = [
   {
     id: 1,
     title: "Home",
@@ -85,4 +85,5 @@ const menuData = [
   //   ],
   // },
 ];
-export default menuData;
+
+export default MenuData;

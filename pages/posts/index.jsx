@@ -2,13 +2,14 @@ import fs from "fs";
 import path from "path";
 import Head from "next/head";
 import matter from "gray-matter";
-import RootLayout from "../layout";
+import RootLayout from "@/pages/layout";
 import Link from "next/link";
 import { metadata } from "@/next-seo";
 import styles from "./page.module.css";
 import { format, formatISO, parseISO } from "date-fns";
 import { useState } from "react";
 import Image from "next/image";
+import Breadcrumb from "@/components/Common/Breadcrumb";
 
 // Number of posts to display per page
 const postsPerPage = 7;
@@ -79,6 +80,10 @@ export default function Posts({ posts }) {
         <title>{pageTitle}</title>
       </Head>
       <RootLayout>
+        <Breadcrumb
+          pageName="Posts"
+          description="CV. Cipta Mandiri Perkasa adalah perusahaan yang berkompeten dan berpengalaman puluhan tahun dalam bidang Kubah GRC, Kaligrafi Masjid, GRC Krawangan, GRC Ornamen, GRC Menara Masjid, Washing Motif Awan dsb.."
+        />
         <section className="pb-[120px] pt-[120px]">
           <div className="container">
             <div className="-mx-4 flex flex-wrap justify-center">
@@ -96,7 +101,7 @@ export default function Posts({ posts }) {
                       className="relative block aspect-[30/22] w-full"
                     >
                       <span className="absolute right-6 top-6 z-20 inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold capitalize text-white">
-                        {/* {tags[0]} */}
+                        {post.frontmatter.tags}
                       </span>
                       <Image
                         src={post.frontmatter.featured_image}

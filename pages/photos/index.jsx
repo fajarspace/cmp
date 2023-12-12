@@ -10,6 +10,7 @@ import { useState } from "react";
 import { format, formatISO, parseISO } from "date-fns";
 import Link from "next/link";
 import Image from "next/image";
+import Breadcrumb from "@/components/Common/Breadcrumb";
 
 // Number of photos to display per page
 const photosPerPage = 7;
@@ -70,7 +71,10 @@ const Photos = ({ photos }) => {
         <Head>
           <title>{pageTitle}</title>
         </Head>
-
+        <Breadcrumb
+          pageName="Photos"
+          description="CV. Cipta Mandiri Perkasa adalah perusahaan yang berkompeten dan berpengalaman puluhan tahun dalam bidang Kubah GRC, Kaligrafi Masjid, GRC Krawangan, GRC Ornamen, GRC Menara Masjid, Washing Motif Awan dsb.."
+        />
         <section
           id="photos"
           className="dark:bg-bg-color-dark bg-white relative z-10 py-16 md:py-20 lg:py-28"

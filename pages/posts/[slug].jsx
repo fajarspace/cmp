@@ -10,8 +10,8 @@ import { metadata } from "@/next-seo";
 import { useRouter } from "next/router";
 import { format, parseISO } from "date-fns";
 import Image from "next/image";
-import TagButton from "../components/Posts/TagButton";
-import SharePost from "../components/Posts/SharePost";
+import TagButton from "@/components/Posts/TagButton";
+import SharePost from "@/components/Posts/SharePost";
 
 const DetailPost = ({
   frontMatter: { title, date, description, featured_image, tags, author },

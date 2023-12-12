@@ -3,7 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler.jsx";
-import menuData from "./MenuData.jsx";
+import MenuData from "./MenuData.jsx";
 
 const Navbar = () => {
   // Navbar toggle
@@ -97,7 +97,7 @@ const Navbar = () => {
                   }`}
                 >
                   <ul className="block lg:flex lg:space-x-12">
-                    {menuData.map((menuItem, index) => (
+                    {MenuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <Link

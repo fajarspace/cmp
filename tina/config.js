@@ -70,9 +70,9 @@ export default defineConfig({
             label: "Tags",
           },
         ],
-        ui: {
-          router: ({ document }) => `/demo/blog/${document._sys.filename}`,
-        },
+        // ui: {
+        //   router: ({ document }) => `/demo/blog/${document._sys.filename}`,
+        // },
       },
       {
         name: "photo",
@@ -113,9 +113,9 @@ export default defineConfig({
             label: "Tags",
           },
         ],
-        ui: {
-          router: ({ document }) => `/demo/photo/${document._sys.filename}`,
-        },
+        // ui: {
+        //   router: ({ document }) => `/demo/photo/${document._sys.filename}`,
+        // },
       },
       {
         name: "testimonials",
@@ -150,10 +150,10 @@ export default defineConfig({
             label: "Date",
           },
         ],
-        ui: {
-          router: ({ document }) =>
-            `/demo/testimonial/${document._sys.filename}`,
-        },
+        // ui: {
+        //   router: ({ document }) =>
+        //     `/demo/testimonial/${document._sys.filename}`,
+        // },
       },
     ],
   },

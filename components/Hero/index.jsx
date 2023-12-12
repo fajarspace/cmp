@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import krawangan1 from "../../../public/images/portfolio/krawangan1.jpg";
+import krawangan1 from "@/public/images/portfolio/krawangan1.jpg";
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
-                className="wow fadeInUp mx-auto max-w-[600px] text-center"
+                className="wow fadeInUp mx-auto max-w-[900px] text-center"
                 data-wow-delay=".2s"
               >
                 <div className="fixed inset-0 z-[-1]">
