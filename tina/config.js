@@ -6,8 +6,8 @@ const branch =
 
 export default defineConfig({
   branch: branch,
-  clientId: "cf7e7a3f-8276-4680-abb5-d61f6c5551be", // Get this from tina.io
-  token: "825fb31ba162ed2fd2f55dfba40aa4e97ed9c27b", // Get this from tina.io
+  clientId: "1402bae0-1f11-4e0b-a802-d8cc2aaa10f0", // Get this from tina.io
+  token: "02aa850f15e6ad9759d4500a1d9fbd0b8766f509", // Get this from tina.io
 
   build: {
     outputFolder: "admin",
@@ -64,16 +64,102 @@ export default defineConfig({
             name: "author", // Author field
             label: "Author",
           },
+          {
+            type: "string",
+            name: "tags", // Author field
+            label: "Tags",
+          },
         ],
         ui: {
           router: ({ document }) => `/demo/blog/${document._sys.filename}`,
+        },
+      },
+      {
+        name: "photo",
+        label: "Photos",
+        path: "content/photos",
+        fields: [
+          {
+            type: "boolean", // Tambahkan field boolean untuk draft
+            name: "draft",
+            label: "Draft",
+          },
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "datetime",
+            name: "date", // Date field
+            label: "Date",
+          },
+          {
+            type: "string",
+            name: "description", // Description field
+            label: "Description",
+          },
+          {
+            type: "image", // Featured Image field
+            name: "image",
+            label: "Image",
+            required: true,
+          },
+          {
+            type: "string",
+            name: "tags", // Author field
+            label: "Tags",
+          },
+        ],
+        ui: {
+          router: ({ document }) => `/demo/photo/${document._sys.filename}`,
+        },
+      },
+      {
+        name: "testimonials",
+        label: "Testimonials",
+        path: "content/testimonials",
+        fields: [
+          {
+            type: "string",
+            name: "name",
+            label: "Nama",
+            required: true,
+          },
+          {
+            type: "string",
+            name: "position",
+            label: "Jabatan",
+          },
+          {
+            type: "rich-text",
+            name: "content",
+            label: "Testimonial Content",
+            isBody: true,
+          },
+          {
+            type: "image",
+            name: "avatar",
+            label: "User Avatar",
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+          },
+        ],
+        ui: {
+          router: ({ document }) =>
+            `/demo/testimonial/${document._sys.filename}`,
         },
       },
     ],
   },
   search: {
     tina: {
-      indexerToken: "ff0a5292ae527c9c9f69bbbc5e26c26a3c0b025b",
+      indexerToken: "828a1d57145713ab6ad807fb18a4402fa957f8fb",
       stopwordLanguages: ["eng"],
     },
     indexBatchSize: 100,

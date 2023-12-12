@@ -1,5 +1,5 @@
-import "@/static/styles/globals.css";
-import { metadata } from "@/theme.config";
+import "@/styles/globals.css";
+import { metadata } from "@/next-seo";
 import Head from "next/head";
 
 export default function App({ Component, pageProps }) {

@@ -2,13 +2,16 @@
 description: >-
   Kalau kata seth godin “yang paling banyak gagal yang akan menang”. Jangan
   takut gagal atau ditolak, ini cerita biasa.
-date: "2021-07-17T17:00:00.000Z"
-featured_image: "https://i.ibb.co/BskqVSB/women-801940-640.jpg"
+date: 2021-07-17T17:00:00.000Z
+featured_image: 'https://i.ibb.co/BskqVSB/women-801940-640.jpg'
 title: Berlomba gagal
+tags: nopal
 author: Saya
 ---
 
 Novel pertama yang ditulis Stephen King, “Carrie” ditolak puluhan kali sebelum berhasil diterbitkan, Bahkan King pernah merasa sangat jenuh dan membuang draft karyanya ke tempat sampah
+
+![](/css.jpg)
 
 Cerita yang sama datang dari JK Rowling, penulis Harry Potter. Untung saja mereka tidak berhenti saat itu. Mereka terus menulis buku, tidak terhitung jumlah orang yang membaca bukunya sekarang
 

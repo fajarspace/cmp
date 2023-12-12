@@ -2,9 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   // distDir: "build",
-  output: "export",
+  // output: "export",
   images: {
     unoptimized: true,
+    domains: ["i.ibb.co"],
   },
   publicRuntimeConfig: {
     manifest: {
