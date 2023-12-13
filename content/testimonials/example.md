@@ -1,8 +1,8 @@
 ---
-name: testis
+name: Fajar
 date: 2021-07-17T17:00:00.000Z
-avatar: 'https://i.ibb.co/BskqVSB/women-801940-640.jpg'
-position: nopal
+avatar: /pexels-moose-photos-1587014.jpg
+position: HRD
 ---
 
-ad
+Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.

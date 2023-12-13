@@ -1,36 +1,74 @@
-import SingleTestimonial from "./SingleTestimonial";
+import fs from "fs";
+import path from "path";
+import Head from "next/head";
+import matter from "gray-matter";
+import Link from "next/link";
+import { metadata } from "@/next-seo";
+import { format, formatISO, parseISO } from "date-fns";
+import { useState } from "react";
+import Image from "next/image";
 
-const testimonialData = [
-  {
-    id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
-    star: 5,
-  },
-  {
-    id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
-    star: 5,
-  },
-  {
-    id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
-  },
-];
+export const getStaticProps = async () => {
+  const files = fs.readdirSync(path.join("content/testimonials"));
 
-const Testimonial = () => {
+  const testimonials = await Promise.all(
+    files.map(async (filename) => {
+      const markdownWithMeta = fs.readFileSync(
+        path.join("content/testimonials", filename),
+        "utf-8"
+      );
+      const { data: frontmatter, content } = matter(markdownWithMeta);
+
+      if (frontmatter.draft === true) {
+        return null;
+      }
+
+      const slug = filename.split(".")[0];
+      const dateISO = formatISO(frontmatter.date);
+
+      // Serialize MDX content for each testimonial
+
+      return {
+        frontmatter: {
+          ...frontmatter,
+          date: dateISO,
+          content,
+        },
+        slug,
+        href: `/testimonials/${slug}`,
+      };
+    })
+  );
+
+  return {
+    props: {
+      testimonials,
+    },
+  };
+};
+export default function TestimonialList({ testimonials }) {
+  const pageTitle = `${metadata.title} - Posts`;
+  const [searchQuery, setSearchQuery] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const testimonialsPerPage = 6;
+
+  const filteredTestimonials = (testimonials || [])
+    .sort(
+      (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
+    )
+
+    .filter((testimonial) =>
+      testimonial.frontmatter.name
+        .toLowerCase()
+        .includes(searchQuery.toLowerCase())
+    );
+
+  // Function to get a slice of the testimonials for the current page
+  const getCurrentPageTestimonial = () => {
+    const startIndex = (currentPage - 1) * testimonialsPerPage;
+    const endIndex = startIndex + testimonialsPerPage;
+    return filteredTestimonials.slice(startIndex, endIndex);
+  };
   return (
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -54,8 +92,35 @@ const Testimonial = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          {testimonialData.map((testimonial) => (
-            <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
+          {getCurrentPageTestimonial().map((testimonial, index) => (
+            <div className="w-full" key={index}>
+              <div
+                className="wow fadeInUp shadow-two dark:shadow-three dark:hover:shadow-gray-dark rounded-lg bg-white p-8 duration-300 hover:shadow-one dark:bg-dark lg:px-5 xl:px-8"
+                data-wow-delay=".1s"
+              >
+                {/* <div className="mb-5 flex items-center space-x-1">{ratingIcons}</div> */}
+                <p className="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
+                  “{testimonial.frontmatter.content}
+                </p>
+                <div className="flex items-center">
+                  <div className="relative mr-4 h-[50px] w-full max-w-[50px] overflow-hidden rounded-full">
+                    <Image
+                      src={testimonial.frontmatter.avatar}
+                      alt={testimonial.frontmatter.name}
+                      fill
+                    />
+                  </div>
+                  <div className="w-full">
+                    <h3 className="mb-1 text-lg font-semibold text-dark dark:text-white lg:text-base xl:text-lg">
+                      {testimonial.frontmatter.name}
+                    </h3>
+                    <p className="text-sm text-body-color">
+                      {testimonial.frontmatter.position}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       </div>
@@ -189,6 +254,4 @@ const Testimonial = () => {
       </div>
     </section>
   );
-};
-
-export default Testimonial;
+}

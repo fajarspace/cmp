@@ -9,9 +9,6 @@ import { format, formatISO, parseISO } from "date-fns";
 import { useState } from "react";
 import Image from "next/image";
 
-// Number of posts to display per page
-const postsPerPage = 7;
-
 export const getStaticProps = async () => {
   const files = fs.readdirSync(path.join("content/posts"));
 
@@ -52,6 +49,7 @@ export default function PostList({ posts }) {
   const pageTitle = `${metadata.title} - Posts`;
   const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
+  const postsPerPage = 6;
 
   const filteredPosts = posts
     .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))

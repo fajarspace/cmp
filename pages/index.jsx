@@ -2,20 +2,24 @@ import React, { useState } from "react";
 import RootLayout from "./layout";
 import { metadata } from "@/next-seo";
 import Head from "next/head";
-import bukuCss from "../public/yaha.jpg";
 import Image from "next/image";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Hero from "@/components/Hero";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo.jsx.jsx";
-import Testimonial from "@/components/Testimonial";
+import Features from "@/components/Features";
 import Maps from "@/components/Maps";
-import PostList, { getStaticProps } from "@/components/Posts";
+import PostList, {
+  getStaticProps as getStaticPropsPosts,
+} from "@/components/Posts";
+import PhotoList, {
+  getStaticProps as getStaticPropsPhotos,
+} from "@/components/Photos";
+import TestimonialList, {
+  getStaticProps as getStaticPropsTestimonials,
+} from "@/components/Testimonial";
 
-const Home = ({ posts }) => {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [currentPage, setCurrentPage] = useState(1);
-  const postsPerPage = 7;
+const Home = ({ posts, photos, testimonials }) => {
   return (
     <RootLayout>
       {/* <Head>
@@ -25,18 +29,26 @@ const Home = ({ posts }) => {
       <Hero />
       <AboutSectionOne />
       <AboutSectionTwo />
-      <PostList
-        posts={posts}
-        searchQuery={searchQuery}
-        currentPage={currentPage}
-        postsPerPage={postsPerPage}
-      />
-      <Testimonial />
+      <Features />
+      <PostList posts={posts} />
+      <PhotoList photos={photos} />
+      <TestimonialList testimonials={testimonials} />
       <Maps />
     </RootLayout>
   );
 };
 
-export { getStaticProps };
+export const getStaticProps = async () => {
+  const postsProps = await getStaticPropsPosts();
+  const photosProps = await getStaticPropsPhotos();
+  const testimonialProps = await getStaticPropsTestimonials();
 
+  return {
+    props: {
+      posts: postsProps.props.posts,
+      photos: photosProps.props.photos,
+      testimonials: testimonialProps.props.testimonials,
+    },
+  };
+};
 export default Home;

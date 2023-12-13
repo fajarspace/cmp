@@ -32,7 +32,7 @@ const Hero = () => {
                     className="dark:block"
                   />
                 </div>
-                <div className="absolute inset-0 bg-dark opacity-60"></div>
+                <div className="absolute inset-0 bg-dark opacity-40"></div>
                 <h1 className="mb-5 text-4xl font-bold leading-tight text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight z-10 relative">
                   CV. Cipta <span className="text-blue-500">Mandiri</span>{" "}
                   Perkasa
