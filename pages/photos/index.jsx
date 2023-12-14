@@ -83,7 +83,7 @@ const Photos = ({ photos }) => {
             {getCurrentPagePhotos().map((photo, index) => (
               <Link
                 key={index}
-                href=""
+                href={photo.href}
                 as=""
                 // ref={id === Number(lastViewedPhoto) ? lastViewedPhotoRef : null}
                 // shallow

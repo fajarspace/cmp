@@ -8,7 +8,7 @@ const MenuData = [
   {
     id: 2,
     title: "About Us",
-    path: "/about",
+    path: "#tentang-kami",
     newTab: false,
   },
   {
