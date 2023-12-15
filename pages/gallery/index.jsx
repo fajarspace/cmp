@@ -1,17 +1,13 @@
 import fs from "fs";
 import path from "path";
-import Head from "next/head";
 import matter from "gray-matter";
 import RootLayout from "@/pages/layout";
-import { SEO } from "@/next-seo.config";
-import styles from "./page.module.css";
-import { useRouter } from "next/router";
 import { useState } from "react";
-import { format, formatISO, parseISO } from "date-fns";
+import { formatISO } from "date-fns";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import { DefaultSeo } from "next-seo";
+import { NextSeo } from "next-seo";
 
 // Number of photos to display per page
 const photosPerPage = 20;
@@ -68,10 +64,24 @@ const Photos = ({ photos }) => {
   return (
     <>
       <RootLayout>
-        <DefaultSeo
+        <NextSeo
           title="Gallery - CV. Cipta Mandiri Perkasa"
           description="Galeri CV. Cipta Mandiri Perkasa. Dalam galeri ini, Anda akan menemukan potret-potret eksklusif dari Kubah GRC yang megah, Kaligrafi Masjid yang mempesona, GRC Krawangan yang penuh detail, GRC Ornamen yang artistik, dan banyak lagi."
-          {...SEO}
+          openGraph={{
+            type: "website", // Jenis halaman
+            locale: "id_ID", // Bahasa dan regional setting
+            url: "https://cipta-mandiri-perkasa.com/gallery", // URL halaman
+            site_name: "CV. Cipta Mandiri Perkasa Gallery", // Nama situs
+            images: [
+              {
+                url: "https://www.cipta-mandiri-perkasa.com/public/images/cmp-logo.png",
+                width: 850,
+                height: 650,
+                alt: "Gallery",
+              },
+            ],
+            site_name: "CV. Cipta Mandiri Perkasa Gallery",
+          }}
         />
         <Breadcrumb
           pageName="Gallery"

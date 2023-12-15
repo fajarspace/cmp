@@ -4,15 +4,9 @@ import matter from "gray-matter";
 import fs from "fs";
 import path from "path";
 import RootLayout from "@/pages/layout";
-import Link from "next/link";
-import Head from "next/head";
-import { SEO, metadata } from "@/next-seo.config";
-import { useRouter } from "next/router";
 import { format, parseISO } from "date-fns";
-import { formatWithOptions } from "date-fns/fp";
 import Image from "next/image";
 import TagButton from "@/components/Posts/TagButton";
-import SharePost from "@/components/Posts/SharePost";
 import {
   FacebookShareButton,
   TwitterShareButton,
@@ -24,12 +18,6 @@ const DetailPost = ({
   frontMatter: { title, date, description, featured_image, tags, author, href },
   mdxSource,
 }) => {
-  const router = useRouter();
-
-  // Function to handle the "Back" link click
-  const handleBackClick = () => {
-    router.back(); // Navigate to the previous page
-  };
   const url = typeof window !== "undefined" ? window.location.href : "";
   const titleUrl = `${title} - CV. Cipta Mandiri Perkasa Blog`;
   const formattedDate = format(new Date(date[0]), "dd MMM yyyy");
@@ -44,6 +32,7 @@ const DetailPost = ({
             type: "article",
             article: {
               publishedTime: date,
+              modifiedTime: date,
               authors: [author],
               tags: [tags],
             },

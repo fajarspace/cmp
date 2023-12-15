@@ -4,7 +4,6 @@ import Head from "next/head";
 import matter from "gray-matter";
 import RootLayout from "@/pages/layout";
 import Link from "next/link";
-import { SEO } from "@/next-seo.config";
 import { format, formatISO, parseISO } from "date-fns";
 import { useState } from "react";
 import Image from "next/image";
@@ -75,8 +74,21 @@ export default function Posts({ posts }) {
       <NextSeo
         title="Blog - CV. Cipta Mandiri Perkasa"
         description="Jelajahi artikel-artikel menarik yang membahas tren terbaru dalam dunia desain kubah GRC, keindahan Kaligrafi Masjid, hingga inovasi GRC Krawangan dan Ornamen yang memukau. "
-        canonical="www.example.com/next-seo-blog"
-        {...SEO}
+        openGraph={{
+          type: "website", // Jenis halaman
+          locale: "id_ID", // Bahasa dan regional setting
+          url: "https://cipta-mandiri-perkasa.com/blog", // URL halaman
+          site_name: "CV. Cipta Mandiri Perkasa Blog", // Nama situs
+          images: [
+            {
+              url: "https://www.cipta-mandiri-perkasa.com/public/images/cmp-logo.png",
+              width: 850,
+              height: 650,
+              alt: "Blog",
+            },
+          ],
+          site_name: "CV. Cipta Mandiri Perkasa Blog",
+        }}
       />
       <RootLayout>
         <Breadcrumb

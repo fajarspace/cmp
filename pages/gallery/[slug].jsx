@@ -6,8 +6,6 @@ import path from "path";
 import RootLayout from "@/pages/layout";
 import Link from "next/link";
 import Head from "next/head";
-import { metadata } from "@/next-seo.config";
-import { useRouter } from "next/router";
 import { format, parseISO } from "date-fns";
 import Image from "next/image";
 import TagButton from "@/components/Posts/TagButton";
@@ -16,30 +14,9 @@ import SharePost from "@/components/Posts/SharePost";
 const DetailPhotos = ({
   frontMatter: { title, date, description, image, tags },
 }) => {
-  const router = useRouter();
-
-  // Function to handle the "Back" link click
-  const handleBackClick = () => {
-    router.back(); // Navigate to the previous page
-  };
-
-  const pageTitle = `${metadata.title} - ${title}`;
   return (
     <>
       <RootLayout>
-        <Head>
-          {/* <meta name="robots" content="follow, index" />
-          <meta name="description" content={description} />
-          <meta property="og:description" content={description} />
-          <meta property="og:title" content={title} />
-          <meta property="og:image" content={featured_image} />
-          <meta name="twitter:card" content={featured_image} />
-          <meta name="twitter:title" content={title} />
-          <meta name="twitter:description" content={description} />
-          <meta name="twitter:image" content={featured_image} /> */}
-          <title>{pageTitle}</title>
-        </Head>
-
         <section className="pb-[120px] pt-[150px]">
           <div className="container">
             <div className="-mx-4 flex flex-wrap justify-center">
