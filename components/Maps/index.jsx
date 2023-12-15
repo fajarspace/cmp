@@ -1,22 +1,47 @@
+import { FaLocationDot } from "react-icons/fa6";
+import { IoMdMail } from "react-icons/io";
+
 const Maps = () => {
+  const Point = ({ text }) => (
+    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
+      <span className="mr-4 flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
+        <FaLocationDot />
+      </span>
+      {text}
+    </p>
+  );
+  const Email = ({ text }) => (
+    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
+      <span className="mr-4 flex h-[40px] w-[40px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
+        <IoMdMail />
+      </span>
+      {text}
+    </p>
+  );
   return (
     <section className="dark:bg-bg-color-dark bg-white relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div
-          className="wow fadeInUp mx-auto text-center mb-8"
-          data-wow-delay=".1s"
-        >
+        <div className="wow fadeInUp mb-8" data-wow-delay=".1s">
           <h2 className="mb-4 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl md:text-5xl">
             Lokasi
           </h2>
-          <p className="text-base leading-relaxed text-body-color md:text-lg">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form.
-          </p>
-          {/* Add your detailed address here */}
-          <address className="text-sm text-gray-500 mt-4">
-            Jalan Raya No. 123, Kota Anda, Negara
-          </address>
+        </div>
+        <div
+          className="wow fadeInUp mt-10 mb-12 max-w-[570px] lg:mb-0"
+          data-wow-delay=".15s"
+        >
+          <div className="mx-[-12px] flex flex-wrap">
+            <div className="w-full ">
+              <Point text="Jl. Raya Tambelang Kp. Pisang Batu Desa Kertamukti Kec. Cibitung Kab.Bekasi 17520" />
+              <Email text="midun_sep73@yahoo.com" />
+            </div>
+
+            {/* <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                    <Point text="Next.js" />
+                    <Point text="Rich documentation" />
+                    <Point text="Developer friendly" />
+                  </div> */}
+          </div>
         </div>
         <div className="wow fadeInUp mx-auto text-center" data-wow-delay=".1s">
           <div

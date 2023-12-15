@@ -6,7 +6,7 @@ import path from "path";
 import RootLayout from "@/pages/layout";
 import Link from "next/link";
 import Head from "next/head";
-import { metadata } from "@/next-seo";
+import { metadata } from "@/next-seo.config";
 import { useRouter } from "next/router";
 import { format, parseISO } from "date-fns";
 import Image from "next/image";

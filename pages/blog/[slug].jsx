@@ -6,9 +6,10 @@ import path from "path";
 import RootLayout from "@/pages/layout";
 import Link from "next/link";
 import Head from "next/head";
-import { metadata } from "@/next-seo";
+import { SEO, metadata } from "@/next-seo.config";
 import { useRouter } from "next/router";
 import { format, parseISO } from "date-fns";
+import { formatWithOptions } from "date-fns/fp";
 import Image from "next/image";
 import TagButton from "@/components/Posts/TagButton";
 import SharePost from "@/components/Posts/SharePost";
@@ -17,9 +18,10 @@ import {
   TwitterShareButton,
   LinkedinShareButton,
 } from "react-share";
+import { NextSeo } from "next-seo";
 
 const DetailPost = ({
-  frontMatter: { title, date, description, featured_image, tags, author },
+  frontMatter: { title, date, description, featured_image, tags, author, href },
   mdxSource,
 }) => {
   const router = useRouter();
@@ -29,22 +31,34 @@ const DetailPost = ({
     router.back(); // Navigate to the previous page
   };
   const url = typeof window !== "undefined" ? window.location.href : "";
-  const pageTitle = `${metadata.title} - ${title}`;
+  const titleUrl = `${title} - CV. Cipta Mandiri Perkasa Blog`;
+  const formattedDate = format(new Date(date[0]), "dd MMM yyyy");
   return (
     <>
       <RootLayout>
-        <Head>
-          <meta name="robots" content="follow, index" />
-          <meta name="description" content={description} />
-          <meta property="og:description" content={description} />
-          <meta property="og:title" content={title} />
-          <meta property="og:image" content={featured_image} />
-          <meta name="twitter:card" content={featured_image} />
-          <meta name="twitter:title" content={title} />
-          <meta name="twitter:description" content={description} />
-          <meta name="twitter:image" content={featured_image} />
-          <title>{pageTitle}</title>
-        </Head>
+        <NextSeo
+          title={titleUrl}
+          description={description}
+          canonical={href}
+          openGraph={{
+            type: "article",
+            article: {
+              publishedTime: date,
+              authors: [author],
+              tags: [tags],
+            },
+            images: [
+              {
+                url: featured_image,
+                width: 850,
+                height: 650,
+                alt: title,
+              },
+            ],
+            url: href,
+            site_name: "CV. Cipta Mandiri Perkasa Blog",
+          }}
+        />
 
         <section className="pb-[120px] pt-[150px]">
           <div className="container">
@@ -92,7 +106,7 @@ const DetailPost = ({
                               <path d="M13.2637 3.3697H7.64754V2.58105C8.19721 2.43765 8.62738 1.91189 8.62738 1.31442C8.62738 0.597464 8.02992 0 7.28906 0C6.54821 0 5.95074 0.597464 5.95074 1.31442C5.95074 1.91189 6.35702 2.41376 6.93058 2.58105V3.3697H1.31442C0.597464 3.3697 0 3.96716 0 4.68412V13.2637C0 13.9807 0.597464 14.5781 1.31442 14.5781H13.2637C13.9807 14.5781 14.5781 13.9807 14.5781 13.2637V4.68412C14.5781 3.96716 13.9807 3.3697 13.2637 3.3697ZM6.6677 1.31442C6.6677 0.979841 6.93058 0.716957 7.28906 0.716957C7.62364 0.716957 7.91042 0.979841 7.91042 1.31442C7.91042 1.649 7.64754 1.91189 7.28906 1.91189C6.95448 1.91189 6.6677 1.6251 6.6677 1.31442ZM1.31442 4.08665H13.2637C13.5983 4.08665 13.8612 4.34954 13.8612 4.68412V6.45261H0.716957V4.68412C0.716957 4.34954 0.979841 4.08665 1.31442 4.08665ZM13.2637 13.8612H1.31442C0.979841 13.8612 0.716957 13.5983 0.716957 13.2637V7.16957H13.8612V13.2637C13.8612 13.5983 13.5983 13.8612 13.2637 13.8612Z" />
                             </svg>
                           </span>
-                          {date}
+                          {formattedDate}
                         </p>
                       </div>
                     </div>
@@ -203,7 +217,11 @@ const getStaticProps = async ({ params: { slug } }) => {
   const { data: frontMatter, content } = matter(markdownWithMeta);
 
   // Menggunakan date-fns untuk memformat tanggal menjadi string dalam format tertentu
-  const formattedDate = format(new Date(frontMatter.date), "dd MMM yyyy");
+
+  const datePublished = format(
+    new Date(frontMatter.date),
+    "yyyy-MM-dd'T'HH:mm:ss.SSSX"
+  );
 
   // Use next-mdx-remote/serialize to convert Markdown/MDX content to mdxSource
   const mdxSource = await serialize(content);
@@ -212,7 +230,8 @@ const getStaticProps = async ({ params: { slug } }) => {
     props: {
       frontMatter: {
         ...frontMatter,
-        date: formattedDate, // Mengirimkan tanggal sebagai string yang sudah diformat
+        href: `/blog/${slug}`,
+        date: datePublished, // Mengirimkan tanggal sebagai string yang sudah diformat
       },
       slug,
       mdxSource,

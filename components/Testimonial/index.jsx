@@ -3,8 +3,7 @@ import path from "path";
 import Head from "next/head";
 import matter from "gray-matter";
 import Link from "next/link";
-import { metadata } from "@/next-seo";
-import { format, formatISO, parseISO } from "date-fns";
+import { formatISO } from "date-fns";
 import { useState } from "react";
 import Image from "next/image";
 
@@ -47,7 +46,6 @@ export const getStaticProps = async () => {
   };
 };
 export default function TestimonialList({ testimonials }) {
-  const pageTitle = `${metadata.title} - Posts`;
   const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const testimonialsPerPage = 6;

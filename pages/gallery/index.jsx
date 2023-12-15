@@ -3,7 +3,7 @@ import path from "path";
 import Head from "next/head";
 import matter from "gray-matter";
 import RootLayout from "@/pages/layout";
-import { metadata } from "@/next-seo";
+import { SEO } from "@/next-seo.config";
 import styles from "./page.module.css";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -11,6 +11,7 @@ import { format, formatISO, parseISO } from "date-fns";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import { DefaultSeo } from "next-seo";
 
 // Number of photos to display per page
 const photosPerPage = 20;
@@ -52,7 +53,6 @@ export const getStaticProps = async () => {
 };
 
 const Photos = ({ photos }) => {
-  const pageTitle = `${metadata.title} - Photos`;
   const [currentPage, setCurrentPage] = useState(1);
 
   // Calculate the total number of pages
@@ -68,12 +68,14 @@ const Photos = ({ photos }) => {
   return (
     <>
       <RootLayout>
-        <Head>
-          <title>{pageTitle}</title>
-        </Head>
+        <DefaultSeo
+          title="Gallery - CV. Cipta Mandiri Perkasa"
+          description="Galeri CV. Cipta Mandiri Perkasa. Dalam galeri ini, Anda akan menemukan potret-potret eksklusif dari Kubah GRC yang megah, Kaligrafi Masjid yang mempesona, GRC Krawangan yang penuh detail, GRC Ornamen yang artistik, dan banyak lagi."
+          {...SEO}
+        />
         <Breadcrumb
-          pageName="Photos"
-          description="CV. Cipta Mandiri Perkasa adalah perusahaan yang berkompeten dan berpengalaman puluhan tahun dalam bidang Kubah GRC, Kaligrafi Masjid, GRC Krawangan, GRC Ornamen, GRC Menara Masjid, Washing Motif Awan dsb.."
+          pageName="Gallery"
+          description="Anda akan menemukan potret-potret eksklusif dari Kubah GRC yang megah, Kaligrafi Masjid yang mempesona, GRC Krawangan yang penuh detail, GRC Ornamen yang artistik, dan banyak lagi."
         />
         <section
           id="photos"

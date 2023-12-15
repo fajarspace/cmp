@@ -1,11 +1,12 @@
 import "@/styles/globals.css";
-import { metadata } from "@/next-seo";
+import { metadata } from "@/next-seo.config";
 import Head from "next/head";
+import { NextSeo } from "next-seo";
 
 function App({ Component, pageProps }) {
   return (
     <>
-      <Head>
+      {/* <Head>
         <meta name="robots" content="follow, index" />
         <meta name="description" content={metadata.description} />
         <meta property="og:site_name" content={metadata.url} />
@@ -19,7 +20,8 @@ function App({ Component, pageProps }) {
         <link rel="shortcut icon" href={metadata.favicon} type="image/x-icon" />
         <link rel="manifest" href="/manifest.json" />
         <title>{metadata.title}</title>
-      </Head>
+      </Head> */}
+      <NextSeo {...metadata} />
       <Component {...pageProps} />
     </>
   );
