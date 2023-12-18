@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { metadata } from "@/next-seo.config";
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <ThemeProvider attribute="class" enableSystem={false} defaultTheme="dark">
         <Navbar />
         {children}
+        <SpeedInsights />
         <Footer />
         <WhatsappIcon />
       </ThemeProvider>

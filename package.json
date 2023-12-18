@@ -7,10 +7,12 @@
     "build": "tinacms build && next build",
     "start": "next start",
     "serve": "serve -s out",
+    "deploy": "sh ./deploy.sh",
     "postbuild": "next-sitemap",
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.2",
     "eslint": "^8.49.0",
     "eslint-config-next": "^14.0.4",
     "fs": "^0.0.1-security",
