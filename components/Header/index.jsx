@@ -58,7 +58,7 @@ const Navbar = () => {
                 <Image
                   src="/images/cmp-logo.png"
                   alt="logo"
-                  width={120}
+                  width={100}
                   height={30}
                   className=""
                 />
