@@ -3,7 +3,6 @@ import path from "path";
 import Head from "next/head";
 import matter from "gray-matter";
 import Link from "next/link";
-import { metadata } from "@/next-seo.config";
 import { format, formatISO, parseISO } from "date-fns";
 import { useState } from "react";
 import Image from "next/image";

@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import fs from "fs";
 import path from "path";
 import RootLayout from "@/pages/layout";
-import { format, parseISO } from "date-fns";
+import { format } from "date-fns";
 import Image from "next/image";
 import TagButton from "@/components/Posts/TagButton";
 import {

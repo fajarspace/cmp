@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import RootLayout from "./layout";
-import { SEO, metadata } from "@/next-seo.config";
-import Head from "next/head";
-import Image from "next/image";
+import { SEO } from "@/next-seo.config";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Hero from "@/components/Hero";
 import AboutSectionOne from "@/components/About/AboutSectionOne";

@@ -23,11 +23,12 @@ export const getStaticProps = async () => {
 
       const slug = filename.split(".")[0];
       const dateISO = formatISO(frontmatter.date);
+      const formattedDate = format(new Date(frontmatter.date), "dd MMM yyyy");
 
       return {
         frontmatter: {
           ...frontmatter,
-          date: dateISO,
+          date: formattedDate,
         },
         slug,
         href: `/posts/${slug}`,
@@ -76,11 +77,12 @@ export default function PostList({ posts }) {
             style={{ maxWidth: "570px", marginBottom: "100px" }}
           >
             <h2 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
-              Our latest blog
+              Blog terbaru kami
             </h2>
             <p className="text-base !leading-relaxed text-body-color md:text-lg">
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration in some form
+              Artikel-artikel menarik yang membahas tren terbaru dalam dunia
+              desain kubah GRC, keindahan Kaligrafi Masjid, hingga inovasi GRC
+              Krawangan dan Ornamen yang memukau.
             </p>
           </div>
 

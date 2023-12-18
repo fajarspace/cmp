@@ -1,8 +1,8 @@
 ---
-name: Fajar
+name: HJ. Muslim
 date: 2021-07-17T17:00:00.000Z
-avatar: /pexels-moose-photos-1587014.jpg
-position: HRD
+avatar: /alhamzah.jpeg
+position: Ketua DKM
 ---
 
-Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.
+Hasil nya bagus dan luar biasa OK!

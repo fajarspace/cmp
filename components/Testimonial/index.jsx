@@ -81,11 +81,11 @@ export default function TestimonialList({ testimonials }) {
           style={{ maxWidth: "570px", marginBottom: "100px" }}
         >
           <h2 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
-            What Our Users Says
+            Apa kata mereka?
           </h2>
           <p className="text-base !leading-relaxed text-body-color md:text-lg">
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered alteration in some form
+            testimoni mereka adalah cerminan dari dedikasi kami untuk memberikan
+            yang terbaik.
           </p>
         </div>
 

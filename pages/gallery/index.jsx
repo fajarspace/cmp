@@ -36,7 +36,7 @@ export const getStaticProps = async () => {
           date: dateISO,
         },
         slug,
-        href: `/photos/${slug}`,
+        href: `/gallery/${slug}`,
       };
     })
     .filter((photo) => photo !== null);

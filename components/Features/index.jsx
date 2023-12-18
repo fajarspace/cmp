@@ -77,46 +77,44 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <>
-      <section
-        id="features"
-        className="dark:bg-bg-color-dark bg-white relative z-10 py-16 md:py-20 lg:py-28"
-      >
-        <div className="container">
-          <div
-            className={"wow fadeInUp w-full mx-auto text-center"}
-            data-wow-delay=".1s"
-            style={{ maxWidth: "570px", marginBottom: "100px" }}
-          >
-            <h2 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
-              Keuntungan menggunakan GRC
-            </h2>
-            {/* <p className="text-base !leading-relaxed text-body-color md:text-lg">
+    <section
+      id="features"
+      className="dark:bg-bg-color-dark bg-white relative z-10 py-16 md:py-20 lg:py-28"
+    >
+      <div className="container">
+        <div
+          className={"wow fadeInUp w-full mx-auto text-center"}
+          data-wow-delay=".1s"
+          style={{ maxWidth: "570px", marginBottom: "100px" }}
+        >
+          <h2 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
+            Keuntungan menggunakan GRC
+          </h2>
+          {/* <p className="text-base !leading-relaxed text-body-color md:text-lg">
               There are many variations of passages of Lorem Ipsum available but
               the majority have suffered alteration in some form
             </p> */}
-          </div>
-
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map((feature) => (
-              <div className="w-full">
-                <div className="wow fadeInUp" data-wow-delay=".15s">
-                  <div className="mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-                    {feature.icon}
-                  </div>
-                  <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    {feature.title}
-                  </h3>
-                  <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">
-                    {feature.paragraph}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
-      </section>
-    </>
+
+        <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          {featuresData.map((feature, index) => (
+            <div className="w-full" key={index}>
+              <div className="wow fadeInUp" data-wow-delay=".15s">
+                <div className="mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
+                  {feature.icon}
+                </div>
+                <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  {feature.title}
+                </h3>
+                <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">
+                  {feature.paragraph}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 

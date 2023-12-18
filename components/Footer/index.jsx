@@ -31,8 +31,9 @@ const Footer = () => {
                 </p>
                 <div className="flex items-center">
                   <Link
-                    href="/"
+                    href="https://www.facebook.com/ahmad.nursaid.7731"
                     aria-label="social-link"
+                    target="_blank"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <svg
@@ -45,21 +46,23 @@ const Footer = () => {
                     </svg>
                   </Link>
                   <Link
-                    href="/"
+                    href="https://api.whatsapp.com/send?phone=6281386225702&text=Permisi%20pak%20saya%20ingin%20menanyakan%20GRC%20diperusahaan%20pak%20Nursaid%20selaku%20Owner"
+                    target="_blank"
                     aria-label="social-link"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <BsWhatsapp />
                   </Link>
                   <Link
-                    href="/"
+                    href="https://www.instagram.com/ahmad.nursaid?igshid=YmMyMTA2M2Y%3D"
+                    target="_blank"
                     aria-label="social-link"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <BsInstagram />
                   </Link>
                   <Link
-                    href="/"
+                    href="mailto:midun_sep73@yahoo.com"
                     aria-label="social-link"
                     className="dark:text-body-color-dark text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
@@ -89,7 +92,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -121,9 +124,9 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            {/* <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Support & Help
@@ -155,7 +158,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>

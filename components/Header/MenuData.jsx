@@ -5,12 +5,12 @@ const MenuData = [
     path: "/",
     newTab: false,
   },
-  {
-    id: 2,
-    title: "Tentang kami",
-    path: "/tentang-kami",
-    newTab: false,
-  },
+  // {
+  //   id: 2,
+  //   title: "Tentang kami",
+  //   path: "/tentang-kami",
+  //   newTab: false,
+  // },
   {
     id: 3,
     title: "Blog",

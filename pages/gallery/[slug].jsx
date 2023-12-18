@@ -10,12 +10,38 @@ import { format, parseISO } from "date-fns";
 import Image from "next/image";
 import TagButton from "@/components/Posts/TagButton";
 import SharePost from "@/components/Posts/SharePost";
+import { NextSeo } from "next-seo";
 
 const DetailPhotos = ({
-  frontMatter: { title, date, description, image, tags },
+  frontMatter: { title, date, description, image, tags, href },
 }) => {
+  const titleUrl = `${title} - CV. Cipta Mandiri Perkasa Gallery`;
+  const formattedDate = format(new Date(date[0]), "dd MMM yyyy");
   return (
     <>
+      <NextSeo
+        title={titleUrl}
+        description={description}
+        canonical={href}
+        openGraph={{
+          type: "article",
+          article: {
+            publishedTime: date,
+            modifiedTime: date,
+            tags: [tags],
+          },
+          images: [
+            {
+              url: image,
+              width: 850,
+              height: 650,
+              alt: title,
+            },
+          ],
+          url: href,
+          site_name: "CV. Cipta Mandiri Perkasa Blog",
+        }}
+      />
       <RootLayout>
         <section className="pb-[120px] pt-[150px]">
           <div className="container">
@@ -55,7 +81,7 @@ const DetailPhotos = ({
                             <path d="M13.2637 3.3697H7.64754V2.58105C8.19721 2.43765 8.62738 1.91189 8.62738 1.31442C8.62738 0.597464 8.02992 0 7.28906 0C6.54821 0 5.95074 0.597464 5.95074 1.31442C5.95074 1.91189 6.35702 2.41376 6.93058 2.58105V3.3697H1.31442C0.597464 3.3697 0 3.96716 0 4.68412V13.2637C0 13.9807 0.597464 14.5781 1.31442 14.5781H13.2637C13.9807 14.5781 14.5781 13.9807 14.5781 13.2637V4.68412C14.5781 3.96716 13.9807 3.3697 13.2637 3.3697ZM6.6677 1.31442C6.6677 0.979841 6.93058 0.716957 7.28906 0.716957C7.62364 0.716957 7.91042 0.979841 7.91042 1.31442C7.91042 1.649 7.64754 1.91189 7.28906 1.91189C6.95448 1.91189 6.6677 1.6251 6.6677 1.31442ZM1.31442 4.08665H13.2637C13.5983 4.08665 13.8612 4.34954 13.8612 4.68412V6.45261H0.716957V4.68412C0.716957 4.34954 0.979841 4.08665 1.31442 4.08665ZM13.2637 13.8612H1.31442C0.979841 13.8612 0.716957 13.5983 0.716957 13.2637V7.16957H13.8612V13.2637C13.8612 13.5983 13.5983 13.8612 13.2637 13.8612Z" />
                           </svg>
                         </span>
-                        {date}
+                        {formattedDate}
                       </p>
                     </div>
                     <p className="text-base !leading-relaxed text-body-color md:text-lg mb-5">
@@ -133,6 +159,10 @@ const getStaticProps = async ({ params: { slug } }) => {
 
   // Menggunakan date-fns untuk memformat tanggal menjadi string dalam format tertentu
   const formattedDate = format(new Date(frontMatter.date), "dd MMM yyyy");
+  const datePublished = format(
+    new Date(frontMatter.date),
+    "yyyy-MM-dd'T'HH:mm:ss.SSSX"
+  );
 
   // Use next-mdx-remote/serialize to convert Markdown/MDX content to mdxSource
   const mdxSource = await serialize(content);
@@ -141,7 +171,7 @@ const getStaticProps = async ({ params: { slug } }) => {
     props: {
       frontMatter: {
         ...frontMatter,
-        date: formattedDate, // Mengirimkan tanggal sebagai string yang sudah diformat
+        date: datePublished, // Mengirimkan tanggal sebagai string yang sudah diformat
       },
       slug,
       mdxSource,

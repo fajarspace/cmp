@@ -27,9 +27,9 @@ const Hero = () => {
                   <Image
                     src={krawangan1}
                     alt="Cover Image"
-                    layout="fill"
                     objectFit="cover"
                     className="dark:block"
+                    fill
                   />
                 </div>
                 <div className="absolute inset-0 bg-dark opacity-40"></div>

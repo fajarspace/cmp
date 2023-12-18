@@ -1,7 +1,4 @@
 import "@/styles/globals.css";
-import { metadata } from "@/next-seo.config";
-import Head from "next/head";
-import { NextSeo } from "next-seo";
 
 function App({ Component, pageProps }) {
   return (
@@ -21,7 +18,6 @@ function App({ Component, pageProps }) {
         <link rel="manifest" href="/manifest.json" />
         <title>{metadata.title}</title>
       </Head> */}
-      <NextSeo {...metadata} />
       <Component {...pageProps} />
     </>
   );
