@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import RootLayout from "./layout";
 import { SEO } from "@/next-seo.config";
 import ScrollUp from "@/components/Common/ScrollUp";

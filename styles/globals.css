@@ -4,11 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* styles/globals.css */
-@import "swiper/css";
-@import "swiper/css/navigation";
-@import "swiper/css/pagination";
-
 @layer base {
   body {
     font-family: "Inter", sans-serif;
