@@ -114,6 +114,8 @@ const Navbar = () => {
                           <p
                             onClick={() => handleSubmenu(index)}
                             className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
+                            role="button"
+                            tabIndex="0"
                           >
                             {menuItem.title}
                             <span className="pl-3">
